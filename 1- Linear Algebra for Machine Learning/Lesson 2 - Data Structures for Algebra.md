@@ -187,6 +187,29 @@ Have no effect if added to another vector.
 
 * Upper-case, bold, italics, sans serif, e.g., ***X***
 * In a 4 tensor X, element at position (i, j, k, l) denoted as *X* <sub>(i, j, k, l)</sub>
+* Rank 4 tensors are common for images.
+
+---
+
+## Tensor Transposition
+
+* Transpose of scalar is itself, e.g.: x<sup>T</sup> = x
+* Transpose of vector, seen earlier, converts column to row (and vice versa)
+* Scalar and vector transposition are special cases of matrix transposition:
+  * Flip of axes over main diagonal such that:  
+  
+    (***X***<sup>T</sup>)<sub>i, j</sub> = ***X***<sub>j, i</sub>
+
+<img src="matrix-transpose.jpeg" alt="matrix-transpose" style="width: 500px;">
+
+---
+
+## Hadamard product Or element-wise product or Schur product
+
+* A mathematical operation on two matrices of the same dimensions. It returns a new matrix of the same size, where each element is the product of the corresponding elements from the original matrices.
+* For two matrices A and B of size m × n, their Hadamard product produces a matrix C of the same size.  
+
+<img src="hadamard-product.jpeg" alt="hadamard-product" style="width: 200px;">
 
 ---
 
