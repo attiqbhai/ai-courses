@@ -30,7 +30,7 @@ Tensor is ML generalization of vectors and matrices to any number of dimensions.
 A tensor is a structured collection of values arranged in 0D, 1D, 2D, or higher dimensions, used to represent data in machine learning.
 They are the core data structure in frameworks like TensorFlow and PyTorch.
 
-<img src="tensors.jpeg" alt="tensors" style="width: 700px;">
+<img src="images/tensors.jpeg" alt="tensors" style="width: 700px;">
 
 ---
 
@@ -54,13 +54,13 @@ They are the core data structure in frameworks like TensorFlow and PyTorch.
   * Length of three represents location in 3D cube
   * Length of n represents location in n-dimensional tensor
 
-<img src="vectors.jpeg" alt="vectors" style="width: 400px;">
+<img src="images/vectors.jpeg" alt="vectors" style="width: 400px;">
 
 ---
 
 ## Vector Transposition
 
-<img src="vector-transposition.jpeg" alt="vector-transposition" style="width: 500px;">
+<img src="images/vector-transposition.jpeg" alt="vector-transposition" style="width: 500px;">
 
 ---
 
@@ -82,7 +82,7 @@ Have no effect if added to another vector.
 
 > Note:- Magnitude is length of a vector.
 
-<img src="norms.jpeg" alt="norms" style="width: 500px;">
+<img src="images/norms.jpeg" alt="norms" style="width: 500px;">
 
 ---
 
@@ -93,7 +93,7 @@ Have no effect if added to another vector.
 * Most common norm in machine learning.
   * Instead of ||***x***||<sub>2</sub>, it can be denoted as ||***x***||
 
-<img src="l2norm-formula.jpeg" alt="l2norm-formula" style="width: 300px;">
+<img src="images/l2norm-formula.jpeg" alt="l2norm-formula" style="width: 300px;">
 
 ---
 
@@ -102,7 +102,7 @@ Have no effect if added to another vector.
 * Special case of vector where its length is equal to one
 * Technically, ***x*** is a unit vector with "unit norm", i.e.: ||***x***||<sub>2</sub> = 1
 
-<img src="unit-vector.jpeg" alt="unit-vector" style="width: 500px;">
+<img src="images/unit-vector.jpeg" alt="unit-vector" style="width: 500px;">
 
 ---
 
@@ -112,7 +112,7 @@ Have no effect if added to another vector.
 * Varies linearly at all locations whether near or far from origin
 * Used whenever difference between zero and non-zero is key
 
-<img src="l1norm-formula.jpeg" alt="l1norm-formula" style="width: 300px;">
+<img src="images/l1norm-formula.jpeg" alt="l1norm-formula" style="width: 300px;">
 
 ---
 
@@ -123,7 +123,7 @@ Have no effect if added to another vector.
   * Derivative (used to train many ML algorithms) of element x requires that element alone, whereas L<sup>2</sup> norm requires X vector.
 * Downside is it grows slowly near origin so can't be used if distinguishing between zero and near-zero is important.
 
-<img src="l2-square-norm-formula.jpeg" alt="l2-square-norm-formula" style="width: 300px;">
+<img src="images/l2-square-norm-formula.jpeg" alt="l2-square-norm-formula" style="width: 300px;">
 
 ---
 
@@ -132,7 +132,7 @@ Have no effect if added to another vector.
 * Final norm we'll discuss; also occurs frequently in ML.
 * Returns the absolute value of the largest-magnitude element.
 
-<img src="max-norm-formula.jpeg" alt="max-norm-formula" style="width: 300px;">
+<img src="images/max-norm-formula.jpeg" alt="max-norm-formula" style="width: 300px;">
 
 ---
 
@@ -142,7 +142,7 @@ Have no effect if added to another vector.
 * Can derive L<sup>1</sup>, L<sup>2</sup>, and L<sup>∞</sup> norm formulae by substituting for p.
 * Norms, particularly L<sup>1</sup> and L<sup>2</sup>, used to regularize objective functions
 
-<img src="generalized-lp-norm-formula.jpeg" alt="generalized-lp-norm-formula" style="width: 250px;">
+<img src="images/generalized-lp-norm-formula.jpeg" alt="generalized-lp-norm-formula" style="width: 250px;">
 
 ---
 
@@ -151,7 +151,7 @@ Have no effect if added to another vector.
 * Can be scaled to represent any vector in given vector space.
 * Typically use unit vectors along axis of vector space.
 
-<img src="basis-vector.jpeg" alt="basis-vector" style="width: 700px;">
+<img src="images/basis-vector.jpeg" alt="basis-vector" style="width: 700px;">
 
 ---
 
@@ -163,7 +163,7 @@ Have no effect if added to another vector.
 * Orthonormal vectors are orthogonal and all have unit norm.
   * Basis vectors are an example.
 
-<img src="orthogonal-vectors.jpeg" alt="orthogonal-vectors" style="width: 300px;">
+<img src="images/orthogonal-vectors.jpeg" alt="orthogonal-vectors" style="width: 300px;">
 
 ---
 
@@ -179,7 +179,7 @@ Have no effect if added to another vector.
   * Left column of matrix ***X*** is *X*<sub>:</sub>, <sub>1</sub>
   * Middle row of matrix ***X*** is *X*<sub>2</sub>, <sub>:</sub>
 
-<img src="matrices.jpeg" alt="matrices" style="width: 300px;">
+<img src="images/matrices.jpeg" alt="matrices" style="width: 300px;">
 
 ---
 
@@ -200,7 +200,7 @@ Have no effect if added to another vector.
   
     (***X***<sup>T</sup>)<sub>i, j</sub> = ***X***<sub>j, i</sub>
 
-<img src="matrix-transpose.jpeg" alt="matrix-transpose" style="width: 500px;">
+<img src="images/matrix-transpose.jpeg" alt="matrix-transpose" style="width: 500px;">
 
 ---
 
@@ -209,7 +209,7 @@ Have no effect if added to another vector.
 * A mathematical operation on two matrices of the same dimensions. It returns a new matrix of the same size, where each element is the product of the corresponding elements from the original matrices.
 * For two matrices A and B of size m × n, their Hadamard product produces a matrix C of the same size.  
 
-<img src="hadamard-product.jpeg" alt="hadamard-product" style="width: 200px;">
+<img src="images/hadamard-product.jpeg" alt="hadamard-product" style="width: 200px;">
 
 ---
 
@@ -221,6 +221,25 @@ Have no effect if added to another vector.
 
 * Regardless which notation you use (I prefer the first), the calculation is the same; we calculate products in an element-wise fashion and then sum reductively across the products to a scalar value.
 * The dot product is ubiquitous in deep learning: It is performed at every artificial neuron in a deep neural network, which may be made up of millions (or orders of magnitude more) of these neurons.
+
+---
+
+## Solving Linear Systems - Using Elimination Method
+
+* Typically best option if no variable in system has coefficient of 1
+* Use addition property of equations to eliminate variables
+  * If necessary, multiply one or both equations to make elimination of a variable possible
+* For example, solve for the unknowns in the following system:  
+
+  2x - 3y = 15  
+  4x + 10y = 14
+* ..by multiplying the first equation by -2 and adding the equations.
+
+---
+
+## Matrix Multiplication
+
+<img src="images/matrix-multiplication.jpeg" alt="matrix-multiplication" style="width: 500px;">
 
 ---
 
