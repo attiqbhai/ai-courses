@@ -213,3 +213,14 @@ Have no effect if added to another vector.
 
 ---
 
+## The Dot Product
+
+* If we have two vectors (say, x and y) with the same length n, we can calculate the dot product between them. This is annotated several different ways, including the following:
+  * x . y
+  * x<sup>T</sup> y
+
+* Regardless which notation you use (I prefer the first), the calculation is the same; we calculate products in an element-wise fashion and then sum reductively across the products to a scalar value.
+* The dot product is ubiquitous in deep learning: It is performed at every artificial neuron in a deep neural network, which may be made up of millions (or orders of magnitude more) of these neurons.
+
+---
+
