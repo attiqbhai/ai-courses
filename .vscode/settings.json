@@ -1,0 +1,9 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "markdownlint.config": {
+        "MD033": {
+        "allowed_elements": [ "sup", "sub", "img" ]
+    }
+  }
+}

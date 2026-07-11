@@ -10,7 +10,7 @@ If equation has no exponential term, it is Linear algebra.
 
 If it has an exponential term, it isn't linear algebra, e.g.:
 
-> 2 $x^2$ + 5 = 25
+> 2 x<sup>2</sup> + 5 = 25
 
 
 ***Linear Algebra is solving for unkowns within system of Linear equations.***
