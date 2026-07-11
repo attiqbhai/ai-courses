@@ -243,3 +243,139 @@ Have no effect if added to another vector.
 
 ---
 
+## Symmetric Matrix
+
+* Special matrix case with following properties:
+  * It's always a square matrix
+  * ***X***<sup>T</sup> = ***X***
+
+<img src="images/symmetric-matrix.jpeg" alt="symmetric-matrix" style="width: 250px;">
+
+---
+
+## Identity Matrix
+
+* Symmetric matrix where:
+  * Every element along main diagonal is 1
+  * All other elements are 0
+  * Notation: I<sub>n</sub> where n = height (or width)
+  * n-length vector unchanged if multiplied by ***I***<sub>n</sub>
+
+<img src="images/identity-matrix.jpeg" alt="identity-matrix" style="width: 250px;">
+
+---
+
+## Frobenius Norm
+
+* Analogous to L<sup>2</sup> norm of vector
+* Measures the size of matrix in terms of Euclidean distance
+  * It's the sum of the magnitude of all the vectors in ***X***
+
+<img src="images/frobenius-norm.jpeg" alt="frobenius-norm" style="width: 350px;">
+
+---
+
+## Matrix Inversion
+
+* Clever, convenient approach for solving linear equations
+* An alternative to manually solving with substitution or elimination
+
+* **Matrix inverse** of ***X*** is denoted as ***X<sup>-1</sup>***
+  * Satistles: ***X<sup>-1</sup> X*** = ***I***<sub>n</sub>
+
+<img src="images/identity-matrix.jpeg" alt="identity-matrix" style="width: 250px;">
+
+---
+
+## Solve Using Matrix Inversion
+
+<img src="images/solve-using-matrix-inversion-1.jpeg" alt="solve-using-matrix-inversion-1" style="width: 650px;">
+
+<img src="images/solve-using-matrix-inversion-2.jpeg" alt="solve-using-matrix-inversion-2" style="width: 650px;">
+
+<img src="images/solve-using-matrix-inversion-3.jpeg" alt="solve-using-matrix-inversion-3" style="width: 650px;">
+
+---
+
+## Matrix Inversion Limitations
+
+* Nifty trick, but can only be calculated if:
+  * Matrix is square: n<sub>row</sub> == n<sub>col</sub>
+    * Avoid **overdetermination**: n<sub>row</sub> > n<sub>col</sub>
+    * Avoid **underdetermination**: n<sub>row</sub> < n<sub>col</sub>
+  * Matrix isn't "singular"
+  * That is, all columns of matrix must be linearly independent
+    * E.g., if a column is [1, 2], another can't be [2, 4]. This indicates that we have lines running in parallel to each other.
+    * E.g., if a column is [1, 2], another can't be [1, 2]. In this case we will have infinite number of silutions.
+
+<img src="images/overdetermined-underdetermined.jpeg" alt="overdetermined-underdetermined" style="width:700px;">
+
+<img src="images/matrix-inversion-limitations.jpeg" alt="matrix-inversion-limitations" style="width:700px;">
+
+---
+
+## Diagnoal Matrix
+
+* Nonzero elements along main diagonal; zeros everywhere else
+* Identity matrix is an example
+* If square, denoted as diag(x) where x is vector of main-diagonal elements
+* Computationally efficient:
+  * Multiplication: diag(x)y = x dot-product y
+  * Inversion: diag(x)<sup>-1</sup> = diag[1/x<sub>1</sub>, ..., 1/x<sub>n</sub>]<sup>T</sup>
+
+---
+
+## Orthogonal Matrices
+
+* Recall orthonormal vectors from earlier:  
+
+<img src="images/orthogonal-vectors.jpeg" alt="orthogonal-vectors" style="width: 300px;">
+
+* In orthogonal matrices, orthonormal vectors:
+  * Make up all rows
+  * Make up all columns
+* This means: A<sup>-T</sup>A = AA<sup>T</sup> = ***I***
+* Which also means: A<sup>T</sup> = A<sup>-1</sup> ***I*** = A<sup>-1</sup>
+* Calculating A<sup>T</sup> is cheap, therefore so is calculating A<sup>-1</sup>
+
+---
+
+## Trace Operator
+
+* Denoted as Tr(***A***)
+* Simply the sum of the diagnoal elements of a matrix
+
+<img src="images/trace-operation.jpeg" alt="trace-operation" style="width: 100px;">
+
+* In particular, the trace operator can provide a convenient way to calculate a matrix's Frobenius norm:
+
+<img src="images/trace-frobenius.jpeg" alt="trace-frobenius" style="width: 300px;">
+
+---
+
+## Eigen Vectors
+
+<img src="images/eigen-vectors-monaliza-1.jpeg" alt="eigen-vectors-monaliza-1" style="width: 800px;">
+
+<img src="images/eigen-vectors-monaliza-2.jpeg" alt="eigen-vectors-monaliza-2" style="width: 800px;">
+
+---
+
+## Eigen Values
+
+<img src="images/eigen-values-monaliza.jpeg" alt="eigen-values-monaliza" style="width: 800px;">
+
+<img src="images/eigen-values-monaliza-2.jpeg" alt="eigen-values-monaliza-2" style="width: 800px;">
+
+---
+
+## Eigen Vector
+
+* An eigenvector (eigen is German for "typical"; we could translate eigenvector to "characteristic vector") is a special vector x  such that when it is transformed by some matrix (let's say A), the product Ax has the exact same direction as x.
+
+---
+
+## Eigen Value
+
+* An eigenvalue is a scalar (traditionally represented as λ) that simply scales the eigenvector x such that the following equation is satisfied:  
+Ax = λx
