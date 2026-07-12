@@ -1,1 +1,0 @@
-https://learning.oreilly.com/course/calculus-for-machine/9780137398171/

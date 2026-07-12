@@ -1,9 +1,19 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "markdownlint.config": {
-        "MD033": {
-        "allowed_elements": [ "sup", "sub", "img" ]
+  "markdownlint.config": {
+    "MD033": {
+      "allowed_elements": [
+        "sup",
+        "sub",
+        "img"
+      ]
     }
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    ".mule": true
   }
 }
