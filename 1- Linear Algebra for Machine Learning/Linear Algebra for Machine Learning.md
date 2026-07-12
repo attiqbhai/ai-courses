@@ -23,6 +23,12 @@ If it has an exponential term, it isn't linear algebra, e.g.:
 
 ---
 
+## Machine Learning House
+
+<img src="images/machine-learning-house.jpeg" alt="machine-learning-house" style="width: 400px;">
+
+---
+
 ## Tensors
 
 Tensor is ML generalization of vectors and matrices to any number of dimensions.  
@@ -379,3 +385,54 @@ Have no effect if added to another vector.
 
 * An eigenvalue is a scalar (traditionally represented as λ) that simply scales the eigenvector x such that the following equation is satisfied:  
 Ax = λx
+
+---
+
+## Matrix Determinants
+
+* Map square matrix to scalar
+* Enable us to determine whether matrix can be inverted
+
+* For matrix X, denoted as det(X)
+* If det(X) = 0:
+  * Matrix X<sup>-1</sup> can't be computed because: X<sup>-1</sup> has 1/det (X) = 1/0 
+  * Matrix X is singular: It contains linearly-dependent columns
+* det(x) easiest to calculate for 2x2 matrix...
+
+<img src="images/determinant-matrix-2by2.jpeg" alt="determinant-matrix-2by2" style="width: 600px;">
+
+---
+
+## Generalizing Determinants: Recursion
+
+* We can only measure for square matrix.
+
+<img src="images/determinant-matrix-recursion.jpeg" alt="determinant-matrix-recursion" style="width: 700px;">
+
+<img src="images/determinant-matrix-recursion-3by3.jpeg" alt="determinant-matrix-recursion-3by3" style="width: 700px;">
+
+---
+
+## Determinants & Eigenvalues
+
+* det(X) = product of all eigenvalues of X
+
+* |det(X)| quantifies volume change as a result of applying X:
+  * If det(X) = 0, then X collapses space completely in at least one dimension, thereby eliminating all volume
+  * If 0 < det(X) < 1, then X contracts volume to some extent
+  * If det(X) = 1, then X preserves volume exactly
+  * If det(X) > 1, then X expands volume
+
+---
+
+## Eigen Decomposition
+
+* The decomposition of a matrix into eigenvectors and eigenvalues reveals characteristics of the matrix, e.g.:
+  * Matrix is singular if and only if any of its eigenvalues are zero
+  * Under specific conditions (see §2.7 of Goodfellow et al., 2016), can optimize quadratic expressions:
+    * Maximum of f(x) = largest eigenvalue
+    * Minimum of f(x) = smallest eigenvalue
+
+<img src="images/matrix-type.jpeg" alt="matrix-type" style="width: 500px;">
+
+* Applying a matrix of a particular type to some vector x can have a characteristic impact (again, see §2.7 of Goodfellow et al., 2016).
