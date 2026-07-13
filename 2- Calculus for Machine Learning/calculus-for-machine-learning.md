@@ -416,3 +416,22 @@ $y = mx + b$
   * This is the actual strategy or algorithm. 
   * Because the gradient points uphill, the algorithm multiplies the gradient by a negative number to face directly downhill.
   * It then takes a small step downward, recalculates the new slope, and repeats the process until it reaches the bottom of the valley.
+
+---
+
+## Higher Order
+
+* A higher-order concept in mathematics and computer science simply means taking a core idea and applying it to itself, or moving up a level of abstraction.
+
+* In calculus, it refers to taking a derivative of a derivative. 
+
+* In computer science, it refers to a function that operates on other functions.
+
+#### Higher-Order Derivatives (Calculus)
+
+* When you find the derivative of a function, you get a new function. 
+* If you take the derivative of that new function, you have calculated a higher-order derivative.
+
+* **First Derivative (f'):** Measures the velocity (rate of change) of the original function.
+* **Second Derivative (f''):** Measures the acceleration (the rate of change of the rate of change). It tells you if the slope is flattening out or getting steeper.
+* **Third Derivative (f'''):** Measures "jerk" (the rate of change of acceleration).
