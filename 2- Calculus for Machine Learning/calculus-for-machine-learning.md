@@ -180,5 +180,58 @@ $\frac{d}{dx} [c\cdot f(x) ] = c\cdot \frac{d}{dx} [f(x)]$
 
 OR
 
-$\frac{d}{dx} (c\cdot y) = c\cdot \frac{dy}{dx}$
+$\frac{d}{dx} (c\cdot y) = c\cdot \frac{d}{dx} (y) = c\cdot \frac{dy}{dx}$
+
+<img src="images/constant-product-rule.jpeg" alt="constant-product-rule" style="width: 500px;">
+
+---
+
+## Sum Rule
+
+* The Sum Rule in calculus states that the derivative of a sum of two or more functions is simply the sum of their individual derivatives.
+
+* In plain terms, when you have a long polynomial expression with terms separated by plus signs, you do not need to do anything fancy. 
+
+* You just find the derivative of each part separately, one by one, and keep the plus signs between them.
+
+* The rule works exactly the same way for subtraction, which is known as the Difference Rule.
+
+#### The Formula
+
+$\frac{d}{dx} [f(x) + g(x)] = f^{\prime} (x) + g^{\prime} (x)$
+
+OR
+
+$\frac{d (y + w)}{dx} = \frac{dy}{dx} +  \frac{dw}{dx}$
+
+<img src="images/sum-rule.jpeg" alt="sum-rule" style="width: 500px;">
+
+---
+
+## Product Rule
+
+* The Product Rule is the calculus formula used to find the derivative when two different functions are multiplied together.
+
+* A common trap in calculus is assuming you can just multiply the individual derivatives together. That does not work. Because both parts of the function are changing at the same time, they affect each other's rates of growth.
+
+#### The Formula
+
+$\frac{d}{dx} [f(y) \cdot f(w)] = f^{\prime }(x) \cdot f(w) +  f(x) \cdot f^{\prime }(w)$
+
+
+<img src="images/product-rule.jpeg" alt="product-rule" style="width: 600px;">
+
+---
+
+## Quotient Rule / Fraction Rule
+
+* The Quotient Rule is the calculus shortcut used to find the derivative when one function is divided by another function (a fraction).
+
+* Just like multiplication, you cannot simply divide the derivative of the top by the derivative of the bottom. Because both the numerator and the denominator are changing at the same time, you must use a specific formula to balance their rates of change.
+
+#### The Formula
+
+* If your function is a fraction, $\frac{f(x)}{g(x)}$, the derivative is:
+
+  $\frac{d}{dx} [\frac{f(x)}{g(x)}] = \frac{f^{\prime }(x) \cdot g(x) -  f(x) \cdot g^{\prime }(x)}{[g(x)]^{2}}$
 
