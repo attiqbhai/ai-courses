@@ -283,3 +283,136 @@ $\frac{d}{dx} [f(y) \cdot f(w)] = f^{\prime }(x) \cdot f(w) +  f(x) \cdot f^{\pr
 * Relative to classical methods, better handles:
   * Functions with many inputs (common in ML)
   * Higher-order derivatives
+
+
+* Application of chain rule (typically partial derivative) to
+sequence (forward pass) of arithmetic operations
+* Whereas chain rule by hand typically begins at most-nested function, autodiff proceeds from outermost function inward
+* Small constant factor more compute than forward pass (at most)
+
+---
+
+## Multivariate Functions
+
+* Even in a simple regression such as y = mx + b:
+  * y is a function of multiple variables
+  * -- in this case, m and b.
+* Therefore, we can't calculate the simple derivative $\frac{dy}{dm}$ or $\frac{dy}{db}$.
+
+---
+
+## Partial Derivatives
+
+* Enable the calculation of derivatives of multivariate equations.
+
+* A partial derivative is the derivative of a multivariable function when you change only one variable at a time while holding all other variables constant.
+
+* A partial derivative measures how a multivariable function changes when you tweak one variable while holding all others completely constant. 
+
+* You use the symbol ∂ (often called "del" or "partial") instead of d. It is essentially regular calculus, but you treat other letters like regular numbers.
+
+#### The Golden Rule
+
+* When differentiating with respect to x, treat all other variables (like y or z) as constants. When differentiating with respect to y, treat all other variables as constants.
+
+#### Let's Try an Example
+
+1. Imagine you run a shop and your profit, P, depends on the price of two items, x and y. Your profit equation is:  
+  $P(x, y) = 3x² + 5xy + 2y³$
+
+2. **Find the partial derivative with respect to x (written as $\frac{\partial P}{\partial x}$)**. 
+
+    To do this, treat y as if it were a normal number:
+
+    * The derivative of $3x²$ is 6x.
+
+    * In the term $5xy$, $5y$ acts as a constant multiplier attached to $x$. The derivative of $x$ is 1, so it leaves just $5y$.
+
+    * The term $2y³$ has no $x$ in it at all. It is entirely a constant, so its derivative is $0$.  
+
+       $\frac{\partial P}{\partial x} = 6x + 5y$
+
+3. **Find the partial derivative with respect to y (written as $\frac{\partial P}{\partial y})$**
+
+    Now, we do the exact opposite. Treat x as a constant and y as the variable:
+
+    * The term 3x² has no y, so its derivative is 0.
+    * In $5xy, 5x$ acts as a constant multiplier. The derivative of y is 1, leaving $5x$.
+    * The derivative of $2y³$ is $6y²$ (using the standard power rule).
+
+      $\frac{\partial P}{\partial y} = 5x + 6y^2$
+---
+
+## Single-point regression 
+
+* Single-point regression (often referred to as Simple Linear Regression) is the simplest machine learning or statistical modeling technique. 
+* It uses exactly one independent variable (input) to predict a continuous dependent variable (output) by fitting a straight line, defined by the formula:  
+$y = mx + b$
+* Where:
+  * y is the predicted value (dependent variable)
+  * x is your input (independent variable)
+  * m is the slope (how much y changes for each unit of x)
+  * b is the y-intercept (where the line crosses the y-axis)
+
+---
+
+## Quadratic Cost
+
+* A quadratic cost (or quadratic cost function) calculates how wrong a model or system is by squaring the errors. 
+* Because it uses a squared term, it heavily penalizes large mistakes while treating small ones as negligible.
+* It is widely used in Machine Learning, Economics, and Control Systems for optimization.
+
+#### The Core Math
+
+* The general formula for a quadratic cost is:  
+
+  $C(x) = ax² + bx + c$
+
+* Where:
+  * a, b, and c are constants that define the curve's shape and fixed costs.
+  * x is your input variable (e.g., number of items produced, or the difference between a prediction and reality).
+
+---
+
+## Backpropagation
+
+* Backpropagation is the core algorithm that allows neural networks to "learn" from their mistakes. 
+
+* It works by calculating how much every single weight and bias in the network contributed to the final output error. 
+
+* By measuring this contribution, the network can adjust its parameters to make more accurate predictions next time.
+
+#### The Two-Pass Learning Process
+
+* Neural network training consists of two main steps:
+  * **The Forward Pass:** 
+    * Information (like an image or numerical data) goes into the network. 
+    * The network guesses an answer (e.g., "This image is a dog"), and we measure how wrong that guess is using a mathematical formula called a loss function.
+  * **The Backward Pass (Backpropagation):**
+    * The network takes the calculated error at the end and "backpropagates" it through the network layer by layer. 
+    * It uses a calculus formula known as the chain rule to trace backward and figure out exactly how much each specific weight and bias influenced the error.
+
+---
+
+## Gradient
+
+* The gradient is simply the multi-variable version of a derivative. 
+* While a derivative tells you the slope and rate of change for a function with only one variable, a gradient packs the derivatives of all individual variables together into a single vector to show the overall slope in multi-dimensional space.
+
+#### From Derivative to Gradient
+
+* **Single Variable (x):** If you have a function like $f(x) = x²$, the derivative $f'(x) = 2x$ tells you how much $f(x)$ changes when you nudge x. It only points left or right along a flat number line.
+* **Multiple Variables (x, y, z):** If your function depends on multiple inputs, like $f(x, y) = x² + y²$, you can no longer find a single overall slope with standard calculus. Instead, you look at one variable at a time while holding the others perfectly still.
+
+---
+
+## Understanding the Difference: The Gradient vs. Gradient Descent (The "Hiker")
+
+* **The Gradient (The "Slope"):** 
+  * In simple single-variable math, the derivative tells you the slope of a line. 
+  * When dealing with multiple variables at once, you collect all those individual slopes into a single vector called the gradient. 
+  * The gradient always points directly uphill toward the steepest path.
+* **Gradient Descent (The "Hiker"):** 
+  * This is the actual strategy or algorithm. 
+  * Because the gradient points uphill, the algorithm multiplies the gradient by a negative number to face directly downhill.
+  * It then takes a small step downward, recalculates the new slope, and repeats the process until it reaches the bottom of the valley.
