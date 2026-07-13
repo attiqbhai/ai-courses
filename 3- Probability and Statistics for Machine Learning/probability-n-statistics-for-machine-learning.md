@@ -58,3 +58,38 @@
     * They have infinite possibilities and usually represent measurements.
       * Examples: The exact height of a student, the temperature outside, or the time it takes for a website to load.
 
+---
+
+## Probability Distributions
+
+* A probability distribution is a mathematical function or table that describes how the possible values of a random variable are spread out. 
+
+* It assigns a specific likelihood (or probability) to each possible outcome or range of outcomes in any given scenario.
+
+---
+
+## Sample Space
+
+* In probability and statistics, a sample space is the set of all possible outcomes for a given random experiment or trial. 
+
+* Usually denoted by the symbol $S$ or $(\Omega)$, it acts as a universal list where every potential result is represented exactly once.
+
+---
+
+## Combinatorics
+
+* Combinatorics is the branch of mathematics focused on counting, arranging, and analyzing finite or discrete structures.
+* Often called the "science of choice," it helps determine how many ways you can select or group elements, design configurations, or optimize systems.
+
+#### Fundamental Principles
+
+* **The Addition Principle:**
+  * If you have n ways to do one thing and m ways to do another, and they cannot be done at the same time, you have $n + m$ ways to choose.
+
+* **The Multiplication Principle:**
+  * If you have n ways to do one thing and m ways to do another, and these tasks are independent, you have $n × m$ ways to perform both tasks.
+
+---
+
+
+
