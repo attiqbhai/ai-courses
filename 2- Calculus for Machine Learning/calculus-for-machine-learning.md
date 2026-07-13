@@ -235,3 +235,51 @@ $\frac{d}{dx} [f(y) \cdot f(w)] = f^{\prime }(x) \cdot f(w) +  f(x) \cdot f^{\pr
 
   $\frac{d}{dx} [\frac{f(x)}{g(x)}] = \frac{f^{\prime }(x) \cdot g(x) -  f(x) \cdot g^{\prime }(x)}{[g(x)]^{2}}$
 
+
+
+<img src="images/quotient-rule.jpeg" alt="quotient-rule" style="width: 600px;">
+
+---
+
+## Chain Rule
+
+* The Chain Rule is the calculus formula used to find the derivative of a composite function. A composite function is a "function inside a function"—like a set of nesting Russian dolls.
+
+* You need the Chain Rule whenever an algebraic operation is wrapped inside another operation
+
+### The Formula
+
+* If your function is $y = f(g(x))$, where f is the outer function and g is the inner function, the derivative is:
+
+  $\frac{dy}{dx} = f^{\prime }(g(x)) \cdot g^{\prime }(x)$
+
+* In plain words, the process follows a strict two-step routine:
+  1. Differentiate the outside layer, leaving the inside layer completely alone.
+  2. Multiply by the derivative of the inside layer. 
+
+
+<img src="images/chain-rule.jpeg" alt="chain-rule" style="width: 700px;">
+
+<img src="images/chain-rule-example.jpeg" alt="chain-rule-example" style="width: 700px;">
+
+---
+
+## Power Rule on a Function Chain
+
+
+<img src="images/powerrule-on-function-chain.jpeg" alt="powerrule-on-function-chain" style="width: 700px;">
+
+---
+
+## Automatic Differentiation
+
+* A.K.A.: autodiff or autograd
+  * Computational diff.
+  * Reverse mode diff.
+  * Algorithmic diff.
+* Distinct from classical methods:
+  * Numerical diff. (delta method; introduces rounding errors)
+  * Symbolic diff. (algebraic rules; computationally inefficient)
+* Relative to classical methods, better handles:
+  * Functions with many inputs (common in ML)
+  * Higher-order derivatives
