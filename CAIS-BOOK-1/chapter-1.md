@@ -1,3 +1,6 @@
+# Chapter 1: IntelliVerse: Navigating the AI Ecosystem
+---
+
 ## Weak AI
 
 Weak AI functions are based on a pre-existing combination of logic
@@ -29,7 +32,7 @@ Similarly, strong AI can also be applied for efficient language translation with
 
 ---
 
-# Super AI
+## Super AI
 
 Super AI, or Artificial Super Intelligence (ASI), is the hypothetical ability of a computer to surpass the consciousness of the human mind.
 
@@ -41,9 +44,9 @@ It is also widely believed that super AI would ultimately lead to the technologi
 
 ---
 
-# Forms of AI and approaches
+## Forms of AI and approaches
 
-<img src="relationships-between-forms-of-AI.png" style="width: 600px;">
+<img src="images/chap-1-relationships-between-forms-of-AI.jpeg" style="width: 600px;">
 
 ---
 
