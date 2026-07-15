@@ -14,5 +14,9 @@
 
 ### Mathematical Description of Perceptron
 
-<img src="images/mathematical-description-of-perceptron.jpeg" alt="mathematical-description-of-perceptron" style="width: 500px;">
+<img src="images/mathematical-description-of-perceptron.jpeg" alt="mathematical-description-of-perceptron" style="width: 700px;">
 
+### Programmatical Description of Perceptron
+
+
+<img src="images/programatical-description-of-perceptron.jpeg" alt="programatical-description-of-perceptron" style="width: 700px;">
