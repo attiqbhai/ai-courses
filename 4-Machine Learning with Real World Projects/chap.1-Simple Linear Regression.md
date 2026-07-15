@@ -42,10 +42,11 @@
 
 * $m$ is slope
 * $b$ is intercept
+* $y$ is y-prediction Or $\^{y}$
 
 * The line equation can be wrritten as:
   
-  * $y = \beta_0 + \beta_1 x $
+  * $\^{y}$ = \beta_0 + \beta_1 x $
 
   * This is read as Beta Not and Beta One. 
 
@@ -53,6 +54,7 @@
 
   * $\beta_0$ is intercept
   * $\beta_1$ is slope
+  * $\^{y}$ is y-prediction
 
 ---
 
@@ -73,4 +75,7 @@
 
   * $(y_i - \^{y}_i)$ is the individual error, known as the **residual**.
 
-  
+<img src="images/rss-and-y-prediction.jpeg" alt="rss-and-y-prediction" style="width: 700px;">
+
+---
+
