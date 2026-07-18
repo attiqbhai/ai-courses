@@ -46,7 +46,7 @@
 
 * The line equation can be wrritten as:
   
-  * $\^{y}$ = \beta_0 + \beta_1 x $
+  * $\^{y} = \beta_0 + \beta_1 x $
 
   * This is read as Beta Not and Beta One. 
 
