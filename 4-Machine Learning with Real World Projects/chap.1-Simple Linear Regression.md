@@ -42,11 +42,11 @@
 
 * $m$ is slope
 * $b$ is intercept
-* $y$ is y-prediction Or $\^{y}$
+* $y$ is y-prediction Or $\hat{y}$
 
 * The line equation can be wrritten as:
   
-  * $\^{y} = \beta_0 + \beta_1 x $
+  * $\hat{y} = \beta_0 + \beta_1 x $
 
   * This is read as Beta Not and Beta One. 
 
@@ -54,7 +54,7 @@
 
   * $\beta_0$ is intercept
   * $\beta_1$ is slope
-  * $\^{y}$ is y-prediction
+  * $\hat{y}$ is y-prediction
 
 ---
 
