@@ -79,3 +79,53 @@
 
 ---
 
+## Total Sum of Squares (TSS)
+
+* It is a fundamental statistical metric used to measure the total variation or dispersion of your target variable in a dataset.
+
+* In regression tasks (where you predict a continuous number, like house prices), your goal is to build a model that explains as much of the data's variation as possible. 
+
+* TSS represents the baseline "total error" if you only used the average of the target variable as your prediction, without any machine learning model.
+
+#### How is TSS Calculated?
+
+* To find the TSS, you take each actual data point, subtract the average (mean) of all data points, square the result, and add them all together.
+
+* The mathematical formula is:
+
+    $TSS = \sum_{i=1}^{n} (y_i - \bar{y})^2$
+
+* Where:
+  * $n$ = the total number of data points
+
+  * $y_i$ = the actual value of a specific data point
+
+  * $\bar{y}$ = the mean (average) of all the actual values
+
+---
+
+## Coefficient of determination
+
+* The coefficient of determination, commonly denoted as $R^{2}$ or $r^{2}$, is a statistical metric that measures how well a model explains and predicts future outcomes. 
+
+* It represents the proportion of the variance in the dependent variable that is predictable from the independent variable(s).
+
+* Formula:
+
+    $R^2 = 1 - \frac{RSS}{TSS}$
+
+* Where $RSS$ is the residual sum of squares (unexplained variance) and $TSS$ is the total sum of squares (total variance).
+
+#### $R^2$ Values
+
+* Ranges from $0$ to  $1$ (or 0% to 100%). 
+
+* A value of $1$ means the model perfectly predicts the outcomes.
+
+* While a value of $0$ indicates the model performs no better than simply guessing the average
+
+
+<img src="images/r-square-best-to-worse.jpeg" alt="r-square-best-to-worse" style="width: 800px;">
+
+---
+

@@ -15,5 +15,8 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     ".mule": true
-  }
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "python.languageServer": "Pylance"
 }
