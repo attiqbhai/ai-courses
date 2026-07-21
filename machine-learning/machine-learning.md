@@ -146,3 +146,83 @@
 
 <img src="images/matrix-scaling-example.jpeg" alt="matrix-scaling-example" style="width: 900px;">
 
+#### Matrix Transpose
+
+<img src="images/matrix-transpose.jpeg" alt="matrix-transpose" style="width: 900px;">
+
+<img src="images/matrix-transpose-examples.jpeg" alt="matrix-transpose-examples" style="width: 900px;">
+
+#### Matrix Multiplication
+
+
+<img src="images/matrix-multiplication.jpeg" alt="matrix-multiplication" style="width: 900px;">
+
+
+<img src="images/matrix-multiplication-example.jpeg" alt="matrix-multiplication-example" style="width: 900px;">
+
+#### Matrix Multiplication Using NumPy
+
+<img src="images/matrix-multiplication-numpy.jpeg" alt="matrix-multiplication-numpy" style="width: 900px;">
+
+#### Matrix Multiplication Properties
+
+<img src="images/matrix-multiplication-properties.jpeg" alt="matrix-multiplication-properties" style="width: 900px;">
+
+#### Matrix - Identity Matrix
+
+<img src="images/identity-inverse-matrix.jpeg" alt="identity-inverse-matrix" style="width: 900px;">
+
+#### Matrix - Inverse and Singular
+
+<img src="images/matrix-inverse.jpeg" alt="matrix-inverse" style="width: 900px;">
+
+<img src="images/matrix-singular.jpeg" alt="matrix-singular" style="width: 900px;">
+
+<img src="images/matrix-inverse-formula.jpeg" alt="matrix-inverse-formula" style="width: 900px;">
+
+
+<img src="images/matrix-inverse-example.jpeg" alt="matrix-inverse-example" style="width: 900px;">
+
+#### Matrix - Inverse with Python
+
+<img src="images/matrix-inverse-example-python.jpeg" alt="matrix-inverse-example-python" style="width: 900px;">
+
+#### Matrix Decomposition / Eigen Decomposition
+
+<img src="images/matrix-eigen-decomposition.jpeg" alt="matrix-eigen-decomposition" style="width: 900px;">
+
+<img src="images/matrix-eigen-decomposition-steps-1.jpeg" alt="matrix-eigen-decomposition-steps-1" style="width: 900px;">
+
+<img src="images/matrix-eigen-decomposition-steps-2.jpeg" alt="matrix-eigen-decomposition-steps-2" style="width: 900px;">
+
+<img src="images/matrix-eigen-decomposition-python.jpeg" alt="matrix-eigen-decomposition-python" style="width: 900px;">
+
+<img src="images/matrix-eigen-decomposition-formulas.jpeg" alt="matrix-eigen-decomposition-formulas" style="width: 900px;">
+
+
+<img src="images/matrix-eigen-decomposition-formulas-python.jpeg" alt="matrix-eigen-decomposition-formulas-python" style="width: 900px;">
+
+---
+
+## Statistical Concepts
+
+---
+
+### Objective
+
+<img src="images/statistical-concepts-objectives.jpeg" alt="statistical-concepts-objectives" style="width: 900px;">
+
+---
+
+### Statistics Discipline
+
+<img src="images/statistics-discipline.jpeg" alt="statistics-discipline" style="width: 900px;">
+
+---
+
+### Random Variables 
+
+<img src="images/random-variables.jpeg" alt="random-variables" style="width: 900px;">
+
+---
+
