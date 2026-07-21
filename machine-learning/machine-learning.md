@@ -8,6 +8,8 @@
 
 <img src="images/mathematical-foundation.jpeg" alt="mathematical-foundation" style="width: 700px;">
 
+---
+
 ### Derivatives
 
 <img src="images/derivatives.jpeg" alt="derivatives" style="width: 700px;">
@@ -27,3 +29,9 @@
 #### Derivative Function
 
 <img src="images/derivative-function.jpeg" alt="derivative-function" style="width: 700px;">
+
+---
+
+### Integrals
+
+<img src="images/integrals.jpeg" alt="integrals" style="width: 700px;">
