@@ -16,7 +16,7 @@
 
 #### $X2$ approaching to $X1$
 
-<img src="images/derivatives-2.jpeg" alt="derivatives-2" style="width: 700px;">
+<img src="images/derivatives-2.jpeg" alt="derivatives-2" style="width: 900px;">
 
 #### Limit definition of Derivative
 
@@ -28,10 +28,71 @@
 
 #### Derivative Function
 
-<img src="images/derivative-function.jpeg" alt="derivative-function" style="width: 700px;">
+<img src="images/derivative-function.jpeg" alt="derivative-function" style="width: 900px;">
 
 ---
 
 ### Integrals
 
 <img src="images/integrals.jpeg" alt="integrals" style="width: 900px;">
+
+<img src="images/integrals-curved-shape.jpeg" alt="integrals-curved-shape" style="width: 900px;">
+
+<img src="images/integrals-curved-shape-1.jpeg" alt="integrals-curved-shape-1" style="width: 900px;">
+
+<img src="images/integrals-curved-shape-2.jpeg" alt="integrals-curved-shape-2" style="width: 900px;">
+
+<img src="images/integrals-curved-shape-3.jpeg" alt="integrals-curved-shape-3" style="width: 900px;">
+
+<img src="images/integrals-curved-shape-4.jpeg" alt="integrals-curved-shape-4" style="width: 900px;">
+
+---
+
+### Vectors
+
+<img src="images/vector-definition.jpeg" alt="vector-definition" style="width: 900px;">
+
+#### Vector Dimensions
+
+<img src="images/vector-dimensions.jpeg" alt="vector-dimensions" style="width: 900px;">
+
+#### How big a Vector is
+
+<img src="images/how-big-is-vector.jpeg" alt="how-big-is-vector" style="width: 900px;">
+
+<img src="images/how-big-is-vector-1.jpeg" alt="how-big-is-vector-1" style="width: 900px;">
+
+#### How big a Vector is: Using Python
+
+<img src="images/how-big-is-vector-using-python.jpeg" alt="how-big-is-vector-using-python" style="width: 900px;">
+
+#### Adding and Combining Vectors
+
+<img src="images/adding-vectors.jpeg" alt="adding-vectors" style="width: 900px;">
+
+#### Adding and Combining Vectors in Python
+
+<img src="images/adding-vectors-in-python.jpeg" alt="adding-vectors-in-python" style="width: 900px;">
+
+#### Scaling Vectors
+
+<img src="images/scaling-vectors.jpeg" alt="scaling-vectors" style="width: 900px;">
+
+<img src="images/scaling-vectors-1.jpeg" alt="scaling-vectors-1" style="width: 900px;">
+
+#### Scaling Vectors Using Python
+
+<img src="images/scaling-vector-using-python.jpeg" alt="scaling-vector-using-python" style="width: 900px;">
+
+#### Scaling Vectors by Multiplying with Negative
+
+<img src="images/scaling-vector-using-negative.jpeg" alt="scaling-vector-using-negative" style="width: 900px;">
+
+#### Linear Transfomration
+
+<img src="images/linear-transformation.jpeg" alt="linear-transformation" style="width: 900px;">
+
+#### Linear Transfomration Operations and Basis Vectors
+
+<img src="images/linear-transformation-basis-vectors.jpeg" alt="linear-transformation-basis-vectors" style="width: 900px;">
+
