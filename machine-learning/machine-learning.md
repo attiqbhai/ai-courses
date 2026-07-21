@@ -96,3 +96,53 @@
 
 <img src="images/linear-transformation-basis-vectors.jpeg" alt="linear-transformation-basis-vectors" style="width: 900px;">
 
+---
+
+### Matrices
+
+<img src="images/matrices.jpeg" alt="matrices" style="width: 900px;">
+
+#### Matrices in Python
+
+<img src="images/matrices-in-python.jpeg" alt="matrices-in-python" style="width: 900px;">
+
+#### Types of Matrices
+
+<img src="images/matrix-types.jpeg" alt="matrix-types" style="width: 900px;">
+
+#### Matrix - Determinants
+
+<img src="images/determinants.jpeg" alt="determinants" style="width: 900px;">
+
+#### Matrix - Determinants - Shearing the space
+
+<img src="images/determinants-shearing.jpeg" alt="determinants-shearing" style="width: 900px;">
+
+#### Matrix - Determinants - Squishing the space
+
+<img src="images/determinants-squishing.jpeg" alt="determinants-squishing" style="width: 900px;">
+
+#### Matrix - Determinants - Rotate the space
+
+<img src="images/determinants-rotate.jpeg" alt="determinants-rotate" style="width: 900px;">
+
+#### Matrix - Determinants - Summary of Transformations
+
+<img src="images/determinants-transformations-summary.jpeg" alt="determinants-transformations-summary" style="width: 900px;">
+
+#### Matrix - Addition
+
+<img src="images/matrix-addition.jpeg" alt="matrix-addition" style="width: 900px;">
+
+<img src="images/matrix-addition-1.jpeg" alt="matrix-addition-1" style="width: 900px;">
+
+#### Matrix - Addition using NumPy
+
+<img src="images/matrix-addition-numpy.jpeg" alt="matrix-addition-numpy" style="width: 900px;">
+
+#### Matrix - Scaling a Matrix (Scalar Product)
+
+<img src="images/matrix-scaling.jpeg" alt="matrix-scaling" style="width: 900px;">
+
+<img src="images/matrix-scaling-example.jpeg" alt="matrix-scaling-example" style="width: 900px;">
+
