@@ -6,13 +6,13 @@
 
 ### Exponents and Logarithms
 
-<img src="images/mathematical-foundation.jpeg" alt="mathematical-foundation" style="width: 700px;">
+<img src="images/mathematical-foundation.jpeg" alt="mathematical-foundation" style="width: 900px;">
 
 ---
 
 ### Derivatives
 
-<img src="images/derivatives.jpeg" alt="derivatives" style="width: 700px;">
+<img src="images/derivatives.jpeg" alt="derivatives" style="width: 900px;">
 
 #### $X2$ approaching to $X1$
 
@@ -24,7 +24,7 @@
 
 * It finds this exact slope by evaluating the average rate of change over an infinitesimally small interval.
 
-<img src="images/limit-of-derivative.jpeg" alt="limit-of-derivative" style="width: 700px;">
+<img src="images/limit-of-derivative.jpeg" alt="limit-of-derivative" style="width: 900px;">
 
 #### Derivative Function
 
@@ -34,4 +34,4 @@
 
 ### Integrals
 
-<img src="images/integrals.jpeg" alt="integrals" style="width: 700px;">
+<img src="images/integrals.jpeg" alt="integrals" style="width: 900px;">
