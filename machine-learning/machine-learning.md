@@ -330,3 +330,322 @@
 ### Univariate Normal Distribution Example
 
 <img src="images/univariate-normal-distribution-example.jpeg" alt="univariate-normal-distribution-example" style="width: 900px;">
+
+---
+
+### Multivariate Normal Distribution
+
+<img src="images/multivariate-normal-distribution.jpeg" alt="multivariate-normal-distribution" style="width: 900px;">
+
+---
+
+### Covariance
+
+<img src="images/covariance.jpeg" alt="covariance" style="width: 900px;">
+
+---
+
+### Statistics Discipline
+
+<img src="images/statistics-discipline.jpeg" alt="statistics-discipline" style="width: 900px;">
+
+---
+
+### Descriptive Statistics
+
+
+<img src="images/descriptive-statistics.jpeg" alt="descriptive-statistics" style="width: 900px;">
+
+---
+
+### Arithmetic Mean
+
+
+<img src="images/arithmetic-mean.jpeg" alt="arithmetic-mean" style="width: 900px;">
+
+---
+
+### Arithmetic Mean Example
+
+
+<img src="images/arithmetic-mean-example.jpeg" alt="arithmetic-mean-example" style="width: 900px;">
+
+---
+
+### Arithmetic Mean Falls Short
+
+
+<img src="images/arithmetic-mean-falls-short.jpeg" alt="arithmetic-mean-falls-short" style="width: 900px;">
+
+---
+
+### Median
+
+<img src="images/median.jpeg" alt="median" style="width: 900px;">
+
+---
+
+### Median Example
+
+<img src="images/median-example.jpeg" alt="median-example" style="width: 900px;">
+
+---
+
+### Median Mean Comparison
+
+<img src="images/median-mean-compare.jpeg" alt="median-mean-compare" style="width: 900px;">
+
+---
+
+### Harmonic Mean
+
+<img src="images/harmonic-mean.jpeg" alt="harmonic-mean" style="width: 900px;">
+
+---
+
+### Geometric Mean
+
+<img src="images/geometric-mean.jpeg" alt="geometric-mean" style="width: 900px;">
+
+---
+
+### Mode
+
+<img src="images/mode.jpeg" alt="mode" style="width: 900px;">
+
+---
+
+### Two Modes
+
+<img src="images/mode-two.jpeg" alt="mode-two" style="width: 900px;">
+
+---
+
+### Range
+
+<img src="images/range.jpeg" alt="range" style="width: 900px;">
+
+---
+
+### Interquartile Range
+
+<img src="images/interquartile-range.jpeg" alt="interquartile-range" style="width: 900px;">
+
+---
+
+### Interquartile Range Example
+
+<img src="images/interquartile-range-example.jpeg" alt="interquartile-range-example" style="width: 900px;">
+
+<img src="images/interquartile-range-example-1.jpeg" alt="interquartile-range-example-1" style="width: 900px;">
+
+
+---
+
+### Interquartile Range Box Plots
+
+<img src="images/interquartile-range-box-plots-1.jpeg" alt="interquartile-range-box-plots-1" style="width: 900px;">
+
+<img src="images/interquartile-range-box-plots-2.jpeg" alt="interquartile-range-box-plots-2" style="width: 900px;">
+
+<img src="images/interquartile-range-box-plots-3.jpeg" alt="interquartile-range-box-plots-3" style="width: 900px;">
+
+<img src="images/interquartile-range-box-plots-4.jpeg" alt="interquartile-range-box-plots-4" style="width: 900px;">
+
+---
+
+### Descriptive Statistics
+
+
+<img src="images/descriptive-statistics.jpeg" alt="descriptive-statistics" style="width: 900px;">
+
+---
+
+### Variance
+
+<img src="images/variance.jpeg" alt="variance" style="width: 900px;">
+
+---
+
+### Variance Calculation Steps
+
+<img src="images/variance-calculation-steps.jpeg" alt="variance-calculation-steps" style="width: 900px;">
+
+---
+
+### Standard Deviation
+
+<img src="images/standard-deviation.jpeg" alt="standard-deviation" style="width: 900px;">
+
+---
+
+### Standard Deviation Example
+
+<img src="images/standard-deviation-example.jpeg" alt="standard-deviation-example" style="width: 900px;">
+
+---
+
+### Statistics Discipline
+
+<img src="images/statistics-discipline.jpeg" alt="statistics-discipline" style="width: 900px;">
+
+---
+
+### Descriptive Statistics
+
+
+<img src="images/descriptive-statistics.jpeg" alt="descriptive-statistics" style="width: 900px;">
+
+---
+
+### Inferential Statistics is focus
+
+<img src="images/inferential-statistics-is-focus.jpeg" alt="inferential-statistics-is-focus" style="width: 900px;">
+
+---
+
+### Probability Distribution
+
+<img src="images/probability-distribution-in-inference.jpeg" alt="probability-distribution-in-inference" style="width: 900px;">
+
+---
+
+### Probability Distribution Importance
+
+<img src="images/probability-distribution-importance.jpeg" alt="probability-distribution-importance" style="width: 900px;">
+
+---
+
+### Probability Distribution Methods
+
+<img src="images/probability-distribution-methods.jpeg" alt="probability-distribution-methods" style="width: 900px;">
+
+---
+
+### Maximum Likelyhood Estimation (MLE)
+
+
+<img src="images/maximum-likelyhood.jpeg" alt="maximum-likelyhood" style="width: 900px;">
+
+---
+
+### Maximum Likelyhood Estimation (MLE) Formula
+
+
+<img src="images/maximum-likelyhood-formula.jpeg" alt="maximum-likelyhood-formula" style="width: 900px;">
+
+---
+
+### Maximum Likelyhood Estimation (MLE) - Formula Details
+
+
+<img src="images/maximum-likelyhood-example.jpeg" alt="maximum-likelyhood-example" style="width: 900px;">
+
+<img src="images/maximum-likelyhood-example-1.jpeg" alt="maximum-likelyhood-example-1" style="width: 900px;">
+
+<img src="images/maximum-likelyhood-example-2.jpeg" alt="maximum-likelyhood-example-2" style="width: 900px;">
+
+<img src="images/maximum-likelyhood-example-3.jpeg" alt="maximum-likelyhood-example-3" style="width: 900px;">
+
+<img src="images/maximum-likelyhood-example-4.jpeg" alt="maximum-likelyhood-example-4" style="width: 900px;">
+
+<img src="images/maximum-likelyhood-example-5.jpeg" alt="maximum-likelyhood-example-5" style="width: 900px;">
+
+<img src="images/maximum-likelyhood-example-6.jpeg" alt="maximum-likelyhood-example-6" style="width: 900px;">
+
+<img src="images/maximum-likelyhood-example-7.jpeg" alt="maximum-likelyhood-example-7" style="width: 900px;">
+
+<img src="images/maximum-likelyhood-example-8.jpeg" alt="maximum-likelyhood-example-8" style="width: 900px;">
+
+---
+
+### Maximum a Posteriori (MAP)
+
+<img src="images/maximum-a-posteriori.jpeg" alt="maximum-a-posteriori" style="width: 900px;">
+
+---
+
+### Maximum a Posteriori (MAP) Formula
+
+<img src="images/maximum-a-posteriori-formula.jpeg" alt="maximum-a-posteriori-formula" style="width: 900px;">
+
+<img src="images/maximum-a-posteriori-formula-1.jpeg" alt="maximum-a-posteriori-formula-1" style="width: 900px;">
+
+---
+
+### Bayesian Approach
+
+<img src="images/bayesian-approach.jpeg" alt="bayesian-approach" style="width: 900px;">
+
+---
+
+### Bayesian Approach Formula
+
+<img src="images/bayesian-approach-formula.jpeg" alt="bayesian-approach-formula" style="width: 900px;">
+
+<img src="images/bayesian-approach-formula-1.jpeg" alt="bayesian-approach-formula-1" style="width: 900px;">
+
+---
+
+### Probability Distribution Methods Compare
+
+<img src="images/probability-distribution-methods-compare.jpeg" alt="probability-distribution-methods-compare" style="width: 900px;">
+
+---
+
+## Machine Learning
+
+---
+
+### Introduction
+
+<img src="images/machine-learning.jpeg" alt="machine-learning" style="width: 900px;">
+
+---
+
+### Supervised vs. Unsupervised
+
+<img src="images/supervised-vs-unsupervised.jpeg" alt="supervised-vs-unsupervised" style="width: 900px;">
+
+---
+
+### Supervised: Classification vs. Regression
+
+<img src="images/supervised-class-vs-regression.jpeg" alt="supervised-class-vs-regression" style="width: 900px;">
+
+---
+
+### Supervised: Classification
+
+<img src="images/classification.jpeg" alt="classification" style="width: 900px;">
+
+---
+
+### Supervised: Regression
+
+<img src="images/regression.jpeg" alt="regression" style="width: 900px;">
+
+---
+
+### Supervised: Model Data Fitting
+
+<img src="images/under-good-over-fitting.jpeg" alt="under-good-over-fitting" style="width: 900px;">
+
+---
+
+### Supervised: Model Data Fitting: Overfitting
+
+<img src="images/over-fitting.jpeg" alt="over-fitting" style="width: 900px;">
+
+---
+
+### Supervised: Model Data Fitting: Occam's Razor
+
+<img src="images/occams-razor.jpeg" alt="occams-razor" style="width: 900px;">
+
+---
+
+### Supervised: Model Data Fitting: Model Interpretability
+
+<img src="images/model-interpretability.jpeg" alt="model-interpretability" style="width: 900px;">
+
