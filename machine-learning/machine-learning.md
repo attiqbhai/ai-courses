@@ -220,7 +220,7 @@
 
 ---
 
-### Probability - Random Variables 
+### Random Variables 
 
 <img src="images/random-variables.jpeg" alt="random-variables" style="width: 900px;">
 
@@ -235,6 +235,98 @@
 
 ---
 
-### Joint- Probability
+### Joint Probability
 
 <img src="images/joint-probability.jpeg" alt="joint-probability" style="width: 900px;">
+
+---
+
+### Joint Probability Example
+
+<img src="images/joint-probability-example.jpeg" alt="joint-probability-example" style="width: 900px;">
+
+---
+
+### Marginalization
+
+<img src="images/marginalization.jpeg" alt="marginalization" style="width: 900px;">
+
+---
+
+### Marginalization Example
+
+<img src="images/marginalization-example.jpeg" alt="marginalization-example" style="width: 900px;">
+
+---
+
+### Conditional Probability
+
+<img src="images/conditional-probability.jpeg" alt="conditional-probability" style="width: 900px;">
+
+---
+
+### Bayes' Rule
+
+<img src="images/bayes-rule.jpeg" alt="bayes-rule" style="width: 900px;">
+
+---
+
+### Bayes' Rule Explained
+
+<img src="images/bayes-rule-explained.jpeg" alt="bayes-rule-explained" style="width: 900px;">
+
+---
+
+### Probability Distribution
+
+<img src="images/probability-distribution.jpeg" alt="probability-distribution" style="width: 900px;">
+
+---
+
+### Probability Distribution Properties
+
+<img src="images/probability-distribution-properties.jpeg" alt="probability-distribution-properties" style="width: 900px;">
+
+<img src="images/probability-distribution-properties-1.jpeg" alt="probability-distribution-properties-1" style="width: 900px;">
+
+---
+
+### Most Used Probability Distributions
+
+<img src="images/most-used-probability-distributions.jpeg" alt="most-used-probability-distributions" style="width: 900px;">
+
+---
+
+### Bernoulli Distribution
+
+<img src="images/bernoulli-distribution.jpeg" alt="bernoulli-distribution" style="width: 900px;">
+
+---
+
+### Bernoulli Distribution Example
+
+<img src="images/bernoulli-distribution-example.jpeg" alt="bernoulli-distribution-example" style="width: 900px;">
+
+---
+
+### Categorical Distribution
+
+<img src="images/categorical-distribution.jpeg" alt="categorical-distribution" style="width: 900px;">
+
+---
+
+### Categorical Distribution Example
+
+<img src="images/categorical-distribution-example.jpeg" alt="categorical-distribution-example" style="width: 900px;">
+
+---
+
+### Univariate Normal Distribution
+
+<img src="images/univariate-normal-distribution.jpeg" alt="univariate-normal-distribution" style="width: 900px;">
+
+---
+
+### Univariate Normal Distribution Example
+
+<img src="images/univariate-normal-distribution-example.jpeg" alt="univariate-normal-distribution-example" style="width: 900px;">
