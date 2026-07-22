@@ -649,3 +649,28 @@
 
 <img src="images/model-interpretability.jpeg" alt="model-interpretability" style="width: 900px;">
 
+---
+
+### Supervised: Model Data Fitting: Model Data Stages
+
+<img src="images/model-data-stages.jpeg" alt="model-data-stages" style="width: 900px;">
+
+---
+
+### Supervised: Model Evaluation
+
+<img src="images/model-evaluation.jpeg" alt="model-evaluation" style="width: 900px;">
+
+---
+
+### Supervised: Model Evaluation: Out of Sample Methods
+
+<img src="images/model-evaluation-out-of-sample-methods.jpeg" alt="model-evaluation-out-of-sample-methods" style="width: 900px;">
+
+<img src="images/hold-out.jpeg" alt="hold-out" style="width: 900px;">
+
+<img src="images/random-subsampling.jpeg" alt="random-subsampling" style="width: 900px;">
+
+<img src="images/k-fold-cross-validation.jpeg" alt="k-fold-cross-validation" style="width: 900px;">
+
+
