@@ -673,4 +673,14 @@
 
 <img src="images/k-fold-cross-validation.jpeg" alt="k-fold-cross-validation" style="width: 900px;">
 
+---
 
+### Supervised: Feature Engineering
+
+<img src="images/feature-engineering.jpeg" alt="feature-engineering" style="width: 900px;">
+
+---
+
+### Supervised: Feature Engineering: Types of Features
+
+<img src="images/feature-engineering-types.jpeg" alt="feature-engineering-types" style="width: 900px;">
