@@ -220,9 +220,21 @@
 
 ---
 
-### Random Variables 
+### Probability - Random Variables 
 
 <img src="images/random-variables.jpeg" alt="random-variables" style="width: 900px;">
 
 ---
 
+### Probability - Definition
+
+<img src="images/probability-definition.jpeg" alt="probability-definition" style="width: 900px;">
+
+
+<img src="images/probability-definition-experiments.jpeg" alt="probability-definition-experiments" style="width: 900px;">
+
+---
+
+### Joint- Probability
+
+<img src="images/joint-probability.jpeg" alt="joint-probability" style="width: 900px;">
