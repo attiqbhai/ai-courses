@@ -681,6 +681,18 @@
 
 ---
 
+### Supervised: Feature Engineering: Feature Examples
+
+<img src="images/feature-engineering-examples.jpeg" alt="feature-engineering-types" style="width: 900px;">
+
+---
+
 ### Supervised: Feature Engineering: Types of Features
 
 <img src="images/feature-engineering-types.jpeg" alt="feature-engineering-types" style="width: 900px;">
+
+---
+
+### Supervised: Feature Engineering: Binary and Continuous Features
+
+<img src="images/binary-continuous-features.jpeg" alt="binary-continuous-features" style="width: 900px;">
