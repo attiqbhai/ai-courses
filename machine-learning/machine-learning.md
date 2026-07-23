@@ -696,3 +696,15 @@
 ### Supervised: Feature Engineering: Binary and Continuous Features
 
 <img src="images/binary-continuous-features.jpeg" alt="binary-continuous-features" style="width: 900px;">
+
+---
+
+### Supervised: Feature Engineering: Ordinal and Nominal Features
+
+<img src="images/ordinal-nominal-features.jpeg" alt="ordinal-nominal-features" style="width: 900px;">
+
+---
+
+### Supervised: Feature Engineering: Plotting Relationships
+
+<img src="images/plotting-relationships.jpeg" alt="plotting-relationships" style="width: 900px;">
