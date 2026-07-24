@@ -43,6 +43,10 @@
         - [When to use](#when-to-use-1)
         - [Intuition](#intuition-1)
     - [How the definitions change](#how-the-definitions-change)
+  - [Standard Deviation](#standard-deviation)
+    - [Formal Definition](#formal-definition-1)
+    - [Intuition](#intuition-2)
+    - [Why Standard Deviation Matters](#why-standard-deviation-matters)
 
 ---
 
@@ -375,4 +379,40 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
 > - $\mu$ represents population means and $\bar{x}$ represents sample mean.
 
 ---
+
+## Standard Deviation
+
+- Standard deviation measures how spread out your data is, just like variance — but in the same units as your data, which makes it much easier to interpret.
+
+- If variance tells you how much the data wiggles, standard deviation tells you how big that wiggle feels.
+
+### Formal Definition
+
+- Standard deviation is simply the square root of variance.
+
+  $Standard Deviation = \sqrt{\sigma^2}$
+
+  $Standard Deviation = \sqrt{s^2}$
+
+### Intuition
+
+- Low standard deviation → data points are close to the mean.
+
+- High standard deviation → data points are far from the mean.
+
+- It’s a measure of consistency.
+
+### Why Standard Deviation Matters
+
+- Used everywhere in machine learning
+
+- Helps detect outliers
+
+- Used in normal distribution (bell curve)
+
+- Used in loss functions
+
+- Helps understand data spread in EDA
+
+- More interpretable than variance because it’s in the same units as your data
 
