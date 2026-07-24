@@ -234,7 +234,7 @@ $IQR = 12 − 7 = 5$
 
 ### Formal Definition
 
-<big>$Variance = \frac {\sum_{i=1}^{n}(x_i−mean)^2}{𝑁}$</big>
+$Variance = \frac {\sum_{i=1}^{N}(x_i−mean)^2}{𝑁}$
 
 ### Intuition
 
@@ -257,3 +257,72 @@ $IQR = 12 − 7 = 5$
 * Used in loss functions (like MSE)
 
 * Important in probability distributions
+
+
+### Population Variance
+
+* Population variance assumes you have every data point in the entire group you care about.
+
+#### Definition
+
+$\sigma^2 = \frac {\sum_{i=1}^{N}(x_i−\mu)^2}{𝑁}$
+
+##### Key idea
+
+* You divide by N (the total number of values).
+
+* No correction is needed because you already have the full truth.
+
+##### When to use
+
+* You have all customers
+
+* You have all students
+
+* You have all manufactured items
+
+* You have all data points in your dataset
+
+### Sample Variance
+
+* Sample variance assumes your data is only a subset of a larger population.
+
+#### Definition
+
+$s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
+
+##### Why divide by n − 1?
+
+* Because a sample underestimates the true variance of the population.
+
+* Dividing by $n − 1$ corrects this bias — this is called **Bessel’s correction**.
+
+##### When to use
+
+* You collected a survey
+
+* You sampled 100 items from a factory
+
+* You took a subset of a dataset
+
+* You’re estimating population variance from limited data
+
+##### Intuition
+
+* Imagine you’re trying to guess how spread out all students’ test scores are, but you only have 20 students’ scores.
+
+* Those 20 scores will look more similar to each other than the entire school’s scores.
+
+* So sample variance bumps the value slightly upward by dividing by $n − 1$.
+
+### How the definitions change
+
+| Concept | Population Variance | Sample Variance |
+| ----------- | ----------- | ----------- |
+| Formula | Divide by N | Divide by n − 1 |
+| Mean used | Population mean $\mu$ | Sample mean $\bar{x}$|
+| Purpose | True spread | Estimated spread |
+| Bias | Unbiased (full data) | Corrected for bias |
+| NumPy | $np.var(data)$ | $np.var(data, ddof=1)$ |
+
+[!NOTE] $N$ represents population, and $n$ represents sample.
