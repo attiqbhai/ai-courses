@@ -325,4 +325,11 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
 | Bias | Unbiased (full data) | Corrected for bias |
 | NumPy | $np.var(data)$ | $np.var(data, ddof=1)$ |
 
-> $N$ represents population, and $n$ represents sample.
+> **Note:-**  
+>
+> * $N$ represents population, and $n$ represents sample.
+>
+> * $\mu$ represents population means and $\bar{x}$ represents sample mean.
+
+---
+
