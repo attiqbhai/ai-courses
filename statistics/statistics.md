@@ -62,6 +62,11 @@ Where:
 - $\bar{x}$ = mean of the dataset  
 - $s$ = standard deviation 
 
+
+<img src="images/skewness-formula.jpeg" alt="skewness-formula" style="width: 500px;">
+
+<img src="images/skew-positive-negative.jpeg" alt="skew-positive-negative" style="width: 500px;">
+
 ---
 
 ## Mean
@@ -127,4 +132,54 @@ The **mean** in statistics is the average of a set of numbers — the single val
 
 ---
 
-## 
+## Range 
+
+* Range measures how spread out your data is from the smallest value to the largest value.
+
+### When to use it
+
+* Quick sense of spread
+
+* Easy to compute
+
+### Limitation
+
+* Very sensitive to outliers  
+(One extreme value can distort the range.)
+
+---
+
+## Interquartile Range (IQR)
+
+* IQR measures the spread of the middle 50% of your data.
+
+* It is much more robust than the range because it ignores extreme values.
+
+### Definition
+
+$IQR = 𝑄3 − 𝑄1$
+
+* Where
+  * $Q1$ (25th percentile) = value at the first quartile
+
+  * $Q3$ (75th percentile) = value at the third quartile
+
+### Example
+
+Sorted data: $4, 7, 10, 12, 20$
+
+$Q1 = 7$
+
+$Q3 = 12$
+
+$IQR = 12 − 7 = 5$
+
+### Why IQR matters
+
+* Resistant to outliers
+
+* Used in box plots
+
+* Used to detect outliers (Tukey’s rule)
+
+* Common in ML preprocessing and EDA
