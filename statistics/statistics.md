@@ -220,3 +220,40 @@ $IQR = 12 − 7 = 5$
 
 * We use the sample to estimate what is true about the population.
 
+---
+
+## Variance
+
+* Variance measures how spread out your data is.
+
+* It tells you how far the numbers are from the mean, on average.
+
+* If the data points are close to the mean → low variance  
+
+* If the data points are far from the mean → high variance
+
+### Formal Definition
+
+$ Variance = \frac {\sum_{i=1}^{n} (x_i−mean)^2}{𝑁} $
+
+### Intuition
+
+* Think of variance as:
+
+    “How much do the numbers wiggle away from the center?”
+
+* If all values are similar → variance is small
+
+* If values jump around a lot → variance is large
+
+### Why Variance Matters
+
+* Used in machine learning to understand data spread
+
+* Part of standard deviation
+
+* Helps detect outliers
+
+* Used in loss functions (like MSE)
+
+* Important in probability distributions
