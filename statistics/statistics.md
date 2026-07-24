@@ -52,6 +52,11 @@
     - [Shifting](#shifting)
     - [Impact of Scaling (multiplying)](#impact-of-scaling-multiplying)
     - [Impact of Shifting (adding/subtracting)](#impact-of-shifting-addingsubtracting)
+  - [Statistical Moments](#statistical-moments)
+    - [First Moment — Mean (Center)](#first-moment--mean-center)
+    - [Second Moment — Variance (Spread)](#second-moment--variance-spread)
+    - [Third Moment — Skewness (Symmetry)](#third-moment--skewness-symmetry)
+    - [Fourth Moment — Kurtosis (Peakedness / Tail Weight)](#fourth-moment--kurtosis-peakedness--tail-weight)
 
 ---
 
@@ -470,3 +475,56 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
   - Shape
 
 - Shifting slides the entire distribution without stretching it.
+
+---
+
+## Statistical Moments
+
+- A moment is a quantitative measure that describes a specific aspect of a distribution.
+
+- They are based on powers of deviations from the mean.
+
+- In simple terms: Moments tell you how your data behaves.
+
+- There are four classical moments you’ll see everywhere in data science.
+
+### First Moment — Mean (Center)
+
+- Tells you the average value
+
+- Represents the central location of the distribution
+
+- You already use this constantly in ML and EDA
+
+### Second Moment — Variance (Spread)
+
+- Measures how spread out the data is
+
+- Higher variance → more variability
+
+- Square root of variance = standard deviation
+
+### Third Moment — Skewness (Symmetry)
+
+- Measures asymmetry
+
+- Positive skew → tail on the right
+
+- Negative skew → tail on the left
+
+- Zero skew → perfectly symmetric (like a normal distribution)
+
+### Fourth Moment — Kurtosis (Peakedness / Tail Weight)
+
+- Measures how heavy the tails are
+
+- High kurtosis → more outliers, sharper peak
+
+- Low kurtosis → flatter distribution
+
+- Normal distribution has kurtosis of 3 (excess kurtosis = 0)
+
+<img src="images/statistical-moments.jpeg" alt="statistical-moments" style="width: 900px;">
+
+---
+
