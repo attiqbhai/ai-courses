@@ -62,6 +62,8 @@
     - [What a Histogram Is](#what-a-histogram-is)
     - [What “Density” Means in a Distribution](#what-density-means-in-a-distribution)
     - [Histogram vs Density](#histogram-vs-density)
+    - [Normal Distribution](#normal-distribution)
+      - [The 68–95–99.7 Rule](#the-6895997-rule)
 
 ---
 
@@ -596,5 +598,18 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
 
 <img src="images/distribution.jpeg" alt="distribution" style="width: 900px;">
 
+### Normal Distribution
+
+- A normal distribution (also called a Gaussian distribution) is a continuous probability distribution shaped like a bell curve.
+
+- It describes data that clusters around a central value with symmetrical spread on both sides.
+
+#### The 68–95–99.7 Rule
+
+- This is the most famous property of the normal distribution:
+  - 68% of data falls within 1 standard deviation of the mean
+  - 95% within 2 standard deviations
+  - 99.7% within 3 standard deviations
+  
 ---
 
