@@ -47,6 +47,11 @@
     - [Formal Definition](#formal-definition-1)
     - [Intuition](#intuition-2)
     - [Why Standard Deviation Matters](#why-standard-deviation-matters)
+  - [Scaling and Shifting](#scaling-and-shifting)
+    - [Scaling](#scaling)
+    - [Shifting](#shifting)
+    - [Impact of Scaling (multiplying)](#impact-of-scaling-multiplying)
+    - [Impact of Shifting (adding/subtracting)](#impact-of-shifting-addingsubtracting)
 
 ---
 
@@ -416,3 +421,71 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
 
 - More interpretable than variance because it’s in the same units as your data
 
+---
+
+## Scaling and Shifting
+
+### Scaling
+
+- Multiply every value by a constant
+
+### Shifting
+
+- Add or subtract a constant
+
+### Impact of Scaling (multiplying)
+
+- What scaling changes
+  - Mean → multiplied by $c$
+
+  - Variance → multiplied by $c^2$
+
+  - Standard deviation → multiplied by $c$
+
+  - Range → multiplied by $c$
+
+  - IQR → multiplied by $c$
+
+- What scaling doesn't change
+  
+  - Shape of distribution
+  
+  - Skewness
+  
+  - Kurtosis
+ 
+  - Correlation
+ 
+  - Relative ordering
+
+- Scaling stretches or shrinks the data like zooming in or out — but the pattern stays identical.
+
+### Impact of Shifting (adding/subtracting)
+
+- Shifting moves your data left or right.
+
+- What shifting changes
+
+  - Mean → increases by $k$
+
+  - Mean → increases by $k$
+  
+  - Mode → increases by $k$
+
+- What shifting doesn't change
+
+  - Variance
+  
+  - Standard deviation
+  
+  - Range
+  
+  - IQR
+  
+  - Skewness
+  
+  - Kurtosis
+  
+  - Shape
+
+- Shifting slides the entire distribution without stretching it.
