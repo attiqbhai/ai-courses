@@ -1,6 +1,69 @@
 # Statistics
 ---
 
+## Skewness 
+
+* Skewness is a measure of asymmetry in a dataset.
+
+* It tells you whether the data leans more to the left or the right instead of being perfectly balanced around the mean.
+
+* Skewness describes how “off‑center” a distribution is.
+
+* Skewness = 0 → perfectly symmetric (like a normal bell curve)
+
+* Positive skew (right‑skewed) → long tail on the right
+
+* Negative skew (left‑skewed) → long tail on the left
+
+<img src="images/symmetrical-data.jpeg" alt="symmetrical-data" style="width: 500px;">
+
+### Positive Skew (Right‑Skewed)
+
+* Outliers are on the right side
+
+* Tail extends to the right
+
+* Mean > Median
+
+* Example: income distribution (few very high incomes pull the mean right)
+
+<img src="images/positive-skew.jpeg" alt="positive-skew" style="width: 500px;">
+
+<img src="images/positive-skew-mmm.jpeg" alt="positive-skew-mmm" style="width: 500px;">
+
+### Negative Skew (Left‑Skewed)
+
+* Outliers are on the left side
+
+* Tail extends to the left
+
+* Mean < Median
+
+* Example: test scores where most students score high but a few score very low
+
+<img src="images/negative-skew-mmm.jpeg" alt="negative-skew-mmm" style="width: 500px;">
+
+### Why skewness matters
+
+* It tells you whether the mean is a reliable measure of central tendency
+
+* Helps decide whether to use mean or median
+
+* Important in machine learning, finance, and data science because skewed data affects models
+
+### Formula
+
+$\text{Skewness} = \frac{1}{n} \sum_{i=1}^{n} \left( \frac{x_i - \bar{x}}{s} \right)^3$
+
+Where:
+
+- $n$ = number of observations  
+- $x_i$ = each individual value  
+- $\bar{x}$ = mean of the dataset  
+- $s$ = standard deviation 
+
+---
+
 ## Mean
 
 The **mean** in statistics is the average of a set of numbers — the single value that best represents the entire dataset.
@@ -46,3 +109,22 @@ The **mean** in statistics is the average of a set of numbers — the single val
 * When the dataset has repeated values
 
 * When mean/median don’t make sense (e.g., favorite color)
+
+---
+
+## Mean Or Median Or Mode
+
+* Mean sensitive towords outliers (asymmetrical datasets)
+
+* Median less sensitive towards outliers
+  * Alternative / Complementary
+
+* Mode for categorical values
+
+<img src="images/global-income-distribution.jpeg" alt="global-income-distribution" style="width: 900px;">
+
+<img src="images/mode-better.jpeg" alt="mode-better" style="width: 900px;">
+
+---
+
+## 
