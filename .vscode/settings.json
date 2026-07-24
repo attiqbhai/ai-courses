@@ -6,6 +6,9 @@
         "sub",
         "img"
       ]
+    },
+    "MD024": {
+      "siblings_only": true
     }
   },
   "files.exclude": {
