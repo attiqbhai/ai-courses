@@ -80,6 +80,8 @@
       - [Formula](#formula-3)
     - [Multiplication Rule for Dependent Events](#multiplication-rule-for-dependent-events)
       - [Formula](#formula-4)
+    - [How to Know Which Rule to Use](#how-to-know-which-rule-to-use)
+    - [Visual Intuition](#visual-intuition)
 
 ---
 
@@ -740,4 +742,18 @@ $𝑃 ( 𝐴 ∩ 𝐵 ) = 𝑃 ( 𝐴 ) × 𝑃 ( 𝐵 )$
 $𝑃 ( 𝐴 ∩ 𝐵 ) = 𝑃 ( 𝐴 ) × 𝑃 ( 𝐵 ∣ 𝐴 )$
 
 - Where:
-  - $𝑃 ( 𝐵 ∣ 𝐴 )$ = probability of B after A has already happened
+  - $𝑃 ( 𝐵 ∣ 𝐴 )$ = probability of B after A has already happened.
+
+### How to Know Which Rule to Use
+
+- Ask yourself:
+ 
+  **Does event A change the probability of event B?**
+
+### Visual Intuition
+
+- Think of probability as shrinking space.
+
+  - Independent events: the space doesn’t change
+
+  - Dependent events: the space shrinks after the first event
