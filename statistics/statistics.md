@@ -183,3 +183,40 @@ $IQR = 12 − 7 = 5$
 * Used to detect outliers (Tukey’s rule)
 
 * Common in ML preprocessing and EDA
+
+---
+
+## Population and Sample
+
+### Population
+
+* A population is the entire group you are interested in studying.
+
+* Examples:
+  * All customers of Amazon
+  
+  * Every student in a school
+  
+  * All manufactured chips in a factory
+  
+  * Every possible data point in a dataset
+
+* A population contains every member, so it represents the full truth — but it’s often too large, expensive, or impossible to measure directly.
+
+### Sample
+
+* A sample is a subset of the population that you actually collect data from.
+
+* Examples:
+  * 1,000 Amazon customers surveyed
+
+  * 200 students selected for a study
+
+  * 50 chips tested for defects
+
+  * A batch of observations taken from a large dataset
+
+* A sample is used because studying the entire population is usually impractical.
+
+* We use the sample to estimate what is true about the population.
+
