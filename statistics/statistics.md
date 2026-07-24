@@ -80,6 +80,7 @@
       - [Formula](#formula-3)
     - [Multiplication Rule for Dependent Events](#multiplication-rule-for-dependent-events)
       - [Formula](#formula-4)
+      - [Example](#example-1)
     - [How to Know Which Rule to Use](#how-to-know-which-rule-to-use)
     - [Visual Intuition](#visual-intuition)
 
@@ -743,6 +744,22 @@ $𝑃 ( 𝐴 ∩ 𝐵 ) = 𝑃 ( 𝐴 ) × 𝑃 ( 𝐵 ∣ 𝐴 )$
 
 - Where:
   - $𝑃 ( 𝐵 ∣ 𝐴 )$ = probability of B after A has already happened.
+
+#### Example
+
+- Drawing 2 cards from a deck without replacement:
+
+- Event A: First card is an Ace (4 Aces in a deck)
+
+- Event B: Second card is an Ace (After Event A, 3 Aces in a deck)
+
+  - $P(A) = 4/52$
+  
+  - After removing one Ace, $P(B|A) = 3/51$
+
+    $𝑃 ( 𝐴 ∩ 𝐵 ) = \frac {4}{52} × \frac {3}{51} = \frac {12}{2652}$
+
+- This is why dependent events require conditional probability.
 
 ### How to Know Which Rule to Use
 
