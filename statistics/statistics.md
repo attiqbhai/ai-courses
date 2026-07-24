@@ -437,25 +437,16 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
 
 - What scaling changes
   - Mean → multiplied by $c$
-
   - Variance → multiplied by $c^2$
-
   - Standard deviation → multiplied by $c$
-
   - Range → multiplied by $c$
-
   - IQR → multiplied by $c$
 
 - What scaling doesn't change
-  
   - Shape of distribution
-  
   - Skewness
-  
   - Kurtosis
- 
   - Correlation
- 
   - Relative ordering
 
 - Scaling stretches or shrinks the data like zooming in or out — but the pattern stays identical.
@@ -465,27 +456,17 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
 - Shifting moves your data left or right.
 
 - What shifting changes
-
   - Mean → increases by $k$
-
   - Mean → increases by $k$
-  
   - Mode → increases by $k$
 
 - What shifting doesn't change
-
   - Variance
-  
   - Standard deviation
-  
   - Range
-  
   - IQR
-  
   - Skewness
-  
   - Kurtosis
-  
   - Shape
 
 - Shifting slides the entire distribution without stretching it.
