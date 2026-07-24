@@ -64,6 +64,22 @@
     - [Histogram vs Density](#histogram-vs-density)
     - [Normal Distribution](#normal-distribution)
       - [The 68–95–99.7 Rule](#the-6895997-rule)
+  - [Z - Score](#z---score)
+    - [Z‑Scores and the Normal Distribution](#zscores-and-the-normal-distribution)
+    - [Z‑Table](#ztable)
+  - [Probability Addition Rule](#probability-addition-rule)
+    - [Addition Rule for Mutually Exclusive Events](#addition-rule-for-mutually-exclusive-events)
+      - [Formula](#formula-1)
+    - [Addition Rule for Non‑Mutually Exclusive Events](#addition-rule-for-nonmutually-exclusive-events)
+    - [Formula](#formula-2)
+    - [Visual Intuition (Venn Diagram)](#visual-intuition-venn-diagram)
+      - [Mutually Exclusive](#mutually-exclusive)
+      - [Non‑Mutually Exclusive](#nonmutually-exclusive)
+  - [Probability Multiplication Rule](#probability-multiplication-rule)
+    - [Multiplication Rule for Independent Events](#multiplication-rule-for-independent-events)
+      - [Formula](#formula-3)
+    - [Multiplication Rule for Dependent Events](#multiplication-rule-for-dependent-events)
+      - [Formula](#formula-4)
 
 ---
 
@@ -613,3 +629,115 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
   
 ---
 
+## Z - Score
+
+- A Z‑score tells you how many standard deviations a value is from the mean.
+
+- It measures position within a distribution.
+  - Z = 0 → exactly at the mean
+  - Z = 1 → one standard deviation above the mean
+  - Z = –1 → one standard deviation below the mean
+  - Z = 2 → two standard deviations above the mean (unusual)
+
+### Z‑Scores and the Normal Distribution
+
+- 68% of values have Z between –1 and +1
+
+- 95% between –2 and +2
+
+- 99.7% between –3 and +3
+
+### Z‑Table
+
+- A Z‑table tells you the probability associated with a Z‑score.
+
+- It answers:
+  - “If the data is normally distributed, what percentage lies below this Z‑score?”
+
+---
+
+## Probability Addition Rule
+
+- The addition rule tells you how to find the probability that event A OR event B happens.
+
+- In probability, “OR” means at least one of the events occurs.
+
+- There are two versions of the rule:
+  
+  - Addition Rule for Mutually Exclusive Events
+  
+  - Addition Rule for Non‑Mutually Exclusive Events 
+
+### Addition Rule for Mutually Exclusive Events
+
+- Events are mutually exclusive if they cannot happen at the same time.
+
+- Examples:
+  - Rolling a die: getting a 2 OR a 5
+  - Drawing a card: getting a King OR a Queen
+  - A person being male OR female (in classical probability)
+
+#### Formula
+
+$𝑃(𝐴∪𝐵)=𝑃(𝐴) + 𝑃(𝐵)$
+
+### Addition Rule for Non‑Mutually Exclusive Events
+
+- Events can happen at the same time.
+
+- Examples:
+  - Drawing a card: red OR a face card
+  - Student: taking math OR taking science (some take both)
+  - Person: being left‑handed OR being a musician
+
+- Here, we must subtract the overlap, because otherwise we count it twice.
+
+### Formula
+
+$𝑃 ( 𝐴 ∪ 𝐵 ) = 𝑃 ( 𝐴 ) + 𝑃 ( 𝐵 ) − 𝑃 ( 𝐴 ∩ 𝐵 )$
+
+### Visual Intuition (Venn Diagram)
+
+#### Mutually Exclusive
+
+- Two circles do not overlap.
+  
+- Add both areas.
+
+#### Non‑Mutually Exclusive
+
+- Two circles overlap.
+
+- Add both areas, then subtract the overlap.
+
+---
+
+## Probability Multiplication Rule
+
+- The multiplication rule tells you the probability that event A AND event B happen together.
+
+- In probability, AND means both events occur.
+
+### Multiplication Rule for Independent Events
+
+- Events are independent if one does not affect the other.
+
+#### Formula
+
+$𝑃 ( 𝐴 ∩ 𝐵 ) = 𝑃 ( 𝐴 ) × 𝑃 ( 𝐵 )$
+
+### Multiplication Rule for Dependent Events
+
+- Events are dependent if one event changes the probability of the other.
+
+- Examples:
+  - Drawing cards without replacement
+  - Selecting people from a small group
+  - Choosing items from a box and not putting them back
+
+#### Formula
+
+$𝑃 ( 𝐴 ∩ 𝐵 ) = 𝑃 ( 𝐴 ) × 𝑃 ( 𝐵 ∣ 𝐴 )$
+
+- Where:
+  - $𝑃 ( 𝐵 ∣ 𝐴 )$ = probability of B after A has already happened
