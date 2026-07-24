@@ -83,6 +83,9 @@
       - [Example](#example-1)
     - [How to Know Which Rule to Use](#how-to-know-which-rule-to-use)
     - [Visual Intuition](#visual-intuition)
+  - [Bayes’ Theorem](#bayes-theorem)
+    - [The Formula](#the-formula)
+    - [Intuition (the part that makes it “click”)](#intuition-the-part-that-makes-it-click)
 
 ---
 
@@ -774,3 +777,44 @@ $𝑃 ( 𝐴 ∩ 𝐵 ) = 𝑃 ( 𝐴 ) × 𝑃 ( 𝐵 ∣ 𝐴 )$
   - Independent events: the space doesn’t change
 
   - Dependent events: the space shrinks after the first event
+
+---
+
+## Bayes’ Theorem
+
+- Bayes’ Theorem lets you update probabilities when new information arrives.
+
+- It answers the question:
+
+  **"Given that B happened, what is the probability that A is true?"**
+
+- This is called conditional probability.
+
+### The Formula
+
+  $𝑃 ( 𝐴 ∣ 𝐵 ) = \frac {𝑃 ( 𝐵 ∣ 𝐴 ) ⋅ 𝑃 ( 𝐴 )}{ 𝑃 ( 𝐵 )}$
+
+- Where:
+
+  - $𝑃 ( 𝐴 ∣ 𝐵 )$ = probability of $A$ after knowing $B$
+
+  - $𝑃 ( 𝐵 ∣ 𝐴 )$ = probability of $B$ if $A$ is true
+
+  - $𝑃 ( 𝐴 )$ = prior probability of $A$
+
+  - $𝑃 ( 𝐵 )$ = overall probability of $B$
+
+### Intuition (the part that makes it “click”)
+
+- Bayes’ Theorem is about reversing conditional probability.
+
+- You usually know:
+  
+  - Probability of B given A
+  - Probability of A
+  - Probability of B
+
+- But you want:
+  - Probability of A given B
+
+- Bayes flips the direction.
