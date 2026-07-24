@@ -57,6 +57,11 @@
     - [Second Moment — Variance (Spread)](#second-moment--variance-spread)
     - [Third Moment — Skewness (Symmetry)](#third-moment--skewness-symmetry)
     - [Fourth Moment — Kurtosis (Peakedness / Tail Weight)](#fourth-moment--kurtosis-peakedness--tail-weight)
+  - [Distribution](#distribution)
+    - [Types of Distributions You’ll See in Data Science](#types-of-distributions-youll-see-in-data-science)
+    - [What a Histogram Is](#what-a-histogram-is)
+    - [What “Density” Means in a Distribution](#what-density-means-in-a-distribution)
+    - [Histogram vs Density](#histogram-vs-density)
 
 ---
 
@@ -525,6 +530,71 @@ $s^2 = \frac {\sum_{i=1}^{n}(x_i−\bar{x})^2}{n-1}$
 - Normal distribution has kurtosis of 3 (excess kurtosis = 0)
 
 <img src="images/statistical-moments.jpeg" alt="statistical-moments" style="width: 900px;">
+
+---
+
+## Distribution
+
+- A distribution in statistics describes how data is spread out
+
+- A distribution tells you the shape of your data.
+
+- It answers questions like:
+  - Where do most values fall?
+  - How spread out is the data?
+  - Are there long tails?
+  - Are values symmetric or skewed?
+  - Are extreme values common or rare?
+
+### Types of Distributions You’ll See in Data Science
+
+- Normal Distribution (Bell Curve)
+  - Symmetric
+  - Mean = median = mode
+  - Most values near the center
+  - Tails thin out smoothly
+
+- Skewed Distributions
+  - Tail on one side
+  - Mean pulled toward the tail
+  - Common in income, housing prices, web traffic
+
+- Uniform Distribution
+  - All values equally likely
+  - Flat shape
+
+- Bimodal Distribution
+  - Two peaks
+  - Indicates two different groups in the data
+
+- Heavy‑Tailed Distributions
+  - More extreme values
+  - Common in finance, network traffic, social media metrics
+
+### What a Histogram Is
+
+- A histogram is a graph that shows how your data is distributed by grouping values into bins and counting how many data points fall into each bin.
+
+- How often do different ranges of values occur?
+
+### What “Density” Means in a Distribution
+
+- Density tells you how tightly packed the data is at different values.
+
+- Instead of counting how many data points fall into a bin (like a histogram), density shows how likely a value is to occur.
+
+- Think of density as a smooth version of a histogram.
+
+### Histogram vs Density
+
+| Feature | Histogram | Density Plot |
+| -------- | -------- | -------- |
+| 1 | Uses counts | Uses probability |
+| 2 | Bars | Smooth curve |
+| 3 | Depends on bin size | Shows the underlying shape more clearly |
+| 4 | Can look jagged | Independent of bin choices |
+
+<img src="images/distribution.jpeg" alt="distribution" style="width: 900px;">
 
 ---
 
