@@ -234,7 +234,7 @@ $IQR = 12 − 7 = 5$
 
 ### Formal Definition
 
-$Variance = \frac {\sum_{i=1}^{n}(x_i−mean)^2}{𝑁}$
+<big>$Variance = \frac {\sum_{i=1}^{n}(x_i−mean)^2}{𝑁}$</big>
 
 ### Intuition
 
