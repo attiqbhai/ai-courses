@@ -86,6 +86,8 @@
   - [Bayes’ Theorem](#bayes-theorem)
     - [The Formula](#the-formula)
     - [Intuition (the part that makes it “click”)](#intuition-the-part-that-makes-it-click)
+  - [Expected Value](#expected-value)
+    - [Formula](#formula-5)
 
 ---
 
@@ -818,3 +820,33 @@ $𝑃 ( 𝐴 ∩ 𝐵 ) = 𝑃 ( 𝐴 ) × 𝑃 ( 𝐵 ∣ 𝐴 )$
   - Probability of A given B
 
 - Bayes flips the direction.
+
+<img src="images/bayes-theorem.jpeg" alt="bayes-theorem" style="width: 900px;">
+
+---
+
+## Expected Value
+
+- Expected value (EV) is the average outcome you would expect if you repeated an experiment infinitely many times.
+
+- It’s not the value you will get — it’s the value you’d get on average.
+
+- Think of it as:  
+  **Long‑run average outcome.**
+
+### Formula
+
+If you have outcomes $𝑥_1 , 𝑥_2 , 𝑥_3 , …$ with probabilities $𝑝_1 , 𝑝_2 , 𝑝_3 , …$ :
+
+$𝐸 ( 𝑋 ) = ∑ ( 𝑥_𝑖 ⋅ 𝑝_𝑖 )$
+
+Meaning:
+
+- Multiply each outcome by its probability
+
+- Add them all up
+
+That’s the expected value.
+
+<img src="images/expected-value-example.jpeg" alt="expected-value-example" style="width: 900px;">
+
