@@ -328,3 +328,11 @@ Probability is a map from subset of $\Omega$ to Real Numbers ($\mathbb{R}$) and 
 7. If $A$ and $B$ are not disjoint ($ A \cap B \neq  \emptyset$), then
 
 - $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+---
+
+## Birthday Problem
+
+If there are n people in a room, how large does 'n' need to be for at least 50% chance of atleast 2 people sharing a birthday.
+
+5/44
