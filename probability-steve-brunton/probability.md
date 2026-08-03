@@ -143,7 +143,8 @@ $Total\ number\ of\ outcomes\ of\ 10\ Coins = 2^{10}$
 | :----:     | :----:   | :----:     | :----:     | :----:     |
 | 1st card out of 52     | 2nd card out of 51     |  3rd card out of 50     | 4th card out of 49     | 5th card out of 48     |
 
-$ = \frac {52!}{47!}$
+
+$ = \frac {52!}{47!} $
 
 ---
 
