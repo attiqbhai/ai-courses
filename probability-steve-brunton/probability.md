@@ -38,7 +38,7 @@ If something is too complex to Model and Measure, then it is a very good candida
 
 
 | Concept      | What it is                         | Direction      | Example                                      |
-|<-------------->|<------------------------------------->|<---------------->|<---------------------------------------------->|
+|:--------------:|:-------------------------------------:|:----------------:|:----------------------------------------------:|
 | Probability  | Math of uncertainty                 | Predictive     | Chance of rain tomorrow                      |
 | Statistics   | Analysis of observed data           | Descriptive    | Average rainfall last year                   |
 | Relationship | Probability predicts; statistics infers | Two-way bridge | ML uses both                                 |
