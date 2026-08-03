@@ -70,7 +70,7 @@ Each position has 10 choices.
 - Step 5: 10 choices
 - Step 6: 10 choices
 
-> $ = 26^3 × 10^3$
+> $ Total\ outcomes =  26^3 × 10^3$
 
 ###### 4. Rolling 3 dice
 
