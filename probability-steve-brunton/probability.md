@@ -85,7 +85,7 @@ $𝑃( 𝐴 ) = \frac{Number\ of\ ways\ A\ can\ happen}{Total\ Number\ of\ thing
 
 ---
 
-## Roll Fifteen dice at a dice## Roll Two dice at a time and get at least one die is a 5 - Formula
+## Roll Two dice at a time and get at least one die is a 5 - Formula
 
 **A = at least one die is a 5**
 
