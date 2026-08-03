@@ -15,6 +15,9 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 If a process happens in steps, and each step has a certain number of choices,
 then the total number of outcomes is the product of the number of choices at each step.
 
+If an experiment has two parts, where the first part can result in one of 
+$m$ outcomes and the second part can result in one of $n$ outcomes regardless of the outcome of the first part, then the total number of outcomes for the experiment is $m * n$.
+
 #### The Core Formula
 
 If a process has k steps:
