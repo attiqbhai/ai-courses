@@ -54,8 +54,7 @@ The probability of event $A$, written as $P(A)$, is a number between $0$ and $1$
 - $P(A) = 1 → A$ is certain
 
 - $0 < P(A) < 1 → A$ has some chance of occurring
-<br/>
-<br/>
+
 $𝑃( 𝐴 ) = \frac{Number\ of\ ways\ A\ can\ happen}{Total\ Number\ of\ things\  that\ can\ happen}$
 
 ### Examples
