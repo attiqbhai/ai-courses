@@ -110,9 +110,9 @@ Using the step rule:
 
 > $4 × 3 × 2 × 1 = 24$
 
-But because the two b’s are indistinguishable:
+But because the two B’s are indistinguishable:
 
-> $ \frac {24}{2!} = 12$
+> $\frac {24}{2!} = 12$
 
 | Concept                     | Value                         |
 |-----------------------------|-------------------------------|
