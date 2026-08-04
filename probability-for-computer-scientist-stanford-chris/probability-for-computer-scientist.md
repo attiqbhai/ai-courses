@@ -238,5 +238,5 @@ This is exactly how combinatorics builds sample spaces.
 
 ### Conclusion
 
-<img src="images/counting-with-steps-or.jpeg" alt="counting-with-steps-or" style="width: 900px;">
+<img src="images/counting-with-steps-or.jpeg" alt="counting-with-steps-or" style="width: 500px;">
 
