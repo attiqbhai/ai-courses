@@ -204,6 +204,11 @@ OR
 Total choices for the first character:
 > $10 + 26 = 36$
 
+#### 8 Bits Problem
+
+<img src="images/8-bits-problem.jpeg" alt="8-bits-problem" style="width: 600px;">
+
+
 ### Combining AND + OR (the real power)
 
 Most real problems use both rules.
@@ -238,4 +243,3 @@ This is exactly how combinatorics builds sample spaces.
 ### Conclusion
 
 <img src="images/counting-with-steps-or.jpeg" alt="counting-with-steps-or" style="width: 600px;">
-
