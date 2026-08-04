@@ -845,3 +845,19 @@ This is exactly what combinations count.
 
 <img src="images/sum-of-two-dice-2-1.jpeg" alt="sum-of-two-dice-2-1.jpeg" style="width: 800px;">
 
+---
+
+## Other Ways to make Sample Space
+
+<img src="images/other-ways-to-make-sample-space.jpeg" alt="other-ways-to-make-sample-space.jpeg" style="width: 800px;">
+
+---
+
+## Sum of two dice is 7 - Other Way
+
+<img src="images/sum-of-two-dice-7-other-way.jpeg" alt="sum-of-two-dice-7-other-way.jpeg" style="width: 800px;">
+
+<img src="images/sum-of-two-dice-7-other-way-1.jpeg" alt="sum-of-two-dice-7-other-way-1.jpeg" style="width: 800px;">
+
+---
+
