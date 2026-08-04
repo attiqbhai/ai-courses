@@ -375,3 +375,22 @@ Repeated:
 
 <img src="images/summary-of-combinatorics.jpeg" alt="summary-of-combinatorics.jpeg" style="width: 600px;">
 
+---
+
+## Combinations
+
+<img src="images/combinations-with-cake-1.jpeg" alt="combinations-with-cake-1.jpeg" style="width: 600px;">
+
+<img src="images/combinations-with-cake-2.jpeg" alt="combinations-with-cake-2.jpeg" style="width: 600px;">
+
+<img src="images/combinations-with-cake-3.jpeg" alt="combinations-with-cake-3.jpeg" style="width: 600px;">
+
+<img src="images/combinations-with-cake-4.jpeg" alt="combinations-with-cake-4.jpeg" style="width: 600px;">
+
+<img src="images/combinations-with-cake-5.jpeg" alt="combinations-with-cake-5.jpeg" style="width: 600px;">
+
+---
+
+## Combinations
+
+<img src="images/combinations.jpeg" alt="combinations.jpeg" style="width: 600px;">
