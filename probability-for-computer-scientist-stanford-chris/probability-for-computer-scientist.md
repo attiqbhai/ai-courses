@@ -223,7 +223,7 @@ Next three characters:
 > $10 × 10 × 10 = 10^3$
 
 Total plates:
-> $ = 36 × 10^3$
+> $36 × 10^3$
 
 This is exactly how combinatorics builds sample spaces.
 
