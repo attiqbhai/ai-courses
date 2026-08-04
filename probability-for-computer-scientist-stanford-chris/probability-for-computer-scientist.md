@@ -208,6 +208,8 @@ Total choices for the first character:
 
 <img src="images/8-bits-problem.jpeg" alt="8-bits-problem" style="width: 600px;">
 
+<img src="images/a-and-b.jpeg" alt="a-and-b" style="width: 600px;">
+
 
 ### Combining AND + OR (the real power)
 
@@ -243,3 +245,133 @@ This is exactly how combinatorics builds sample spaces.
 ### Conclusion
 
 <img src="images/counting-with-steps-or.jpeg" alt="counting-with-steps-or" style="width: 600px;">
+
+---
+
+## Step Rule Counting
+
+
+<img src="images/ordering-of-letter-chris.jpeg" alt="ordering-of-letter-chris.jpeg" style="width: 600px;">
+
+---
+
+## Permutations
+
+<img src="images/permutations.jpeg" alt="permutations.jpeg" style="width: 600px;">
+
+<img src="images/unique-six-digit-passcode.jpeg" alt="unique-six-digit-passcode.jpeg" style="width: 600px;">
+
+<img src="images/six-digit-passcode.jpeg" alt="six-digit-passcode.jpeg" style="width: 600px;">
+
+---
+
+## Why Overcounting Happens in Permutations
+
+When you compute permutations using:
+
+> $n!$
+
+you are assuming all items are distinct.
+
+But many real problems have repeated elements:
+
+- boba → b repeats
+
+- level → l and e repeat
+
+- banana → a repeats 3 times, n repeats 2 times
+
+If you treat repeated items as distinct, you end up counting the same arrangement multiple times.
+
+That’s overcounting.
+
+### The Core Idea
+
+When items repeat, swapping those repeated items does not create a new permutation.
+
+Example with “boba”:
+
+- The two b’s are identical
+
+- So “boba” and “boba” (swapping the b’s) are the same
+
+- But the factorial formula counts them as different
+
+This is the overcounting we must fix.
+
+### How We Fix Overcounting
+
+We divide by the factorial of the number of times each repeated item appears.
+
+General formula:
+If you have:
+
+- $n$ total items
+
+- $𝑘_1$ repeats of item 1
+
+- $𝑘_2$ repeats of item 2
+
+…
+
+Then:
+
+> $Permutations = \frac {𝑛!}{𝑘_1! * 𝑘_2!⋯}$
+
+### Example 1: “boba”
+
+Letters: b, o, b, a
+
+Repeated: b appears twice
+
+> $\frac {4 !} {2 !} = \frac {24} {2} = 12$
+
+Without dividing by $2!$, you would count each arrangement twice.
+
+### Example 2: “banana”
+
+Letters: b, a, n, a, n, a
+Repeated:
+
+- a appears 3 times
+
+- n appears 2 times
+
+> $\frac {6 !} {3 !   2 !} = \frac {720} {6 ⋅ 2} = 60$
+
+### Example 3: Mississippi
+
+Total letters: 11
+Repeated:
+
+- i appears 4 times
+
+- s appears 4 times
+
+- p appears 2 times
+
+> $\frac {11 !} {4 ! . 4 ! . 2 !} = \frac {39916800} {24 . 24 . 2} = 34650$
+
+
+### Quick Summary
+
+| Problem                     | Why Overcounting Happens                  | Fix                                      |
+|:-----------------------------:|:--------------------------------------------:|:-------------------------------------------:|
+| Permutations with repeats   | Factorial treats repeated items as unique | Divide by factorial of repeat counts      |
+| Example: boba               | Two b’s counted as different               | 4! / 2! = 12                              |
+| Example: banana             | a repeats 3 times, n repeats 2 times       | 6! / (3! 2!) = 60                         |
+
+---
+
+## General Approach to counting Permutations
+
+<img src="images/general-permutations-formula.jpeg" alt="general-permutations-formula.jpeg" style="width: 600px;">
+
+<img src="images/5-smughes-six-digit-passcode.jpeg" alt="5-smughes-six-digit-passcode.jpeg" style="width: 600px;">
+
+---
+
+## Summary of Combinatorics
+
+<img src="images/summary-of-combinatorics.jpeg" alt="summary-of-combinatorics.jpeg" style="width: 600px;">
+
