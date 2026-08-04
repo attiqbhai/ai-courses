@@ -815,6 +815,33 @@ This is exactly what combinations count.
 
 ## Equally Likely Income
 
-<img src="images/equally-likely-income.jpeg" alt="equally-likely-income.jpeg" style="width: 800px;">
+<img src="images/equally-likely-outcome.jpeg" alt="equally-likely-income.jpeg" style="width: 800px;">
 
-<img src="images/equally-likely-income-1.jpeg" alt="equally-likely-income-1.jpeg" style="width: 800px;">
+<img src="images/equally-likely-outcome-1.jpeg" alt="equally-likely-income-1.jpeg" style="width: 800px;">
+
+---
+
+## Not everything is Equally Likely
+
+<img src="images/not-equally-likely.jpeg" alt="not-equally-likely.jpeg" style="width: 800px;">
+
+---
+
+## Sum of Two dice is 7
+
+<img src="images/sum-of-two-dice-7.jpeg" alt="sum-of-two-dice-7.jpeg" style="width: 800px;">
+
+<img src="images/is-it-correct.jpeg" alt="is-it-correct.jpeg" style="width: 800px;">
+
+<img src="images/sum-of-two-dice-7-1.jpeg" alt="sum-of-two-dice-7-1.jpeg" style="width: 800px;">
+
+> Note:- The close you get to infinity, the more close true answer you will have.
+
+---
+
+## Sum of Two dice is 2
+
+<img src="images/sum-of-two-dice-2.jpeg" alt="sum-of-two-dice-2.jpeg" style="width: 800px;">
+
+<img src="images/sum-of-two-dice-2-1.jpeg" alt="sum-of-two-dice-2-1.jpeg" style="width: 800px;">
+
