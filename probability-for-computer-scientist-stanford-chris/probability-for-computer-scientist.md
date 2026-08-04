@@ -649,3 +649,172 @@ Example 4
 Put 5 identical candies into identical bags.
 
 Count partitions of 5.
+
+---
+
+## Summary of Combinatorics
+
+<img src="images/summary-of-combinatorics-2.jpeg" alt="summary-of-combinatorics-2.jpeg" style="width: 600px;">
+
+---
+
+## Distinct Strings and Distinct Buckets
+
+<img src="images/distinct-strings-distinct-buckets.jpeg" alt="distinct-strings-distinct-buckets.jpeg" style="width: 600px;">
+
+---
+
+## Summary of Combinatorics
+
+<img src="images/summary-of-combinatorics-3.jpeg" alt="summary-of-combinatorics-3.jpeg" style="width: 600px;">
+
+---
+
+## Address Over Counting General Rule
+
+- Overcount by fixed number: **You subtract it off**
+
+- Sometime you overcount by multiplicative: **you divide it out**.
+
+---
+
+## The Divider Method
+
+<img src="images/divider-method.jpeg" alt="divider-method.jpeg" style="width: 600px;">
+
+<img src="images/divider-method-1.jpeg" alt="divider-method-1.jpeg" style="width: 600px;">
+
+--- 
+
+## Summary of Combinatorics
+
+<img src="images/summary-of-combinatorics-4.jpeg" alt="summary-of-combinatorics-4.jpeg" style="width: 800px;">
+
+---
+
+## Counting Review
+
+<img src="images/dna-tree-question.jpeg" alt="dna-tree-question.jpeg" style="width: 800px;">
+
+### Step 1 — What are we counting?
+
+We want pairs of animals.
+
+A DNA distance is computed between two animals, so each calculation corresponds to one pair.
+
+So the question is:
+
+> How many pairs can be formed from N animals?
+
+This is exactly “N choose 2”.
+
+### Step 2 — Why “N choose 2”?
+
+Because:
+
+- Order does not matter (distance between A and B is the same as B and A)
+
+- We are choosing 2 animals out of N
+
+So the number of pairs is:
+
+> $\binom{N}{2}$
+
+### Step 3 — Expand the formula
+
+> $\binom{N}{2} = \frac {N(N - 1)}{2}$
+
+This is the number of DNA distance calculations needed.
+
+### Step 4 — Apply it to the slide
+
+Count the animals in the tree:
+
+Porifera  
+Ctenophora  
+Cnidaria  
+Acoela  
+Echinodermata  
+Chordata  
+Platyhelminthes  
+Rotifera  
+Ectoprocta  
+Brachiopoda  
+Mollusca  
+Annelida  
+Nematoda  
+Arthropoda  
+
+There are 14 animals shown.
+
+So the number of pairwise DNA distance calculations is:
+
+> $\binom{14}{2} = \frac {14 . 13}{2} = 91$
+
+### Why this makes sense
+
+If you list all pairs:
+
+- Porifera–Ctenophora
+
+- Porifera–Cnidaria
+
+- …
+
+- Arthropoda–Nematoda
+
+You will get 91 unique pairs.
+
+This is exactly what combinations count.
+
+---
+
+## Sample Space
+
+<img src="images/sample-space.jpeg" alt="sample-space.jpeg" style="width: 800px;">
+
+--- 
+
+## Event Space
+
+<img src="images/event-space.jpeg" alt="event-space.jpeg" style="width: 800px;">
+
+---
+
+## Sample Space and Event Space
+
+<img src="images/sample-event-space.jpeg" alt="sample-event-space.jpeg" style="width: 800px;">
+
+---
+
+## Probability
+
+<img src="images/probability.jpeg" alt="probability.jpeg" style="width: 800px;">
+
+---
+
+## What is Probability
+
+<img src="images/what-is-probability.jpeg" alt="what-is-probability.jpeg" style="width: 800px;">
+
+<img src="images/what-is-probability-1.jpeg" alt="what-is-probability-1.jpeg" style="width: 800px;">
+
+---
+
+## Axioms of Probability
+
+<img src="images/axioms-of-probability.jpeg" alt="axioms-of-probability.jpeg" style="width: 800px;">
+
+---
+
+## Core Rules of Probability
+
+<img src="images/core-rules-of-probability.jpeg" alt="core-rules-of-probability.jpeg" style="width: 800px;">
+
+---
+
+## Equally Likely Income
+
+<img src="images/equally-likely-income.jpeg" alt="equally-likely-income.jpeg" style="width: 800px;">
+
+<img src="images/equally-likely-income-1.jpeg" alt="equally-likely-income-1.jpeg" style="width: 800px;">
