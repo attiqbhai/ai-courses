@@ -18,6 +18,11 @@ then the total number of outcomes is the product of the number of choices at eac
 If an experiment has two parts, where the first part can result in one of 
 $m$ outcomes and the second part can result in one of $n$ outcomes regardless of the outcome of the first part, then the total number of outcomes for the experiment is $m * n$.
 
+Rewritten using set notation, the Step Rule of Counting states that if an experiment with two parts has an outcome from set $A$ in the first part, where 
+$|A| = m$, and an outcome from set $B$ in the second part (where the number of outcomes in $B$ is the same regardless of the outcome of the first part), where 
+$|B| = n$, then the total number of outcomes of the experiment is $|A||B| = m * n$
+.
+
 #### The Core Formula
 
 If a process has k steps:
