@@ -235,7 +235,6 @@ This is exactly how combinatorics builds sample spaces.
 | OR Rule (Sum Rule) | Do this OR that                  | Add       |
 
 
-
 ### Conclusion
 
 <img src="images/counting-with-steps-or.jpeg" alt="counting-with-steps-or" style="width: 500px;">
