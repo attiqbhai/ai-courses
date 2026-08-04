@@ -490,3 +490,162 @@ $\binom{5}{2} = \frac {5!} {2!. (5 - 2)!} = 10$
 ## Summary of Combinatorics
 
 <img src="images/summary-of-combinatorics-1.jpeg" alt="summary-of-combinatorics-1.jpeg" style="width: 600px;">
+
+---
+
+## What “put objects into buckets” means
+
+You have:
+
+- objects (balls, digits, people, items)
+
+- buckets (bins, groups, categories)
+
+The question is:
+How many ways can you distribute the objects into the buckets?
+
+> Different rules → different formulas.
+
+There are three main cases.
+
+### Case 1 — Objects are DISTINCT, Buckets are DISTINCT
+
+This is the easiest case.
+
+Example:
+Put 4 distinct balls into 3 distinct buckets.
+
+Each ball chooses a bucket.
+
+#### Step Rule:
+
+Each ball has 3 choices → multiply.
+
+> $3^4$
+
+This is the same logic as counting passwords or coin flips.
+
+#### When to use:
+
+- People assigned to teams
+
+- Files assigned to folders
+
+- Digits assigned to positions
+
+- Anything where both objects and buckets are labeled
+
+### Case 2 — Objects are DISTINCT, Buckets are DISTINCT, but with RESTRICTIONS
+
+Example restrictions:
+
+- No bucket can be empty
+
+- Each bucket must have exactly k objects
+
+- Bucket sizes must follow a pattern
+
+This becomes a combinations + permutations problem.
+
+#### Example: Put 5 distinct people into 2 distinct teams of sizes 2 and 3.
+
+Step 1: Choose 2 people for Team A
+
+> $\binom{5}{2}$
+
+Step 2: Remaining 3 automatically go to Team B
+
+> $\binom{3}{3} = 1$
+
+Total:
+
+> $\binom{5}{2}$
+
+This is the classic “committee selection” logic.
+
+### Case 3 — Objects are IDENTICAL, Buckets are DISTINCT
+
+This is the famous stars and bars formula.
+
+#### Example: Put 10 identical balls into 3 distinct buckets.
+
+Let the bucket counts be:
+
+> $𝑥_1 + 𝑥_2 + 𝑥_3 = 10$
+
+Number of solutions:
+
+> $\binom{10 + 3 - 1}{3 - 1} = \binom{12}{2}$
+
+#### When to use:
+
+- Distributing money
+
+- Distributing identical candies
+
+- Counting integer solutions
+
+- Probability distributions over counts
+
+This is extremely important in probability.
+
+### Case 4 — Objects are IDENTICAL, Buckets are IDENTICAL
+
+This is the hardest case — partitions of integers.
+
+#### Example: Put 5 identical balls into identical buckets.
+
+You count unique distributions, not arrangements.
+
+Example distributions of 5:
+
+- 5
+
+- 4 + 1
+
+- 3 + 2
+
+- 3 + 1 + 1
+
+- 2 + 2 + 1
+
+- 2 + 1 + 1 + 1
+
+- 1 + 1 + 1 + 1 + 1
+
+This is called integer partitioning.
+
+You rarely need this in basic probability, but it appears in advanced combinatorics.
+
+
+### How to know which case you’re in
+
+| Objects | Buckets | Restrictions | Method |
+|:---------:|:----------:|:--------------:|:--------:|
+| Distinct | Distinct | None | $k^n$ (step rule) |
+| Distinct | Distinct | Bucket sizes fixed | Combinations |
+| Distinct | Distinct | No bucket empty | Inclusion–exclusion |
+| Identical | Distinct | None | Stars and Bars |
+| Identical | Identical | None | Integer partitions |
+
+### Quick examples to make it click
+
+Example 1:  
+Put 6 distinct digits into 3 distinct buckets.
+
+> $3^6$
+
+Example 2  
+Put 6 distinct digits into 3 buckets, each bucket must have 2 digits.
+
+> $\binom{6}{2}\binom{4}{2}\binom{2}{2}$
+
+Example 3  
+Put 10 identical candies into 4 distinct bags.
+
+> $\binom{10 + 4 - 1}{4 - 1} = \binom{13}{3}$
+
+Example 4  
+Put 5 identical candies into identical bags.
+
+Count partitions of 5.
