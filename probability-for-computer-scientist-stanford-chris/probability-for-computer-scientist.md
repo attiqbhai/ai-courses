@@ -394,3 +394,99 @@ Repeated:
 ## Combinations
 
 <img src="images/combinations.jpeg" alt="combinations.jpeg" style="width: 600px;">
+
+<img src="images/combinations-2.jpeg" alt="combinations-2.jpeg" style="width: 600px;">
+
+<img src="images/combinations-3.jpeg" alt="combinations-3.jpeg" style="width: 600px;">
+
+<img src="images/combinations-4.jpeg" alt="combinations-4.jpeg" style="width: 600px;">
+
+---
+
+## Combinations
+
+### Big Idea
+
+Combinations count how many ways you can choose items when order does NOT matter.
+
+- If order does matter → **permutations**
+
+- If order does NOT matter → **combinations**
+
+This is the single most important distinction.
+
+### Why “order doesn’t matter”
+
+Choosing $\{A, B\}$ is the same as choosing $\{B, A\}$.
+
+Combinations treat these as one outcome.
+
+Permutations treat them as two outcomes.
+
+### The Formula
+
+If you choose k items from n items, the number of combinations is:
+
+$\binom{n}{k} = \frac {n!} {K!. (n - k)!}$
+
+This is pronounced “n choose k”.
+
+### Why the formula works (the intuition you’ve been building toward)
+
+#### Step 1 — Count all permutations
+
+If order mattered, choosing k items from n would be:
+
+$\frac {n!} {(n - k)!}$
+
+This counts all ordered selections.
+
+#### Step 2 — Fix overcounting
+
+But combinations don’t care about order.
+
+Every group of k items is counted k! times (once for each ordering).
+
+So we divide by k!:
+
+$\frac {n!} {K!. (n - k)!}$
+
+This is exactly the same overcounting idea you learned with “boba”, “banana”, etc.
+
+### Examples (this is where it becomes clear)
+
+#### Choose 3 students from 10
+
+Order doesn’t matter.
+
+$\binom{10}{3} = \frac {10!} {3!. (10 - 3)!} = 120$
+
+#### Choose 2 toppings for a pizza from 5
+
+Order doesn’t matter.
+
+$\binom{5}{2} = \frac {5!} {2!. (5 - 2)!} = 10$
+
+---
+
+## When to use combinations vs permutations
+
+| Situation | Order matters? | Use |
+| :---: | :---: | :---: |
+| Passwords | Yes | Permutations |
+| Seating people | Yes | Permutations |
+| Choosing a committee | No | Combinations |
+| Picking lottery numbers | No | Combinations |
+| Selecting toppings | No | Combinations |
+
+---
+
+## Cards Problem
+
+<img src="images/cards-problem.jpeg" alt="cards-problem.jpeg" style="width: 600px;">
+
+--- 
+
+## Summary of Combinatorics
+
+<img src="images/summary-of-combinatorics-1.jpeg" alt="summary-of-combinatorics-1.jpeg" style="width: 600px;">
