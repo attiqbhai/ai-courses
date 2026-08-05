@@ -39,20 +39,6 @@ Then the total number of possible outcomes is:
 
 That’s the Step Rule.
 
-#### Intuition
-
-You’re building an outcome step by step.
-
-Each step multiplies the number of possibilities.
-
-Think of it like building a sequence:
-
-- First position → choose something
-- Second position → choose something
-- Third position → choose something
-
-Multiply all choices together.
-
 #### Examples
 
 ##### 1. 10 coin flips
