@@ -912,3 +912,13 @@ So:
 
 > $𝑃(1 cow and 2 pigs) = \frac {12}{35}$
 
+---
+
+## Straight Poker Hand Problem
+
+<img src="images/straight-poker-hand.jpeg" alt="straight-poker-hand.jpeg" style="width: 800px;">
+
+<img src="images/straight-poker-hand-1.jpeg" alt="straight-poker-hand-1.jpeg" style="width: 800px;">
+
+<img src="images/straight-poker-hand-2.jpeg" alt="straight-poker-hand-2.jpeg" style="width: 800px;">
+
