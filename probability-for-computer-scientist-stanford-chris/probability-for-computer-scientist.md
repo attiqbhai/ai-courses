@@ -979,3 +979,7 @@ So:
 ## Dice, our Misunderstood friends
 
 <img src="images/dice-misunderstood-friends.jpeg" alt="dice-misunderstood-friends.jpeg" style="width: 800px;">
+
+<img src="images/dice-misunderstood-friends-1.jpeg" alt="dice-misunderstood-friends-1.jpeg" style="width: 800px;">
+
+<img src="images/dice-misunderstood-friends-2.jpeg" alt="dice-misunderstood-friends-2.jpeg" style="width: 800px;">
