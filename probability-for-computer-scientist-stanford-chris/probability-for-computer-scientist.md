@@ -983,3 +983,15 @@ So:
 <img src="images/dice-misunderstood-friends-1.jpeg" alt="dice-misunderstood-friends-1.jpeg" style="width: 800px;">
 
 <img src="images/dice-misunderstood-friends-2.jpeg" alt="dice-misunderstood-friends-2.jpeg" style="width: 800px;">
+
+---
+
+## Conditional Probability
+
+<img src="images/conditional-probability-2.jpeg" alt="conditional-probability-2.jpeg" style="width: 800px;">
+
+---
+
+## Conditional Probability - Visual intuition
+
+<img src="images/conditional-probability-visual-intuition.jpeg" alt="conditional-probability-visual-intuition.jpeg" style="width: 800px;">
