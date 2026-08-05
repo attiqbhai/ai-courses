@@ -867,3 +867,40 @@ This is exactly what combinations count.
 
 <img src="images/choice-of-sample-space.jpeg" alt="choice-of-sample-space.jpeg" style="width: 800px;">
 
+### Let’s solve this pigs-and-cows problem carefully.
+
+We have:
+
+- 4 cows
+
+- 3 pigs
+
+- 3 animals drawn (without replacement)
+
+- We want: P(1 cow and 2 pigs)
+
+### Total ways to draw 3 animals from 7
+
+We’re just choosing which 3 animals, order doesn’t matter:
+
+> $Total\ ways = \binom{7}{3} = \frac {7!}{3! * (7\ -\ 3)!} = \frac {7\ *\ 6\ *\ 5}{3\ *\ 2} = 35$
+
+### Favorable ways: 1 cow and 2 pigs
+
+#### Choose 1 cow from 4 cows:
+
+> $\binom{4}{1} = \frac {4!}{1!\ *\ (4 - 1)!} = \frac {4}{1} = 4$
+
+#### Choose 2 pigs from 3 pigs:
+
+> $\binom{3}{2} = \frac {3!}{2!\ *\ (3 - 2)!} = \frac {3}{1} = 3$
+
+#### Multiply (AND rule):
+
+
+> $Favorable\ ways\ =\ 4\ ×\ 3\ =\ 12$
+
+### Probability
+
+> $𝑃(1\ cow\ and\ 2\ pigs)\ =\frac {favorable}{total} =\frac {12}{35}$
+
