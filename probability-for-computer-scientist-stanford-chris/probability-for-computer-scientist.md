@@ -861,3 +861,9 @@ This is exactly what combinations count.
 
 ---
 
+## Cows Problem
+
+<img src="images/cows-problem.jpeg" alt="cows-problem.jpeg" style="width: 800px;">
+
+<img src="images/choice-of-sample-space.jpeg" alt="choice-of-sample-space.jpeg" style="width: 800px;">
+
