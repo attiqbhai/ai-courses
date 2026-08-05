@@ -867,6 +867,10 @@ This is exactly what combinations count.
 
 <img src="images/choice-of-sample-space.jpeg" alt="choice-of-sample-space.jpeg" style="width: 800px;">
 
+<img src="images/cows-problem-2.jpeg" alt="cows-problem-2.jpeg" style="width: 800px;">
+
+<img src="images/make-indistinct-distinct.jpeg" alt="make-indistinct-distinct.jpeg" style="width: 800px;">
+
 ### Let’s solve this pigs-and-cows problem carefully.
 
 We have:
