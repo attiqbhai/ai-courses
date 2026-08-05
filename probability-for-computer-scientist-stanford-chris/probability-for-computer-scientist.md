@@ -904,3 +904,7 @@ We’re just choosing which 3 animals, order doesn’t matter:
 
 > $𝑃(1\ cow\ and\ 2\ pigs)\ =\frac {favorable}{total} =\frac {12}{35}$
 
+So: 
+
+> $𝑃(1 cow and 2 pigs) = \frac {12}{35}$
+
