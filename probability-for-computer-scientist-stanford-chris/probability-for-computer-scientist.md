@@ -933,3 +933,37 @@ So:
 ## Serendipity
 
 <img src="images/serendipity.jpeg" alt="serendipity.jpeg" style="width: 800px;">
+
+---
+
+### Review Mutually Exclusive Events
+
+<img src="images/review-axiom-3.jpeg" alt="review-axiom-3.jpeg" style="width: 800px;">
+
+<img src="images/review-axiom-3-1.jpeg" alt="review-axiom-3-1.jpeg" style="width: 800px;">
+
+<img src="images/review-axiom-3-2.jpeg" alt="review-axiom-3-2.jpeg" style="width: 800px;">
+
+<img src="images/review-axiom-3-3.jpeg" alt="review-axiom-3-3.jpeg" style="width: 800px;">
+
+---
+
+## E Complement
+
+<img src="images/probability-of-e-and-e-complement.jpeg" alt="probability-of-e-and-e-complement.jpeg" style="width: 800px;">
+
+<img src="images/probability-of-e-and-e-complement-1.jpeg" alt="probability-of-e-and-e-complement-1.jpeg" style="width: 800px;">
+
+---
+
+## Serendipity
+
+<img src="images/serendipity.jpeg" alt="serendipity.jpeg" style="width: 800px;">
+
+---
+
+## Rule to Make Problem Easy
+
+<img src="images/rule-to make it easy.jpeg" alt="rule-to make it easy.jpeg" style="width: 800px;">
+
+---
