@@ -922,3 +922,28 @@ So:
 
 <img src="images/straight-poker-hand-2.jpeg" alt="straight-poker-hand-2.jpeg" style="width: 800px;">
 
+---
+
+## Key Tip
+
+<img src="images/equally-likely-probability.jpeg" alt="equally-likely-probability.jpeg" style="width: 600px;">
+
+---
+
+## Chip Defect Detection Problem
+
+<img src="images/chip-defect-detection.jpeg" alt="chip-defect-detection.jpeg" style="width: 800px;">
+
+<img src="images/chip-defect-detection-1.jpeg" alt="chip-defect-detection-1.jpeg" style="width: 800px;">
+
+---
+
+## Taget Re-visited
+
+<img src="images/target-revisited.jpeg" alt="target-revisited.jpeg" style="width: 800px;">
+
+---
+
+## Serendipity
+
+<img src="images/serendipity.jpeg" alt="serendipity.jpeg" style="width: 800px;">
