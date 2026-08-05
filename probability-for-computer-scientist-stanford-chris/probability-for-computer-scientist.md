@@ -967,3 +967,15 @@ So:
 <img src="images/rule-to make it easy.jpeg" alt="rule-to make it easy.jpeg" style="width: 800px;">
 
 ---
+
+## Conditional Probability
+
+<img src="images/conditional-probability-1.jpeg" alt="conditional-probability-1.jpeg" style="width: 800px;">
+
+<img src="images/conditional-probability.jpeg" alt="conditional-probability.jpeg" style="width: 800px;">
+
+---
+
+## Dice, our Misunderstood friends
+
+<img src="images/dice-misunderstood-friends.jpeg" alt="dice-misunderstood-friends.jpeg" style="width: 800px;">
