@@ -995,3 +995,94 @@ So:
 ## Conditional Probability - Visual intuition
 
 <img src="images/conditional-probability-visual-intuition.jpeg" alt="conditional-probability-visual-intuition.jpeg" style="width: 800px;">
+
+---
+
+## Conditional Probability - In general
+
+<img src="images/conditional-probability-in-general.jpeg" alt="conditional-probability-in-general.jpeg" style="width: 800px;">
+
+---
+
+## Netflix and Learn
+
+<img src="images/life-is-beautiful.jpeg" alt="life-is-beautiful.jpeg" style="width: 800px;">
+
+<img src="images/life-is-beautiful-conditional-probability.jpeg" alt="life-is-beautiful-conditional-probability.jpeg" style="width: 800px;">
+
+<img src="images/life-is-beautiful-conditional-probability-1.jpeg" alt="life-is-beautiful-conditional-probability-1.jpeg" style="width: 800px;">
+
+---
+
+## What is Machine Learning
+
+<img src="images/what-is-machine-learning.jpeg" alt="what-is-machine-learning.jpeg" style="width: 800px;">
+
+---
+
+## Probability Notation
+
+<img src="images/probability-notation.jpeg" alt="probability-notation.jpeg" style="width: 800px;">
+
+---
+
+## Chain Rule and Baby
+
+<img src="images/chain-rule-and-baby.jpeg" alt="chain-rule-and-baby.jpeg" style="width: 800px;">
+
+---
+
+## Probability Chain Rule
+
+<img src="images/probability-chain-rule.jpeg" alt="probability-chain-rule.jpeg" style="width: 800px;">
+
+---
+
+## Law of Total Probability
+
+<img src="images/law-of-total-probability.jpeg" alt="law-of-total-probability.jpeg" style="width: 800px;">
+
+---
+
+## Baby and Law of Total Probability
+
+<img src="images/baby-and-total-porbability.jpeg" alt="baby-and-total-porbability.jpeg" style="width: 800px;">
+
+---
+
+## Law of Total Probability Relation
+
+<img src="images/law-of-total-probability-relation.jpeg" alt="law-of-total-probability-relation.jpeg" style="width: 800px;">
+
+---
+
+## Law of Total Probability Formula
+
+<img src="images/law-of-total-probability-formula.jpeg" alt="law-of-total-probability-formula.jpeg" style="width: 800px;">
+
+<img src="images/law-of-total-probability-formula-1.jpeg" alt="law-of-total-probability-formula-1.jpeg" style="width: 800px;">
+
+<img src="images/law-of-total-probability-formula-2.jpeg" alt="law-of-total-probability-formula-2.jpeg" style="width: 800px;">
+
+<img src="images/law-of-total-probability-formula-3.jpeg" alt="law-of-total-probability-formula-3.jpeg" style="width: 800px;">
+
+---
+
+## Evolution of Bacteria
+
+<img src="images/evolution-of-bacteria.jpeg" alt="evolution-of-bacteria.jpeg" style="width: 800px;">
+
+<img src="images/evolution-of-bacteria-1.jpeg" alt="evolution-of-bacteria-1.jpeg" style="width: 800px;">
+
+---
+
+# Real Question 
+
+<img src="images/evolution-of-bacteria-surviving-mutation.jpeg" alt="evolution-of-bacteria-surviving-mutation.jpeg" style="width: 800px;">
+
+---
+
+## Relationship b/w Probabilities 
+
+<img src="images/relationship-between-probabilities.jpeg" alt="relationship-between-probabilities.jpeg" style="width: 800px;">
+
