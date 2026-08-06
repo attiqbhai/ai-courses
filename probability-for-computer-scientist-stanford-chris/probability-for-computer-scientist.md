@@ -1155,3 +1155,31 @@ jpeg" style="width: 800px;">
 <img src="images/lecture-5-review-4.jpeg" alt="lecture-5-review-4.jpeg" style="width: 800px;">
 
 <img src="images/lecture-5-review-5.jpeg" alt="lecture-5-review-5.jpeg" style="width: 800px;">
+
+---
+
+## Telling in Cards
+
+<img src="images/telling-in-cards.jpeg" alt="telling-in-cards.jpeg" style="width: 800px;">
+
+<img src="images/telling-in-cards-1.jpeg" alt="telling-in-cards-1.jpeg" style="width: 800px;">
+
+---
+
+## DNA Data
+
+<img src="images/dna-data.jpeg" alt="dna-data.jpeg" style="width: 800px;">
+
+<img src="images/discovered-hypotheis.jpeg" alt="discovered-hypotheis.jpeg" style="width: 800px;">
+
+---
+
+## Lecture-5: Learning Goals of today
+
+<img src="images/lecture-5-learning-goals of today.jpeg" alt="lecture-5-learning-goals of today.jpeg" style="width: 800px;">
+
+---
+
+## OR With Mutually Exclusive Events
+
+<img src="images/or-with-mutually-exclusive-events.jpeg" alt="or-with-mutually-exclusive-events.jpeg" style="width: 800px;">
