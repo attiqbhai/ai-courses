@@ -1142,3 +1142,16 @@ jpeg" style="width: 800px;">
 ## Multiple Choice Theory
 
 <img src="images/multiple-choice-theory.jpeg" alt="multiple-choice-theory.jpeg" style="width: 800px;">
+
+---
+## Review
+
+<img src="images/lecture-5-review-1.jpeg" alt="lecture-5-review-1.jpeg" style="width: 800px;">
+
+<img src="images/lecture-5-review-2.jpeg" alt="lecture-5-review-2.jpeg" style="width: 800px;">
+
+<img src="images/lecture-5-review-3.jpeg" alt="lecture-5-review-3.jpeg" style="width: 800px;">
+
+<img src="images/lecture-5-review-4.jpeg" alt="lecture-5-review-4.jpeg" style="width: 800px;">
+
+<img src="images/lecture-5-review-5.jpeg" alt="lecture-5-review-5.jpeg" style="width: 800px;">
