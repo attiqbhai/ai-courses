@@ -1086,3 +1086,59 @@ So:
 
 <img src="images/relationship-between-probabilities.jpeg" alt="relationship-between-probabilities.jpeg" style="width: 800px;">
 
+---
+
+## Bayes Theorem
+
+<img src="images/bayes-theorem.jpeg" alt="bayes-theorem.jpeg" 
+style="width: 800px;">
+
+<img src="images/bayes-theorem-1.jpeg" alt="bayes-theorem-1.jpeg" style="width: 800px;">
+---
+
+## Bayes Theorem Formula
+
+<img src="images/bayes-theorem-formula.jpeg" alt="bayes-theorem-formula.jpeg" style="width: 800px;">
+
+<img src="images/bayes-theorem-formula-1.jpeg" alt="bayes-theorem-formula-1.jpeg" style="width: 800px;">
+
+<img src="images/bayes-theorem-formula-2.jpeg" alt="bayes-theorem-formula-2.jpeg" style="width: 800px;">
+
+<img src="images/bayes-theorem-formula-3.jpeg" alt="bayes-theorem-formula-3.jpeg" style="width: 800px;">
+
+---
+
+## Detecting Spam email
+
+<img src="images/detecting-spam-email.jpeg" alt="detecting-spam-email.jpeg" style="width: 800px;">
+
+<img src="images/detecting-spam-email-1.jpeg" alt="detecting-spam-email-1.jpeg" style="width: 800px;">
+
+---
+
+## Bayes Theorem Terminology
+
+<img src="images/bayes-theorem-terminology.jpeg" alt="bayes-theorem-terminology.jpeg" style="width: 800px;">
+
+---
+
+## SARS Virus Test
+
+<img src="images/sars-virus-test.jpeg" alt="sars-virus-test.jpeg" style="width: 800px;">
+
+<img src="images/sars-virus-test-1.jpeg" alt="sars-virus-test-1.jpeg" style="width: 800px;">
+
+<img src="images/sars-virus-test-2.jpeg" alt="sars-virus-test-2.jpeg" style="width: 800px;">
+
+<img src="images/sars-virus-test-3.jpeg" alt="sars-virus-test-3.
+jpeg" style="width: 800px;">
+
+<img src="images/sars-virus-test-4.jpeg" alt="sars-virus-test-4.jpeg" style="width: 800px;">
+
+<img src="images/sars-virus-test-5.jpeg" alt="sars-virus-test-5.jpeg" style="width: 800px;">
+
+---
+
+## Multiple Choice Theory
+
+<img src="images/multiple-choice-theory.jpeg" alt="multiple-choice-theory.jpeg" style="width: 800px;">
