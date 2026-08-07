@@ -10,7 +10,7 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 ## Counting
 
-### Step Rule of Counting (also called the Multiplication Rule)
+### Step Rule / And Rule of Counting (also called the Multiplication Rule)
 
 If a process happens in steps, and each step has a certain number of choices,
 then the total number of outcomes is the product of the number of choices at each step.
@@ -117,7 +117,7 @@ But because the two B’s are indistinguishable:
 | Distinct permutations       | 12                            |
 | Method used                 | Step Rule of Counting         |
 
-### Counting With OR (The Sum Rule)
+### OR Rule / Counting With OR (The Sum Rule)
 
 The OR Rule says:
 
@@ -1311,3 +1311,15 @@ jpeg" style="width: 800px;">
 ## Properties of Pairs of Events - Example
 
 <img src="images/properties-of-pairs-of-events-example.jpeg" alt="properties-of-pairs-of-events-example.jpeg" style="width: 800px;">
+
+---
+
+## Properties of Pairs of Events - Example
+
+<img src="images/properties-of-pairs-of-events-example-1.jpeg" alt="properties-of-pairs-of-events-example-1.jpeg" style="width: 800px;">
+
+---
+
+## Conditonal Independence
+
+<img src="images/and-probability-conditional-independence.jpeg" alt="and-probability-conditional-independence.jpeg" style="width: 800px;">
