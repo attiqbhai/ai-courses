@@ -1183,3 +1183,131 @@ jpeg" style="width: 800px;">
 ## OR With Mutually Exclusive Events
 
 <img src="images/or-with-mutually-exclusive-events.jpeg" alt="or-with-mutually-exclusive-events.jpeg" style="width: 800px;">
+
+---
+
+## What about When not Mutually Exclusive
+
+<img src="images/what-about-when-not-mutually-exclusive.jpeg" alt="what-about-when-not-mutually-exclusive.jpeg" style="width: 800px;">
+
+---
+
+## OR Without Mutually Exclusive Events
+
+<img src="images/or-with-not-mutually-exclusive-events.jpeg" alt="or-with-not-mutually-exclusive-events.jpeg" style="width: 800px;">
+
+---
+
+## More than two sets
+
+<img src="images/more-than-two-sets.jpeg" alt="more-than-two-sets.jpeg" style="width: 800px;">
+
+---
+
+## Inclusion / Exclusion with three events
+
+<img src="images/inclusion-exclusion-with-three-events.jpeg" alt="inclusion-exclusion-with-three-events.jpeg" style="width: 800px;">
+
+<img src="images/inclusion-exclusion-with-three-events-1.jpeg" alt="inclusion-exclusion-with-three-events-1.jpeg" style="width: 800px;">
+
+<img src="images/inclusion-exclusion-with-three-events-2.jpeg" alt="inclusion-exclusion-with-three-events-2.jpeg" style="width: 800px;">
+
+<img src="images/inclusion-exclusion-with-three-events-3.jpeg" alt="inclusion-exclusion-with-three-events-3.jpeg" style="width: 800px;">
+
+<img src="images/inclusion-exclusion-with-three-events-4.jpeg" alt="inclusion-exclusion-with-three-events-4.jpeg" style="width: 800px;">
+
+<img src="images/inclusion-exclusion-with-three-events-5.jpeg" alt="inclusion-exclusion-with-three-events-5.jpeg" style="width: 800px;">
+
+<img src="images/inclusion-exclusion-with-three-events-6.jpeg" alt="inclusion-exclusion-with-three-events-6.jpeg" style="width: 800px;">
+
+---
+
+## OR & AND Probability Summary
+
+<img src="images/or-n-and-probability-summary.jpeg" alt="or-n-and-probability-summary.jpeg" style="width: 800px;">
+
+---
+
+## Probability of AND
+
+<img src="images/probability-of-and.jpeg" alt="probability-of-and.jpeg" style="width: 800px;">
+
+---
+
+## AND Probability -  Independent
+
+<img src="images/and-independent-probability.jpeg" alt="and-independent-probability.jpeg" style="width: 800px;">
+
+<img src="images/and-independent-probability-1.jpeg" alt="and-independent-probability-1.jpeg" style="width: 800px;">
+
+---
+
+## AND Probability -  Independent - Key
+
+<img src="images/and-independent-probability-key.jpeg" alt="and-independent-probability-key.jpeg" style="width: 800px;">
+
+---
+
+## AND Probability -  Independent - Reciprocal
+
+<img src="images/and-independent-probability-reciprocal.jpeg" alt="and-independent-probability-reciprocal.jpeg" style="width: 800px;">
+
+---
+
+## AND Probability -  Independent - Dice
+
+<img src="images/and-independent-probability-dice.jpeg" alt="and-independent-probability-dice.jpeg" style="width: 800px;">
+
+---
+
+## AND Probability -  Independent - Looks like
+
+<img src="images/and-independent-probability-lookslike.jpeg" alt="and-independent-probability-lookslike.jpeg" style="width: 800px;">
+
+---
+
+## What does Mutual Exclusiveness Looks Like
+
+<img src="images/mutual-exclusiveness-lookslike.jpeg" alt="mutual-exclusiveness-lookslike.jpeg" style="width: 800px;">
+
+---
+
+## This is what Independence Looks Like
+
+<img src="images/what-Independence-Looks-Like.jpeg" alt="what-Independence-Looks-Like.jpeg" style="width: 800px;">
+
+---
+
+## This is what dependence Looks Like
+
+<img src="images/what-dependence-Looks-Like.jpeg" alt="what-dependence-Looks-Like.jpeg" style="width: 800px;">
+
+---
+
+## AND Probability -  Independent - Intuition
+
+<img src="images/and-independent-probability-intuition-1.jpeg" alt="and-independent-probability-intuition-1.jpeg" style="width: 800px;">
+
+---
+
+## AND Probability -  Independent - Generalization
+
+<img src="images/and-independent-probability-generalization.jpeg" alt="and-independent-probability-generalization.jpeg" style="width: 800px;">
+
+---
+
+## AND Probability -  Independent - Generalization - Example
+
+<img src="images/and-independent-probability-generalization-example.jpeg" alt="and-independent-probability-generalization-example.jpeg" style="width: 800px;">
+
+---
+
+## Properties of Pairs of Events
+
+<img src="images/properties-of-pairs-of-events.jpeg" alt="properties-of-pairs-of-events.jpeg" style="width: 800px;">
+
+---
+
+## Properties of Pairs of Events - Example
+
+<img src="images/properties-of-pairs-of-events-example.jpeg" alt="properties-of-pairs-of-events-example.jpeg" style="width: 800px;">
