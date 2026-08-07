@@ -8,9 +8,7 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 ---
 
-## Counting
-
-### Step Rule / And Rule of Counting (also called the Multiplication Rule)
+## Counting - Step Rule / And Rule of Counting (also called the Multiplication Rule)
 
 If a process happens in steps, and each step has a certain number of choices,
 then the total number of outcomes is the product of the number of choices at each step.
@@ -23,7 +21,7 @@ $|A| = m$, and an outcome from set $B$ in the second part (where the number of o
 $|B| = n$, then the total number of outcomes of the experiment is $|A||B| = m * n$
 .
 
-#### The Core Formula
+### The Core Formula
 
 If a process has k steps:
 
@@ -39,9 +37,9 @@ Then the total number of possible outcomes is:
 
 That’s the Step Rule.
 
-#### Examples
+### Examples
 
-##### 1. 10 coin flips
+#### 1. 10 coin flips
 
 Each flip has 2 choices (outcomes): H or T.
 
@@ -49,13 +47,13 @@ There are 10 steps, each with 2 choices.
 
 > $2^{10} = 1024$
 
-##### 2. Password of length 6 using digits (0–9)
+#### 2. Password of length 6 using digits (0–9)
 
 Each position has 10 choices.
 
 > $10^6 = 1,000,000$
 
-###### 3. License plate with 3 letters + 3 digits
+##### 3. License plate with 3 letters + 3 digits
 
 - Step 1: 26 choices
 - Step 2: 26 choices
@@ -66,13 +64,13 @@ Each position has 10 choices.
 
 > $Total\ outcomes =  26^3 × 10^3$
 
-###### 4. Rolling 3 dice
+##### 4. Rolling 3 dice
 
 Each die has 6 choices.
 
 > $6^3 = 216$
 
-###### 5. Word: "BOBA"
+##### 5. Word: "BOBA"
 
 The word BOBA has 4 letters:
 - B
@@ -117,7 +115,9 @@ But because the two B’s are indistinguishable:
 | Distinct permutations       | 12                            |
 | Method used                 | Step Rule of Counting         |
 
-### OR Rule / Counting With OR (The Sum Rule)
+---
+
+## Counting: OR Rule / Counting With OR (The Sum Rule)
 
 The OR Rule says:
 
@@ -132,14 +132,14 @@ It complements the Step Rule:
 
 - OR Rule = OR → add
 
-#### Intuition
+### Intuition
 
 Think of OR as choosing between options.
 
 If you can do Option A OR Option B,
 you add the number of ways each option can happen.
 
-#### Simple Example
+### Simple Example
 
 You want to choose a drink:
 
@@ -151,7 +151,7 @@ You can choose coffee OR tea.
 
 > $3 + 2 = 5$
 
-#### Important Condition
+### Important Condition
 
 The OR rule works only if the options do not overlap.
 
@@ -159,7 +159,7 @@ If they overlap, you must subtract the overlap (like in set theory):
 
 > $∣ 𝐴 \cup 𝐵 ∣ = ∣ 𝐴 ∣ + ∣ 𝐵 ∣ − ∣ 𝐴 \cap 𝐵 ∣$
 
-#### Die Example
+### Die Example
 
 Event A = “roll a 1 or a 6”
 
@@ -167,7 +167,7 @@ Event A = “roll a 1 or a 6”
 
 Two outcomes.
 
-#### Example : Choosing a letter
+### Example : Choosing a letter
 
 Choose a vowel OR a consonant from the English alphabet.
 
@@ -177,7 +177,7 @@ Choose a vowel OR a consonant from the English alphabet.
 
 > $5 + 21 = 26$
 
-#### Example: Password rules
+### Example: Password rules
 
 A password must start with:
 
@@ -190,14 +190,15 @@ OR
 Total choices for the first character:
 > $10 + 26 = 36$
 
-#### 8 Bits Problem
+### 8 Bits Problem
 
 <img src="images/8-bits-problem.jpeg" alt="8-bits-problem" style="width: 600px;">
 
 <img src="images/a-and-b.jpeg" alt="a-and-b" style="width: 600px;">
 
+---
 
-### Combining AND + OR (the real power)
+## Counting: Combining AND + OR (the real power)
 
 Most real problems use both rules.
 
@@ -220,21 +221,24 @@ Total plates:
 
 This is exactly how combinatorics builds sample spaces.
 
-### Quick Summary
+---
+
+## Counting: Quick Summary
 
 | Rule               | Meaning                         | Operation |
 |--------------------|----------------------------------|-----------|
 | Step Rule (AND)    | Do this AND then that            | Multiply  |
 | OR Rule (Sum Rule) | Do this OR that                  | Add       |
 
+---
 
-### Conclusion
+## Counting: Conclusion
 
 <img src="images/counting-with-steps-or.jpeg" alt="counting-with-steps-or" style="width: 600px;">
 
 ---
 
-## Step Rule Counting
+## Counting: Step Rule Counting
 
 
 <img src="images/ordering-of-letter-chris.jpeg" alt="ordering-of-letter-chris.jpeg" style="width: 600px;">
