@@ -2,6 +2,14 @@
 
 ---
 
+## Cheat Sheet
+
+### Counting - Step Rule / And Rule of Counting
+
+### Counting: OR Rule / Counting With OR (The Sum Rule)
+
+---
+
 ## Course Material Online
 
 https://chrispiech.github.io/probabilityForComputerScientists/en/
