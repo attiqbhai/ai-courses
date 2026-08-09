@@ -1454,3 +1454,10 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/lying-with-statistics.jpeg" alt="lying-with-statistics" style="width: 800px;">
 
 <img src="images/lying-with-statistics-part-2.jpeg" alt="lying-with-statistics-part-2" style="width: 800px;">
+
+<img src="images/properties-of-expectations.jpeg" alt="properties-of-expectations" style="width: 800px;">
+
+<img src="images/expectations-game.jpeg" alt="expectations-game" style="width: 800px;">
+
+<img src="images/expectations-game-1.jpeg" alt="expectations-game-1" style="width: 800px;">
+
