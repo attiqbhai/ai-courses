@@ -1419,3 +1419,38 @@ This means:
 <img src="images/probability-mass-function-definition-5.jpeg" alt="probability-mass-function-definition-5.jpeg" style="width: 800px;">
 
 <img src="images/probability-mass-function-definition-6.jpeg" alt="probability-mass-function-definition-6.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-7.jpeg" alt="probability-mass-function-definition-7.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-8.jpeg" alt="probability-mass-function-definition-8.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-9.jpeg" alt="probability-mass-function-definition-9.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-10.jpeg" alt="probability-mass-function-definition-10.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-11.jpeg" alt="probability-mass-function-definition-11.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-12.jpeg" alt="probability-mass-function-definition-12.jpeg" style="width: 800px;">
+
+---
+
+## Expectations
+
+Expected value is the probability‑weighted average of all possible outcomes of a random variable. It tells you the long‑run average you would see if you repeated the same random experiment many times.
+
+### What expected value means
+
+If you repeat a random process (like rolling a die or flipping a coin) thousands of times, the average result will approach the expected value. It’s the “center of gravity” of a probability distribution. 
+
+
+<img src="images/expectations.jpeg" alt="expectations.jpeg" style="width: 800px;">
+
+<img src="images/expected-value.jpeg" alt="expected-value" style="width: 800px;">
+
+<img src="images/expected-value-definition.jpeg" alt="expected-value-definition" style="width: 800px;">
+
+<img src="images/expected-value-example.jpeg" alt="expected-value-example" style="width: 800px;">
+
+<img src="images/lying-with-statistics.jpeg" alt="lying-with-statistics" style="width: 800px;">
+
+<img src="images/lying-with-statistics-part-2.jpeg" alt="lying-with-statistics-part-2" style="width: 800px;">
