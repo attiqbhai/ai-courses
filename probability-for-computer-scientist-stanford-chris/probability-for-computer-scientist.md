@@ -1402,3 +1402,20 @@ This means:
 
 <img src="images/probability-mass-function.jpeg" alt="probability-mass-function.jpeg" style="width: 800px;">
 
+---
+
+## Probability Mass function
+
+<img src="images/probability-mass-function-definition.jpeg" alt="probability-mass-function-definition.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-1.jpeg" alt="probability-mass-function-definition-1.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-2.jpeg" alt="probability-mass-function-definition-2.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-3.jpeg" alt="probability-mass-function-definition-3.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-4.jpeg" alt="probability-mass-function-definition-4.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-5.jpeg" alt="probability-mass-function-definition-5.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function-definition-6.jpeg" alt="probability-mass-function-definition-6.jpeg" style="width: 800px;">
