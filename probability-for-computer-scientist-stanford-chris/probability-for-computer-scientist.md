@@ -1335,3 +1335,34 @@ jpeg" style="width: 800px;">
 ## Conditonal Independence
 
 <img src="images/and-probability-conditional-independence.jpeg" alt="and-probability-conditional-independence.jpeg" style="width: 800px;">
+
+Two events A and B are conditionally independent given C if:
+
+> Once you know C happened, learning A tells you nothing new about B.
+
+Formally:
+
+> $𝑃 ( 𝐴 ∣ 𝐵 , 𝐶 ) = 𝑃 ( 𝐴 ∣ 𝐶 )$
+
+and equivalently:
+
+> $𝑃 ( 𝐵 ∣ 𝐴 , 𝐶 ) = 𝑃 ( 𝐵 ∣ 𝐶 )$
+
+This means:
+
+> **C explains everything that connects A and B.**
+
+<img src="images/conditional-independence-formula.jpeg" alt="conditional-independence-formula.jpeg" style="width: 800px;">
+
+<img src="images/independent-relationship-changes.jpeg" alt="independent-relationship-changes.jpeg" style="width: 800px;">
+
+<img src="images/probability-based-how-many-watched.jpeg" alt="probability-based-how-many-watched.jpeg" style="width: 800px;">
+
+<img src="images/probability-based-on-condition.jpeg" alt="probability-based-on-condition.jpeg" style="width: 800px;">
+
+<img src="images/probability-based-on-set-of-conditions.jpeg" alt="probability-based-on-set-of-conditions.jpeg" style="width: 800px;">
+
+<img src="images/watched-four-movies.jpeg" alt="watched-four-movies.jpeg" style="width: 800px;">
+
+<img src="images/watched-four-movies-1.jpeg" alt="watched-four-movies-1.jpeg" style="width: 800px;">
+
