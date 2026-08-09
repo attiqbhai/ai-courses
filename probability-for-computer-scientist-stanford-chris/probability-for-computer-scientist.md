@@ -1461,3 +1461,12 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 
 <img src="images/expectations-game-1.jpeg" alt="expectations-game-1" style="width: 800px;">
 
+---
+
+## Lecture - 7
+
+<img src="images/leacture-7-learning-goal.jpeg" alt="leacture-7-learning-goal" style="width: 800px;">
+
+<img src="images/is-peer-grading-accurate.jpeg" alt="is-peer-grading-accurate" style="width: 800px;">
+
+<img src="images/lecture-7-review.jpeg" alt="lecture-7-review" style="width: 800px;">
