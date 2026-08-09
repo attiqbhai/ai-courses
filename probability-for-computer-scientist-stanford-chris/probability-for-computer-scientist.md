@@ -1366,3 +1366,39 @@ This means:
 
 <img src="images/watched-four-movies-1.jpeg" alt="watched-four-movies-1.jpeg" style="width: 800px;">
 
+<img src="images/watched-four-movies-2.jpeg" alt="watched-four-movies-2.jpeg" style="width: 800px;">
+
+<img src="images/watched-four-movies-out-of-thirty.jpeg" alt="watched-four-movies-out-of-thirty.jpeg" style="width: 800px;">
+
+<img src="images/watched-four-movies-out-of-thirty-solution.jpeg" alt="watched-four-movies-out-of-thirty-solution.jpeg" style="width: 800px;">
+
+<img src="images/watched-four-movies-out-of-thirty-conditional-independence.jpeg" alt="watched-four-movies-out-of-thirty-conditional-independence.jpeg" style="width: 800px;">
+
+<img src="images/watched-four-movies-out-of-thirty-tag-based-dependence.jpeg" alt="watched-four-movies-out-of-thirty-tag-based-dependence.jpeg" style="width: 800px;">
+
+<img src="images/conditional-independence-is-practical.jpeg" alt="conditional-independence-is-practical.jpeg" style="width: 800px;">
+
+<img src="images/conditional-dependence-changes.jpeg" alt="conditional-dependence-changes.jpeg" style="width: 800px;">
+
+<img src="images/conditional-independence-changes.jpeg" alt="conditional-independence-changes.jpeg" style="width: 800px;">
+
+---
+
+## Random Variables
+
+<img src="images/random-variables.jpeg" alt="random-variables.jpeg" style="width: 800px;">
+
+<img src="images/learning-random-variables.jpeg" alt="learning-random-variables.jpeg" style="width: 800px;">
+
+<img src="images/pirates-of-variables.jpeg" alt="pirates-of-variables.jpeg" style="width: 800px;">
+
+<img src="images/random-variable-definition.jpeg" alt="random-variable-definition.jpeg" style="width: 800px;">
+
+<img src="images/random-variable-and-events.jpeg" alt="random-variable-and-events.jpeg" style="width: 800px;">
+
+<img src="images/example-of-random-variables.jpeg" alt="example-of-random-variables.jpeg" style="width: 800px;">
+
+<img src="images/properties-of-random-variables.jpeg" alt="properties-of-random-variables.jpeg" style="width: 800px;">
+
+<img src="images/probability-mass-function.jpeg" alt="probability-mass-function.jpeg" style="width: 800px;">
+
