@@ -1539,3 +1539,7 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/automatically-know-pmf.jpeg" alt="automatically-know-pmf" style="width: 800px;">
 
 <img src="images/pmf-as-graph.jpeg" alt="pmf-as-graph" style="width: 800px;">
+
+<img src="images/pmf-as-graph-1.jpeg" alt="pmf-as-graph-1" style="width: 800px;">
+
+<img src="images/pmf-as-graph-2.jpeg" alt="pmf-as-graph-2" style="width: 800px;">
