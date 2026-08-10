@@ -8,6 +8,36 @@
 
 <img src="images/summary-of-combinatorics-4.jpeg" alt="summary-of-combinatorics-4.jpeg" style="width: 800px;">
 
+### Core Rules of Probability
+
+<img src="images/core-rules-of-probability.jpeg" alt="core-rules-of-probability.jpeg" style="width: 800px;">
+
+### Equally Likely Outcomes
+
+<img src="images/equally-likely-outcome-1.jpeg" alt="equally-likely-income-1.jpeg" style="width: 800px;">
+
+### Conditional Probability - Visual intuition
+
+<img src="images/conditional-probability-visual-intuition.jpeg" alt="conditional-probability-visual-intuition.jpeg" style="width: 800px;">
+
+### Conditional Probability - In general
+
+<img src="images/conditional-probability-in-general.jpeg" alt="conditional-probability-in-general.jpeg" style="width: 800px;">
+
+### Law of Total Probability
+
+<img src="images/law-of-total-probability-formula.jpeg" alt="law-of-total-probability-formula.jpeg" style="width: 800px;">
+
+### Bayes Theorem
+
+<img src="images/bayes-theorem-formula-3.jpeg" alt="bayes-theorem-formula-3.jpeg" style="width: 800px;">
+
+### Bayes Theorem Terminology
+
+<img src="images/bayes-theorem-terminology.jpeg" alt="bayes-theorem-terminology.jpeg" style="width: 800px;">
+
+---
+
 ---
 
 ## Course Material Online
@@ -1470,3 +1500,16 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/is-peer-grading-accurate.jpeg" alt="is-peer-grading-accurate" style="width: 800px;">
 
 <img src="images/lecture-7-review.jpeg" alt="lecture-7-review" style="width: 800px;">
+
+<img src="images/probability-mass-function-value.jpeg" alt="probability-mass-function-value" style="width: 800px;">
+
+<img src="images/probability-mass-function-as-an-equation.jpeg" alt="probability-mass-function-as-an-equation" style="width: 800px;">
+
+<img src="images/random-variable-fundamental-properties.jpeg" alt="random-variable-fundamental-properties" style="width: 800px;">
+
+<img src="images/expectations-formula-with-comments.jpeg" alt="expectations-formula-with-comments" style="width: 800px;">
+
+<img src="images/properties-of-expectations-in-review.jpeg" alt="properties-of-expectations-in-review" style="width: 800px;">
+
+
+
