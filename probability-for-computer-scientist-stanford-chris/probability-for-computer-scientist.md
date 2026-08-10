@@ -1511,5 +1511,31 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 
 <img src="images/properties-of-expectations-in-review.jpeg" alt="properties-of-expectations-in-review" style="width: 800px;">
 
+<img src="images/expectations-from-data.jpeg" alt="expectations-from-data" style="width: 800px;">
+
+<img src="images/expectation-of-sum.jpeg" alt="expectation-of-sum" style="width: 800px;">
+
+<img src="images/linearity-of-expectations.jpeg" alt="linearity-of-expectations" style="width: 800px;">
+
+<img src="images/is-expectation-enough.jpeg" alt="is-expectation-enough" style="width: 800px;">
+
+<img src="images/pmf-is-complete.jpeg" alt="pmf-is-complete" style="width: 800px;">
+
+<img src="images/cas-109-we-are-here-lecture-7.jpeg" alt="cas-109-we-are-here-lecture-7" style="width: 800px;">
+
+<img src="images/coins-everywhere.jpeg" alt="coins-everywhere" style="width: 800px;">
+
+<img src="images/many-random-variables-follow-this.jpeg" alt="many-random-variables-follow-this" style="width: 800px;">
 
 
+### Probability of exactly K Heads in N experiments is
+
+<img src="images/Probability of exactly K Heads.jpeg" alt="Probability of exactly K Heads" style="width: 800px;">
+
+<img src="images/Probability of exactly K Heads Formula.jpeg" alt="Probability of exactly K Heads Formula" style="width: 800px;">
+
+<img src="images/random-variable-binomial.jpeg" alt="random-variable-binomial" style="width: 800px;">
+
+<img src="images/automatically-know-pmf.jpeg" alt="automatically-know-pmf" style="width: 800px;">
+
+<img src="images/pmf-as-graph.jpeg" alt="pmf-as-graph" style="width: 800px;">
