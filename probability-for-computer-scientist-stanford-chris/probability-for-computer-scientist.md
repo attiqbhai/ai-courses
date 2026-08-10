@@ -4,9 +4,9 @@
 
 ## Cheat Sheet
 
-### Counting - Step Rule / And Rule of Counting
+### Counting - Rules
 
-### Counting: OR Rule / Counting With OR (The Sum Rule)
+<img src="images/summary-of-combinatorics-4.jpeg" alt="summary-of-combinatorics-4.jpeg" style="width: 800px;">
 
 ---
 
