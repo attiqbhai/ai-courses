@@ -1627,3 +1627,22 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/peer-grading-in-coursera-3.jpeg" alt="peer-grading-in-coursera-3" style="width: 800px;">
 
 <img src="images/peer-grading-in-coursera-4.jpeg" alt="peer-grading-in-coursera-4" style="width: 800px;">
+
+<img src="images/peer-grading-in-coursera-5.jpeg" alt="peer-grading-in-coursera-5" style="width: 800px;">
+
+<img src="images/variance.jpeg" alt="variance" style="width: 800px;">
+
+<img src="images/variance-key.jpeg" alt="variance-key" style="width: 800px;">
+
+<img src="images/approx-of-pmf.jpeg" alt="approx-of-pmf" style="width: 800px;">
+
+<img src="images/computing-variance.jpeg" alt="computing-variance.jpeg" style="width: 800px;">
+
+<img src="images/computing-variance-1.jpeg" alt="computing-variance-1.jpeg" style="width: 800px;">
+
+<img src="images/standard-deviation.jpeg" alt="standard-deviation.jpeg" style="width: 800px;">
+
+---
+
+## Lecture-8
+
