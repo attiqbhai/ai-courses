@@ -36,6 +36,12 @@
 
 <img src="images/bayes-theorem-terminology.jpeg" alt="bayes-theorem-terminology.jpeg" style="width: 800px;">
 
+### Binomials
+
+<img src="images/Probability of exactly K Heads Formula.jpeg" alt="Probability of exactly K Heads Formula" style="width: 800px;">
+
+<img src="images/random-variable-binomial.jpeg" alt="random-variable-binomial" style="width: 800px;">
+
 ---
 
 ---
@@ -1543,3 +1549,5 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/pmf-as-graph-1.jpeg" alt="pmf-as-graph-1" style="width: 800px;">
 
 <img src="images/pmf-as-graph-2.jpeg" alt="pmf-as-graph-2" style="width: 800px;">
+
+<img src="images/coins-with-bionomials.jpeg" alt="coins-with-bionomials" style="width: 800px;">
