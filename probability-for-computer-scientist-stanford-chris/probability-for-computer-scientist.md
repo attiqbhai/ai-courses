@@ -42,6 +42,8 @@
 
 <img src="images/random-variable-binomial.jpeg" alt="random-variable-binomial" style="width: 800px;">
 
+<img src="images/coins-with-bionomials.jpeg" alt="coins-with-bionomials" style="width: 800px;">
+
 ---
 
 ---
@@ -1551,3 +1553,77 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/pmf-as-graph-2.jpeg" alt="pmf-as-graph-2" style="width: 800px;">
 
 <img src="images/coins-with-bionomials.jpeg" alt="coins-with-bionomials" style="width: 800px;">
+
+<img src="images/how-many-ads-clicked.jpeg" alt="how-many-ads-clicked" style="width: 800px;">
+
+### Find Probability that H is less than 10
+
+<img src="images/find-probability-that-h-lt-10.jpeg" alt="find-probability-that-h-lt-10" style="width: 800px;">
+
+<img src="images/how-many-ads-clicked-python.jpeg" alt="how-many-ads-clicked-python" style="width: 800px;">
+
+<img src="images/how-many-ads-clicked-python-1.jpeg" alt="how-many-ads-clicked-python-1" style="width: 800px;">
+
+<img src="images/how-many-ads-clicked-graph.jpeg" alt="how-many-ads-clicked-graph" style="width: 800px;">
+
+<img src="images/how-many-servers-crash.jpeg" alt="how-many-servers-crash" style="width: 800px;">
+
+<img src="images/galton-board.jpeg" alt="galton-board" style="width: 800px;">
+
+<img src="images/galton-board-1.jpeg" alt="galton-board-1" style="width: 800px;">
+
+<img src="images/galton-board-2.jpeg" alt="galton-board-2" style="width: 800px;">
+
+<img src="images/galton-board-3.jpeg" alt="galton-board-3" style="width: 800px;">
+
+<img src="images/galton-board-4.jpeg" alt="galton-board-4" style="width: 800px;">
+
+<img src="images/galton-board-5.jpeg" alt="galton-board-5" style="width: 800px;">
+
+<img src="images/galton-board-6.jpeg" alt="galton-board-6" style="width: 800px;">
+
+<img src="images/galton-board-7.jpeg" alt="galton-board-7" style="width: 800px;">
+
+<img src="images/basket-ball-series.jpeg" alt="basket-ball-series" style="width: 800px;">
+
+<img src="images/basket-ball-series-1.jpeg" alt="basket-ball-series-1" style="width: 800px;">
+
+<img src="images/debugging-probability.jpeg" alt="debugging-probability" style="width: 800px;">
+
+<img src="images/binomial-related-free-benefits.jpeg" alt="binomial-related-free-benefits" style="width: 800px;">
+
+<img src="images/bernoulli.jpeg" alt="bernoulli" style="width: 800px;">
+
+<img src="images/bernoulli-random-variable.jpeg" alt="bernoulli-random-variable" style="width: 800px;">
+
+<img src="images/bernoulli-random-variable-example-1.jpeg" alt="bernoulli-random-variable-example-1" style="width: 800px;">
+
+<img src="images/bernoulli-random-variable-example-2.jpeg" alt="bernoulli-random-variable-example-2" style="width: 800px;">
+
+<img src="images/bernoulli-vs-binomials.jpeg" alt="bernoulli-vs-binomials" style="width: 800px;">
+
+<img src="images/expectation-of-binomials.jpeg" alt="expectation-of-binomials" style="width: 800px;">
+
+<img src="images/binomial-related-free-benefits-1.jpeg" alt="binomial-related-free-benefits-1" style="width: 800px;">
+
+<img src="images/expectation-is-single-number.jpeg" alt="expectation-is-single-number" style="width: 800px;">
+
+<img src="images/expectation-is-single-number.jpeg" alt="expectation-is-single-number" style="width: 800px;">
+
+## Some people who lie with statistics, they use Expectations to back their lies.
+
+<img src="images/expectation-is-leaving-behind-alot.jpeg" alt="expectation-is-leaving-behind-alot" style="width: 800px;">
+
+<img src="images/invent-another-summary-number.jpeg" alt="invent-another-summary-number" style="width: 800px;">
+
+<img src="images/intuition-peer-grading.jpeg" alt="intuition-peer-grading" style="width: 800px;">
+
+<img src="images/measure-of-spread.jpeg" alt="measure-of-spread" style="width: 800px;">
+
+<img src="images/peer-grading-in-coursera-1.jpeg" alt="peer-grading-in-coursera-1" style="width: 800px;">
+
+<img src="images/peer-grading-in-coursera-2.jpeg" alt="peer-grading-in-coursera-2" style="width: 800px;">
+
+<img src="images/peer-grading-in-coursera-3.jpeg" alt="peer-grading-in-coursera-3" style="width: 800px;">
+
+<img src="images/peer-grading-in-coursera-4.jpeg" alt="peer-grading-in-coursera-4" style="width: 800px;">
