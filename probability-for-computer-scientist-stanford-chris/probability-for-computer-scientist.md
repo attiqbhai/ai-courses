@@ -1646,3 +1646,17 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 
 ## Lecture-8
 
+<img src="images/lecture-8-review-1.jpeg" alt="lecture-8-review-1" style="width: 800px;">
+
+<img src="images/lecture-8-review-2.jpeg" alt="lecture-8-review-2" style="width: 800px;">
+
+<img src="images/lecture-8-review-3.jpeg" alt="lecture-8-review-3" style="width: 800px;">
+
+<img src="images/lecture-8-review-4.jpeg" alt="lecture-8-review-4" style="width: 800px;">
+
+<img src="images/lecture-8-review-5.jpeg" alt="lecture-8-review-5" style="width: 800px;">
+
+<img src="images/lecture-8-review-6.jpeg" alt="lecture-8-review-6" style="width: 800px;">
+
+<img src="images/lecture-8-review-7.jpeg" alt="lecture-8-review-7" style="width: 800px;">
+
