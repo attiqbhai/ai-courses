@@ -1717,3 +1717,21 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/poisson-expectation-variance.jpeg" alt="poisson-expectation-variance" style="width: 800px;">
 
 <img src="images/poisson-expectation-variance-1.jpeg" alt="poisson-expectation-variance-1" style="width: 800px;">
+
+<img src="images/web-server-load-question.jpeg" alt="web-server-load-question" style="width: 800px;">
+
+<img src="images/probability-for-extreme-weather-1.jpeg" alt="probability-for-extreme-weather-1" style="width: 800px;">
+
+<img src="images/probability-for-extreme-weather-2.jpeg" alt="probability-for-extreme-weather-2" style="width: 800px;">
+
+<img src="images/probability-for-extreme-weather-3.jpeg" alt="probability-for-extreme-weather-3" style="width: 800px;">
+
+<img src="images/probability-for-extreme-weather-4.jpeg" alt="probability-for-extreme-weather-4" style="width: 800px;">
+
+<img src="images/probability-for-extreme-weather-5.jpeg" alt="probability-for-extreme-weather-5" style="width: 800px;">
+
+<img src="images/probability-for-extreme-weather-6.jpeg" alt="probability-for-extreme-weather-6" style="width: 800px;">
+
+<img src="images/probability-for-extreme-weather-7.jpeg" alt="probability-for-extreme-weather-7" style="width: 800px;">
+
+<img src="images/probability-for-extreme-weather-8.jpeg" alt="probability-for-extreme-weather-8" style="width: 800px;">
