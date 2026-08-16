@@ -1660,3 +1660,60 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 
 <img src="images/lecture-8-review-7.jpeg" alt="lecture-8-review-7" style="width: 800px;">
 
+<img src="images/natural-exponent-definition.jpeg" alt="natural-exponent-definition" style="width: 800px;">
+
+<img src="images/ride-share-problem-1.jpeg" alt="ride-share-problem-1" style="width: 800px;">
+
+<img src="images/ride-share-problem-2.jpeg" alt="ride-share-problem-2" style="width: 800px;">
+
+<img src="images/ride-share-problem-3.jpeg" alt="ride-share-problem-3" style="width: 800px;">
+
+<img src="images/ride-share-problem-4.jpeg" alt="ride-share-problem-4" style="width: 800px;">
+
+<img src="images/ride-share-problem-5.jpeg" alt="ride-share-problem-5" style="width: 800px;">
+
+<img src="images/ride-share-problem-6.jpeg" alt="ride-share-problem-6" style="width: 800px;">
+
+<img src="images/ride-share-problem-7.jpeg" alt="ride-share-problem-7" style="width: 800px;">
+
+<img src="images/ride-share-problem-8.jpeg" alt="ride-share-problem-8" style="width: 800px;">
+
+<img src="images/ride-share-problem-9.jpeg" alt="ride-share-problem-9" style="width: 800px;">
+
+<img src="images/poisson-random-variable.jpeg" alt="poisson-random-variable" style="width: 800px;">
+
+<img src="images/poisson-process.jpeg" alt="poisson-process" style="width: 800px;">
+
+<img src="images/poisson-process-1.jpeg" alt="poisson-process-1" style="width: 800px;">
+
+<img src="images/poisson-to-the-reader.jpeg" alt="poisson-to-the-reader" style="width: 800px;">
+
+<img src="images/poisson-key.jpeg" alt="poisson-key" style="width: 800px;">
+
+<img src="images/poisson-key-1.jpeg" alt="poisson-key-1" style="width: 800px;">
+
+<img src="images/earthquake-problem.jpeg" alt="earthquake-problem" style="width: 800px;">
+
+<img src="images/earthquake-problem-1.jpeg" alt="earthquake-problem-1" style="width: 800px;">
+
+<img src="images/poisson-binomial.jpeg" alt="poisson-binomial" style="width: 800px;">
+
+<img src="images/data-in-dna.jpeg" alt="data-in-dna" style="width: 800px;">
+
+<img src="images/data-in-dna-1.jpeg" alt="data-in-dna-1" style="width: 800px;">
+
+<img src="images/data-in-dna-2.jpeg" alt="data-in-dna-2" style="width: 800px;">
+
+<img src="images/data-in-dna-3.jpeg" alt="data-in-dna-3" style="width: 800px;">
+
+<img src="images/data-in-dna-4.jpeg" alt="data-in-dna-4" style="width: 800px;">
+
+<img src="images/poisson-is-binomial-in-limits.jpeg" alt="poisson-is-binomial-in-limits" style="width: 800px;">
+
+<img src="images/binomial-vs-poisson.jpeg" alt="binomial-vs-poisson" style="width: 800px;">
+
+<img src="images/poisson-key-2.jpeg" alt="poisson-key-2" style="width: 800px;">
+
+<img src="images/poisson-expectation-variance.jpeg" alt="poisson-expectation-variance" style="width: 800px;">
+
+<img src="images/poisson-expectation-variance-1.jpeg" alt="poisson-expectation-variance-1" style="width: 800px;">
