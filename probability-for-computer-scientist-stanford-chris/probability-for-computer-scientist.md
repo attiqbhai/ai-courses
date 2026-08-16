@@ -1735,3 +1735,34 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/probability-for-extreme-weather-7.jpeg" alt="probability-for-extreme-weather-7" style="width: 800px;">
 
 <img src="images/probability-for-extreme-weather-8.jpeg" alt="probability-for-extreme-weather-8" style="width: 800px;">
+
+---
+
+## Lecture 9
+
+<img src="images/lecture-9-review-1.jpeg" alt="lecture-9-review-1" style="width: 800px;">
+
+<img src="images/lecture-9-review-2.jpeg" alt="lecture-9-review-2" style="width: 800px;">
+
+<img src="images/lecture-9-review-3.jpeg" alt="lecture-9-review-3" style="width: 800px;">
+
+<img src="images/lecture-9-learning-goals.jpeg" alt="lecture-9-learning-goals" style="width: 800px;">
+
+<img src="images/lecture-9-goals.jpeg" alt="lecture-9-goals" style="width: 800px;">
+
+<img src="images/be-able-to-use-new-random-variables.jpeg" alt="be-able-to-use-new-random-variables" style="width: 800px;">
+
+<img src="images/be-able-to-use-new-random-variables-1.jpeg" alt="be-able-to-use-new-random-variables-1" style="width: 800px;">
+
+<img src="images/geometric-random-variables.jpeg" alt="geometric-random-variables" style="width: 800px;">
+
+<img src="images/negative-binomial-random-variables.jpeg" alt="negative-binomial-random-variables" style="width: 800px;">
+
+<img src="images/negative-binomial-random-variables-1.jpeg" alt="negative-binomial-random-variables-1" style="width: 800px;">
+
+<img src="images/geometric-vs-negative-binomials.jpeg" alt="geometric-vs-negative-binomials" style="width: 800px;">
+
+<img src="images/discrete-distributions.jpeg" alt="discrete-distributions" style="width: 800px;">
+
+<img src="images/dating-at-stanford.jpeg" alt="dating-at-stanford" style="width: 800px;">
+
