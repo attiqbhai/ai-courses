@@ -1766,3 +1766,97 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 
 <img src="images/dating-at-stanford.jpeg" alt="dating-at-stanford" style="width: 800px;">
 
+<img src="images/dating-at-stanford-solution.jpeg" alt="dating-at-stanford-solution" style="width: 800px;">
+
+<img src="images/equity-in-the-courts.jpeg" alt="equity-in-the-courts" style="width: 800px;">
+
+<img src="images/equity-in-the-courts-solution.jpeg" alt="equity-in-the-courts-solution" style="width: 800px;">
+
+<img src="images/equity-in-the-courts-solution-1.jpeg" alt="equity-in-the-courts-solution-1" style="width: 800px;">
+
+<img src="images/bitcoin-mining.jpeg" alt="bitcoin-mining" style="width: 800px;">
+
+<img src="images/bitcoin-mining-1.jpeg" alt="bitcoin-mining-1" style="width: 800px;">
+
+<img src="images/bitcoin-mining-2.jpeg" alt="bitcoin-mining-2" style="width: 800px;">
+
+<img src="images/bitcoin-mining-3.jpeg" alt="bitcoin-mining-3" style="width: 800px;">
+
+<img src="images/poisson.jpeg" alt="poisson" style="width: 800px;">
+
+<img src="images/riding-a-bus.jpeg" alt="riding-a-bus" style="width: 800px;">
+
+<img src="images/riding-a-bus-1.jpeg" alt="riding-a-bus-1" style="width: 800px;">
+
+<img src="images/riding-a-bus-2.jpeg" alt="riding-a-bus-2" style="width: 800px;">
+
+<img src="images/riding-a-bus-3.jpeg" alt="riding-a-bus-3" style="width: 800px;">
+
+<img src="images/probability-density-function.jpeg" alt="probability-density-function" style="width: 800px;">
+
+<img src="images/probability-density-function-1.jpeg" alt="probability-density-function-1" style="width: 800px;">
+
+<img src="images/integrals.jpeg" alt="integrals" style="width: 800px;">
+
+<img src="images/integrals-1.jpeg" alt="integrals-1" style="width: 800px;">
+
+<img src="images/riding-a-bus-4.jpeg" alt="riding-a-bus-4" style="width: 800px;">
+
+<img src="images/properties-of-pdf.jpeg" alt="properties-of-pdf" style="width: 800px;">
+
+<img src="images/probability-density-function-outcome.jpeg" alt="probability-density-function-outcome" style="width: 800px;">
+
+<img src="images/probability-density-function-1.jpeg" alt="probability-density-function-1" style="width: 800px;">
+
+<img src="images/probability-density-function-key.jpeg" alt="probability-density-function-key" style="width: 800px;">
+
+<img src="images/probability-density-function-2.jpeg" alt="probability-density-function-2" style="width: 800px;">
+
+<img src="images/probability-density-function-3.jpeg" alt="probability-density-function-3" style="width: 800px;">
+
+<img src="images/probability-density-function-4.jpeg" alt="probability-density-function-4" style="width: 800px;">
+
+<img src="images/probability-density-function-5.jpeg" alt="probability-density-function-5" style="width: 800px;">
+
+<img src="images/probability-density-function-6.jpeg" alt="probability-density-function-6" style="width: 800px;">
+
+<img src="images/probability-density-function-7.jpeg" alt="probability-density-function-7" style="width: 800px;">
+
+<img src="images/uniform-random-variable.jpeg" alt="uniform-random-variable" style="width: 800px;">
+
+<img src="images/riding-a-bus-5.jpeg" alt="riding-a-bus-5" style="width: 800px;">
+
+<img src="images/exponential-random-variable.jpeg" alt="exponential-random-variable" style="width: 800px;">
+
+<img src="images/how-long-until-next-earthquake.jpeg" alt="how-long-until-next-earthquake.jpeg" style="width: 800px;">
+
+<img src="images/how-long-until-next-earthquake-1.jpeg" alt="how-long-until-next-earthquake-1.jpeg" style="width: 800px;">
+
+<img src="images/integral-review.jpeg" alt="integral-review.jpeg" style="width: 800px;">
+
+<img src="images/how-long-until-next-earthquake-2.jpeg" alt="how-long-until-next-earthquake-2.jpeg" style="width: 800px;">
+
+<img src="images/how-long-until-next-earthquake-3.jpeg" alt="how-long-until-next-earthquake-3.jpeg" style="width: 800px;">
+
+<img src="images/how-long-until-next-earthquake-4.jpeg" alt="how-long-until-next-earthquake-4.jpeg" style="width: 800px;">
+
+<img src="images/avoid-integrals.jpeg" alt="avoid-integrals.jpeg" style="width: 800px;">
+
+<img src="images/cumulative-density-function.jpeg" alt="cumulative-density-function" style="width: 800px;">
+
+<img src="images/cumulative-density-function-1.jpeg" alt="cumulative-density-function-1" style="width: 800px;">
+
+<img src="images/cumulative-density-function-2.jpeg" alt="cumulative-density-function-2" style="width: 800px;">
+
+<img src="images/cumulative-density-function-3.jpeg" alt="cumulative-density-function-3" style="width: 800px;">
+
+<img src="images/cumulative-density-function-4.jpeg" alt="cumulative-density-function-4" style="width: 800px;">
+
+<img src="images/cumulative-density-function-5.jpeg" alt="cumulative-density-function-5" style="width: 800px;">
+
+<img src="images/cumulative-density-function-6.jpeg" alt="cumulative-density-function-6" style="width: 800px;">
+
+<img src="images/cumulative-density-function-7.jpeg" alt="cumulative-density-function-7" style="width: 800px;">
+
+<img src="images/cumulative-density-function-8.jpeg" alt="cumulative-density-function-8" style="width: 800px;">
+
