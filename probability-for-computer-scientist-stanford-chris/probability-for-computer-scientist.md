@@ -1,50 +1,201 @@
-# Probability for Computer Scientist - Stanford - Chris Piech
+<H1>Probability for Computer Scientist - Stanford - Chris Piech</H1>
 
 ---
 
-## Cheat Sheet
+<H2>TABLE OF CONTENT</H2>
 
-### Counting - Rules
+- [Cheat Sheet](#cheat-sheet)
+- [Course Material Online](#course-material-online)
+- [Counting - Step Rule / And Rule of Counting (also called the Multiplication Rule)](#counting---step-rule--and-rule-of-counting-also-called-the-multiplication-rule)
+  - [The Core Formula](#the-core-formula)
+  - [Examples](#examples)
+    - [1. 10 coin flips](#1-10-coin-flips)
+    - [2. Password of length 6 using digits (0–9)](#2-password-of-length-6-using-digits-09)
+      - [3. License plate with 3 letters + 3 digits](#3-license-plate-with-3-letters--3-digits)
+      - [4. Rolling 3 dice](#4-rolling-3-dice)
+      - [5. Word: "BOBA"](#5-word-boba)
+- [Counting: OR Rule / Counting With OR (The Sum Rule)](#counting-or-rule--counting-with-or-the-sum-rule)
+  - [Intuition](#intuition)
+  - [Simple Example](#simple-example)
+  - [Important Condition](#important-condition)
+  - [Die Example](#die-example)
+  - [Example : Choosing a letter](#example--choosing-a-letter)
+  - [Example: Password rules](#example-password-rules)
+  - [8 Bits Problem](#8-bits-problem)
+- [Counting: Combining AND + OR (the real power)](#counting-combining-and--or-the-real-power)
+- [Counting: Quick Summary](#counting-quick-summary)
+- [Counting: Conclusion](#counting-conclusion)
+- [Counting: Step Rule Counting](#counting-step-rule-counting)
+- [Permutations](#permutations)
+- [Why Overcounting Happens in Permutations](#why-overcounting-happens-in-permutations)
+  - [The Core Idea](#the-core-idea)
+  - [How We Fix Overcounting](#how-we-fix-overcounting)
+  - [Example 1: “boba”](#example-1-boba)
+  - [Example 2: “banana”](#example-2-banana)
+  - [Example 3: Mississippi](#example-3-mississippi)
+  - [Quick Summary](#quick-summary)
+- [General Approach to counting Permutations](#general-approach-to-counting-permutations)
+- [Summary of Combinatorics](#summary-of-combinatorics)
+- [Combinations](#combinations)
+- [Combinations](#combinations-1)
+- [Combinations](#combinations-2)
+  - [Big Idea](#big-idea)
+  - [Why “order doesn’t matter”](#why-order-doesnt-matter)
+  - [The Formula](#the-formula)
+  - [Why the formula works (the intuition you’ve been building toward)](#why-the-formula-works-the-intuition-youve-been-building-toward)
+    - [Step 1 — Count all permutations](#step-1--count-all-permutations)
+    - [Step 2 — Fix overcounting](#step-2--fix-overcounting)
+  - [Examples (this is where it becomes clear)](#examples-this-is-where-it-becomes-clear)
+    - [Choose 3 students from 10](#choose-3-students-from-10)
+    - [Choose 2 toppings for a pizza from 5](#choose-2-toppings-for-a-pizza-from-5)
+- [When to use combinations vs permutations](#when-to-use-combinations-vs-permutations)
+- [Cards Problem](#cards-problem)
+- [Summary of Combinatorics](#summary-of-combinatorics-1)
+- [What “put objects into buckets” means](#what-put-objects-into-buckets-means)
+  - [Case 1 — Objects are DISTINCT, Buckets are DISTINCT](#case-1--objects-are-distinct-buckets-are-distinct)
+    - [Step Rule:](#step-rule)
+    - [When to use:](#when-to-use)
+  - [Case 2 — Objects are DISTINCT, Buckets are DISTINCT, but with RESTRICTIONS](#case-2--objects-are-distinct-buckets-are-distinct-but-with-restrictions)
+    - [Example: Put 5 distinct people into 2 distinct teams of sizes 2 and 3.](#example-put-5-distinct-people-into-2-distinct-teams-of-sizes-2-and-3)
+  - [Case 3 — Objects are IDENTICAL, Buckets are DISTINCT](#case-3--objects-are-identical-buckets-are-distinct)
+    - [Example: Put 10 identical balls into 3 distinct buckets.](#example-put-10-identical-balls-into-3-distinct-buckets)
+    - [When to use:](#when-to-use-1)
+  - [Case 4 — Objects are IDENTICAL, Buckets are IDENTICAL](#case-4--objects-are-identical-buckets-are-identical)
+    - [Example: Put 5 identical balls into identical buckets.](#example-put-5-identical-balls-into-identical-buckets)
+  - [How to know which case you’re in](#how-to-know-which-case-youre-in)
+  - [Quick examples to make it click](#quick-examples-to-make-it-click)
+- [Summary of Combinatorics](#summary-of-combinatorics-2)
+- [Distinct Strings and Distinct Buckets](#distinct-strings-and-distinct-buckets)
+- [Summary of Combinatorics](#summary-of-combinatorics-3)
+- [Address Over Counting General Rule](#address-over-counting-general-rule)
+- [The Divider Method](#the-divider-method)
+- [Summary of Combinatorics](#summary-of-combinatorics-4)
+- [Counting Review](#counting-review)
+  - [Step 1 — What are we counting?](#step-1--what-are-we-counting)
+  - [Step 2 — Why “N choose 2”?](#step-2--why-n-choose-2)
+  - [Step 3 — Expand the formula](#step-3--expand-the-formula)
+  - [Step 4 — Apply it to the slide](#step-4--apply-it-to-the-slide)
+  - [Why this makes sense](#why-this-makes-sense)
+- [Sample Space](#sample-space)
+- [ℤ — The Set of Integers](#ℤ--the-set-of-integers)
+- [ℝ — The Set of Real Numbers](#ℝ--the-set-of-real-numbers)
+- [Event Space](#event-space)
+- [Sample Space and Event Space](#sample-space-and-event-space)
+- [Probability](#probability)
+- [What is Probability](#what-is-probability)
+- [Axioms of Probability](#axioms-of-probability)
+- [Core Rules of Probability](#core-rules-of-probability)
+- [Equally Likely Income](#equally-likely-income)
+- [Not everything is Equally Likely](#not-everything-is-equally-likely)
+- [Sum of Two dice is 7](#sum-of-two-dice-is-7)
+- [Sum of Two dice is 2](#sum-of-two-dice-is-2)
+- [Other Ways to make Sample Space](#other-ways-to-make-sample-space)
+- [Sum of two dice is 7 - Other Way](#sum-of-two-dice-is-7---other-way)
+- [Cows Problem](#cows-problem)
+  - [Let’s solve this pigs-and-cows problem carefully.](#lets-solve-this-pigs-and-cows-problem-carefully)
+  - [Total ways to draw 3 animals from 7](#total-ways-to-draw-3-animals-from-7)
+  - [Favorable ways: 1 cow and 2 pigs](#favorable-ways-1-cow-and-2-pigs)
+    - [Choose 1 cow from 4 cows:](#choose-1-cow-from-4-cows)
+    - [Choose 2 pigs from 3 pigs:](#choose-2-pigs-from-3-pigs)
+    - [Multiply (AND rule):](#multiply-and-rule)
+  - [Probability](#probability-1)
+- [Straight Poker Hand Problem](#straight-poker-hand-problem)
+- [Key Tip](#key-tip)
+- [Chip Defect Detection Problem](#chip-defect-detection-problem)
+- [Taget Re-visited](#taget-re-visited)
+- [Serendipity](#serendipity)
+  - [Review Mutually Exclusive Events](#review-mutually-exclusive-events)
+- [E Complement](#e-complement)
+- [Serendipity](#serendipity-1)
+- [Rule to Make Problem Easy](#rule-to-make-problem-easy)
+- [Conditional Probability](#conditional-probability)
+- [Dice, our Misunderstood friends](#dice-our-misunderstood-friends)
+- [Conditional Probability](#conditional-probability-1)
+- [Conditional Probability - Visual intuition](#conditional-probability---visual-intuition)
+- [Conditional Probability - In general](#conditional-probability---in-general)
+- [Netflix and Learn](#netflix-and-learn)
+- [What is Machine Learning](#what-is-machine-learning)
+- [Probability Notation](#probability-notation)
+- [Chain Rule and Baby](#chain-rule-and-baby)
+- [Probability Chain Rule](#probability-chain-rule)
+- [Law of Total Probability](#law-of-total-probability)
+- [Baby and Law of Total Probability](#baby-and-law-of-total-probability)
+- [Law of Total Probability Relation](#law-of-total-probability-relation)
+- [Law of Total Probability Formula](#law-of-total-probability-formula)
+- [Evolution of Bacteria](#evolution-of-bacteria)
+- [Real Question](#real-question)
+- [Relationship b/w Probabilities](#relationship-bw-probabilities)
+- [Bayes Theorem](#bayes-theorem)
+- [](#)
+- [Bayes Theorem Formula](#bayes-theorem-formula)
+- [Detecting Spam email](#detecting-spam-email)
+- [Bayes Theorem Terminology](#bayes-theorem-terminology)
+- [SARS Virus Test](#sars-virus-test)
+- [Multiple Choice Theory](#multiple-choice-theory)
+- [Review](#review)
+- [Telling in Cards](#telling-in-cards)
+- [DNA Data](#dna-data)
+- [Lecture-5: Learning Goals of today](#lecture-5-learning-goals-of-today)
+- [OR With Mutually Exclusive Events](#or-with-mutually-exclusive-events)
+- [What about When not Mutually Exclusive](#what-about-when-not-mutually-exclusive)
+- [OR Without Mutually Exclusive Events](#or-without-mutually-exclusive-events)
+- [More than two sets](#more-than-two-sets)
+- [Inclusion / Exclusion with three events](#inclusion--exclusion-with-three-events)
+- [OR \& AND Probability Summary](#or--and-probability-summary)
+- [Probability of AND](#probability-of-and)
+- [AND Probability -  Independent](#and-probability----independent)
+- [AND Probability -  Independent - Key](#and-probability----independent---key)
+- [AND Probability -  Independent - Reciprocal](#and-probability----independent---reciprocal)
+- [AND Probability -  Independent - Dice](#and-probability----independent---dice)
+- [AND Probability -  Independent - Looks like](#and-probability----independent---looks-like)
+- [What does Mutual Exclusiveness Looks Like](#what-does-mutual-exclusiveness-looks-like)
+- [This is what Independence Looks Like](#this-is-what-independence-looks-like)
+- [This is what dependence Looks Like](#this-is-what-dependence-looks-like)
+- [AND Probability -  Independent - Intuition](#and-probability----independent---intuition)
+- [AND Probability -  Independent - Generalization](#and-probability----independent---generalization)
+- [AND Probability -  Independent - Generalization - Example](#and-probability----independent---generalization---example)
+- [Properties of Pairs of Events](#properties-of-pairs-of-events)
+- [Properties of Pairs of Events - Example](#properties-of-pairs-of-events---example)
+- [Properties of Pairs of Events - Example](#properties-of-pairs-of-events---example-1)
+- [Conditonal Independence](#conditonal-independence)
+- [Random Variables](#random-variables)
+- [Probability Mass function](#probability-mass-function)
+- [Expectations](#expectations)
+  - [What expected value means](#what-expected-value-means)
+- [Lecture - 7](#lecture---7)
+  - [Probability of exactly K Heads in N experiments is](#probability-of-exactly-k-heads-in-n-experiments-is)
+  - [Find Probability that H is less than 10](#find-probability-that-h-is-less-than-10)
+- [Some people who lie with statistics, they use Expectations to back their lies.](#some-people-who-lie-with-statistics-they-use-expectations-to-back-their-lies)
+- [Lecture-8](#lecture-8)
+- [Lecture 9](#lecture-9)
+
+
+
+
+---
+## Cheat Sheet
 
 <img src="images/summary-of-combinatorics-4.jpeg" alt="summary-of-combinatorics-4.jpeg" style="width: 800px;">
 
-### Core Rules of Probability
-
 <img src="images/core-rules-of-probability.jpeg" alt="core-rules-of-probability.jpeg" style="width: 800px;">
-
-### Equally Likely Outcomes
 
 <img src="images/equally-likely-outcome-1.jpeg" alt="equally-likely-income-1.jpeg" style="width: 800px;">
 
-### Conditional Probability - Visual intuition
-
 <img src="images/conditional-probability-visual-intuition.jpeg" alt="conditional-probability-visual-intuition.jpeg" style="width: 800px;">
-
-### Conditional Probability - In general
 
 <img src="images/conditional-probability-in-general.jpeg" alt="conditional-probability-in-general.jpeg" style="width: 800px;">
 
-### Law of Total Probability
-
 <img src="images/law-of-total-probability-formula.jpeg" alt="law-of-total-probability-formula.jpeg" style="width: 800px;">
-
-### Bayes Theorem
 
 <img src="images/bayes-theorem-formula-3.jpeg" alt="bayes-theorem-formula-3.jpeg" style="width: 800px;">
 
-### Bayes Theorem Terminology
-
 <img src="images/bayes-theorem-terminology.jpeg" alt="bayes-theorem-terminology.jpeg" style="width: 800px;">
-
-### Binomials
 
 <img src="images/Probability of exactly K Heads Formula.jpeg" alt="Probability of exactly K Heads Formula" style="width: 800px;">
 
 <img src="images/random-variable-binomial.jpeg" alt="random-variable-binomial" style="width: 800px;">
 
 <img src="images/coins-with-bionomials.jpeg" alt="coins-with-bionomials" style="width: 800px;">
-
----
 
 ---
 
@@ -811,6 +962,42 @@ This is exactly what combinations count.
 
 --- 
 
+## ℤ — The Set of Integers
+
+The symbol ℤ represents all integers:
+
+… −3, −2, −1, 0, 1, 2, 3 …
+
+It includes:
+
+- all positive whole numbers
+
+- all negative whole numbers
+
+- zero
+
+- No fractions, no decimals.
+
+---
+
+## ℝ — The Set of Real Numbers
+
+The symbol ℝ represents all real numbers, meaning every number on the number line:
+
+- Integers (like 5, −2)
+
+- Fractions (like 3/4)
+
+- Decimals (like 2.71828)
+
+- Irrational numbers (like √2, π)
+
+Basically:
+
+> If you can place it on the number line, it’s a real number.
+
+---
+
 ## Event Space
 
 <img src="images/event-space.jpeg" alt="event-space.jpeg" style="width: 800px;">
@@ -1126,7 +1313,7 @@ So:
 
 ---
 
-# Real Question 
+## Real Question 
 
 <img src="images/evolution-of-bacteria-surviving-mutation.jpeg" alt="evolution-of-bacteria-surviving-mutation.jpeg" style="width: 800px;">
 
