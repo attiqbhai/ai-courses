@@ -4,36 +4,9 @@
 
 <H2>TABLE OF CONTENT</H2>
 
-- [Cheat Sheet](#cheat-sheet)
 - [Course Material Online](#course-material-online)
-- [Counting - Step Rule / And Rule of Counting (also called the Multiplication Rule)](#counting---step-rule--and-rule-of-counting-also-called-the-multiplication-rule)
-  - [The Core Formula](#the-core-formula)
-  - [Examples](#examples)
-    - [1. 10 coin flips](#1-10-coin-flips)
-    - [2. Password of length 6 using digits (0–9)](#2-password-of-length-6-using-digits-09)
-      - [3. License plate with 3 letters + 3 digits](#3-license-plate-with-3-letters--3-digits)
-      - [4. Rolling 3 dice](#4-rolling-3-dice)
-      - [5. Word: "BOBA"](#5-word-boba)
-- [Counting: OR Rule / Counting With OR (The Sum Rule)](#counting-or-rule--counting-with-or-the-sum-rule)
-  - [Intuition](#intuition)
-  - [Simple Example](#simple-example)
-  - [Important Condition](#important-condition)
-  - [Die Example](#die-example)
-  - [Example : Choosing a letter](#example--choosing-a-letter)
-  - [Example: Password rules](#example-password-rules)
-  - [8 Bits Problem](#8-bits-problem)
-- [Counting: Combining AND + OR (the real power)](#counting-combining-and--or-the-real-power)
-- [Counting: Quick Summary](#counting-quick-summary)
-- [Counting: Conclusion](#counting-conclusion)
-- [Counting: Step Rule Counting](#counting-step-rule-counting)
-- [Permutations](#permutations)
-- [Why Overcounting Happens in Permutations](#why-overcounting-happens-in-permutations)
-  - [The Core Idea](#the-core-idea)
-  - [How We Fix Overcounting](#how-we-fix-overcounting)
-  - [Example 1: “boba”](#example-1-boba)
-  - [Example 2: “banana”](#example-2-banana)
-  - [Example 3: Mississippi](#example-3-mississippi)
-  - [Quick Summary](#quick-summary)
+- [Lecture 1](#lecture-1)
+- [](#)
 - [General Approach to counting Permutations](#general-approach-to-counting-permutations)
 - [Summary of Combinatorics](#summary-of-combinatorics)
 - [Combinations](#combinations)
@@ -126,7 +99,7 @@
 - [Real Question](#real-question)
 - [Relationship b/w Probabilities](#relationship-bw-probabilities)
 - [Bayes Theorem](#bayes-theorem)
-- [](#)
+- [](#-1)
 - [Bayes Theorem Formula](#bayes-theorem-formula)
 - [Detecting Spam email](#detecting-spam-email)
 - [Bayes Theorem Terminology](#bayes-theorem-terminology)
@@ -169,34 +142,6 @@
 - [Lecture-8](#lecture-8)
 - [Lecture 9](#lecture-9)
 
-
-
-
----
-## Cheat Sheet
-
-<img src="images/summary-of-combinatorics-4.jpeg" alt="summary-of-combinatorics-4.jpeg" style="width: 800px;">
-
-<img src="images/core-rules-of-probability.jpeg" alt="core-rules-of-probability.jpeg" style="width: 800px;">
-
-<img src="images/equally-likely-outcome-1.jpeg" alt="equally-likely-income-1.jpeg" style="width: 800px;">
-
-<img src="images/conditional-probability-visual-intuition.jpeg" alt="conditional-probability-visual-intuition.jpeg" style="width: 800px;">
-
-<img src="images/conditional-probability-in-general.jpeg" alt="conditional-probability-in-general.jpeg" style="width: 800px;">
-
-<img src="images/law-of-total-probability-formula.jpeg" alt="law-of-total-probability-formula.jpeg" style="width: 800px;">
-
-<img src="images/bayes-theorem-formula-3.jpeg" alt="bayes-theorem-formula-3.jpeg" style="width: 800px;">
-
-<img src="images/bayes-theorem-terminology.jpeg" alt="bayes-theorem-terminology.jpeg" style="width: 800px;">
-
-<img src="images/Probability of exactly K Heads Formula.jpeg" alt="Probability of exactly K Heads Formula" style="width: 800px;">
-
-<img src="images/random-variable-binomial.jpeg" alt="random-variable-binomial" style="width: 800px;">
-
-<img src="images/coins-with-bionomials.jpeg" alt="coins-with-bionomials" style="width: 800px;">
-
 ---
 
 ## Course Material Online
@@ -205,348 +150,140 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 ---
 
-## Counting - Step Rule / And Rule of Counting (also called the Multiplication Rule)
+## Lecture 1
 
-If a process happens in steps, and each step has a certain number of choices,
-then the total number of outcomes is the product of the number of choices at each step.
+<img src="images/lecture-1-pre-requisites.jpeg" alt="lecture-1-pre-requisites.jpeg" style="width: 800px;">
 
-If an experiment has two parts, where the first part can result in one of 
-$m$ outcomes and the second part can result in one of $n$ outcomes regardless of the outcome of the first part, then the total number of outcomes for the experiment is $m * n$.
+<img src="images/lecture-1-human-brain.jpeg" alt="lecture-1-human-brain.jpeg" style="width: 800px;">
 
-Rewritten using set notation, the Step Rule of Counting states that if an experiment with two parts has an outcome from set $A$ in the first part, where 
-$|A| = m$, and an outcome from set $B$ in the second part (where the number of outcomes in $B$ is the same regardless of the outcome of the first part), where 
-$|B| = n$, then the total number of outcomes of the experiment is $|A||B| = m * n$
-.
+<img src="images/lecture-1-two-geat-ideas.jpeg" alt="lecture-1-two-geat-ideas.jpeg" style="width: 800px;">
 
-### The Core Formula
+<img src="images/lecture-1-artifical-neurons.jpeg" alt="lecture-1-artifical-neurons.jpeg" style="width: 800px;">
 
-If a process has k steps:
+<img src="images/lecture-1-artifical-neurons-cartoon.jpeg" alt="lecture-1-artifical-neurons-cartoon.jpeg" style="width: 800px;">
 
-- Step 1 has n₁ choices
-- Step 2 has n₂ choices
-- Step 3 has n₃ choices
-…
-- Step k has nₖ choices
+<img src="images/lecture-1-artifical-neurons-cartoon-1.jpeg" alt="lecture-1-artifical-neurons-cartoon-1.jpeg" style="width: 800px;">
 
-Then the total number of possible outcomes is:
+<img src="images/lecture-1-artifical-neurons-cartoon-2.jpeg" alt="lecture-1-artifical-neurons-cartoon-2.jpeg" style="width: 800px;">
 
-> $𝑛_1 × 𝑛_2 × 𝑛_3 × ⋯ × 𝑛_𝑘$
+<img src="images/lecture-1-artifical-neurons-cartoon-3.jpeg" alt="lecture-1-artifical-neurons-cartoon-3.jpeg" style="width: 800px;">
 
-That’s the Step Rule.
+<img src="images/lecture-1-artifical-neurons-cartoon-4.jpeg" alt="lecture-1-artifical-neurons-cartoon-4.jpeg" style="width: 800px;">
 
-### Examples
+<img src="images/lecture-1-artifical-neurons-cartoon-5.jpeg" alt="lecture-1-artifical-neurons-cartoon-5.jpeg" style="width: 800px;">
 
-#### 1. 10 coin flips
+<img src="images/lecture-1-artifical-neurons-cartoon-6.jpeg" alt="lecture-1-artifical-neurons-cartoon-6.jpeg" style="width: 800px;">
 
-Each flip has 2 choices (outcomes): H or T.
+<img src="images/lecture-1-artifical-neurons-cartoon-7.jpeg" alt="lecture-1-artifical-neurons-cartoon-7.jpeg" style="width: 800px;">
 
-There are 10 steps, each with 2 choices.
+<img src="images/lecture-1-artifical-neurons-cartoon-8.jpeg" alt="lecture-1-artifical-neurons-cartoon-8.jpeg" style="width: 800px;">
 
-> $2^{10} = 1024$
+<img src="images/lecture-1-artifical-neurons-cartoon-9.jpeg" alt="lecture-1-artifical-neurons-cartoon-9.jpeg" style="width: 800px;">
 
-#### 2. Password of length 6 using digits (0–9)
+<img src="images/lecture-1-artifical-neurons-cartoon-10.jpeg" alt="lecture-1-artifical-neurons-cartoon-10.jpeg" style="width: 800px;">
 
-Each position has 10 choices.
+<img src="images/lecture-1-artifical-neurons-cartoon-11.jpeg" alt="lecture-1-artifical-neurons-cartoon-11.jpeg" style="width: 800px;">
 
-> $10^6 = 1,000,000$
+<img src="images/lecture-1-artifical-neurons-cartoon-12.jpeg" alt="lecture-1-artifical-neurons-cartoon-12.jpeg" style="width: 800px;">
 
-##### 3. License plate with 3 letters + 3 digits
+<img src="images/lecture-1-artifical-neurons-cartoon-13.jpeg" alt="lecture-1-artifical-neurons-cartoon-13.jpeg" style="width: 800px;">
 
-- Step 1: 26 choices
-- Step 2: 26 choices
-- Step 3: 26 choices
-- Step 4: 10 choices
-- Step 5: 10 choices
-- Step 6: 10 choices
+<img src="images/lecture-1-artifical-neurons-cartoon-14.jpeg" alt="lecture-1-artifical-neurons-cartoon-14.jpeg" style="width: 800px;">
 
-> $Total\ outcomes =  26^3 × 10^3$
+<img src="images/lecture-1-learb-by-example-1.jpeg" alt="lecture-1-learb-by-example-1.jpeg" style="width: 800px;">
 
-##### 4. Rolling 3 dice
+<img src="images/lecture-1-learb-by-example-2.jpeg" alt="lecture-1-learb-by-example-2.jpeg" style="width: 800px;">
 
-Each die has 6 choices.
+<img src="images/lecture-1-learb-by-example-3.jpeg" alt="lecture-1-learb-by-example-3.jpeg" style="width: 800px;">
 
-> $6^3 = 216$
+<img src="images/lecture-1-learb-by-example-4.jpeg" alt="lecture-1-learb-by-example-4.jpeg" style="width: 800px;">
 
-##### 5. Word: "BOBA"
+<img src="images/lecture-1-learb-by-example-5.jpeg" alt="lecture-1-learb-by-example-5.jpeg" style="width: 800px;">
 
-The word BOBA has 4 letters:
-- B
-- O
-- B
-- A
+<img src="images/lecture-1-learb-by-example-6.jpeg" alt="lecture-1-learb-by-example-6.jpeg" style="width: 800px;">
 
-Notice: the letter B repeats twice — this matters.
+<img src="images/lecture-1-learb-by-example-7.jpeg" alt="lecture-1-learb-by-example-7.jpeg" style="width: 800px;">
 
-If all letters were distinct, the number of permutations would be:
+<img src="images/lecture-1-we-will-get-there.jpeg" alt="lecture-1-we-will-get-there.jpeg" style="width: 800px;">
 
-> $4 ! = 24$
+<img src="images/lecture-1-we-will-solve-problems.jpeg" alt="lecture-1-we-will-solve-problems.jpeg" style="width: 800px;">
 
-But because B appears twice, we must divide by the number of ways to permute the repeated letters:
+<img src="images/lecture-1-where-it-is-useful.jpeg" alt="lecture-1-where-it-is-useful.jpeg" style="width: 800px;">
 
-Step 1: Choose the 1st letter  
-4 choices → b, o, b, a (b is repeated)
+<img src="images/lecture-1-zeka-test.jpeg" alt="lecture-1-zeka-test.jpeg" style="width: 800px;">
 
-Step 2: Choose the 2nd letter  
-3 remaining choices
+<img src="images/lecture-1-probability.jpeg" alt="lecture-1-probability.jpeg" style="width: 800px;">
 
-Step 3: Choose the 3rd letter  
-2 remaining choices
+<img src="images/lecture-1-math.jpeg" alt="lecture-1-math.jpeg" style="width: 800px;">
 
-Step 4: Choose the 4th letter
-1 remaining choice
+<img src="images/lecture-1-ai-map.jpeg" alt="lecture-1-ai-map.jpeg" style="width: 800px;">
 
-Using the step rule:
+<img src="images/lecture-1-what-is-counting-1.jpeg" alt="lecture-1-what-is-counting-1.jpeg" style="width: 800px;">
 
-> $4 × 3 × 2 × 1 = 24$
+<img src="images/lecture-1-what-is-counting-2.jpeg" alt="lecture-1-what-is-counting-2.jpeg" style="width: 800px;">
 
-But because the two B’s are indistinguishable:
+<img src="images/lecture-1-step-rule-of-counting.jpeg" alt="lecture-1-step-rule-of-counting.jpeg" style="width: 800px;">
 
-> $\frac {24}{2!} = 12$
+<img src="images/lecture-1-step-rule-of-counting-1.jpeg" alt="lecture-1-step-rule-of-counting-1.jpeg" style="width: 800px;">
 
-| Concept                     | Value                         |
-|-----------------------------|-------------------------------|
-| Word                        | BOBA                          |
-| Letters                     | B, O, B, A                    |
-| Total permutations (raw)    | 4! = 24                       |
-| Adjustment for repeats      | divide by 2!                  |
-| Distinct permutations       | 12                            |
-| Method used                 | Step Rule of Counting         |
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+
+<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+---
 
 ---
 
-## Counting: OR Rule / Counting With OR (The Sum Rule)
-
-The OR Rule says:
-
-> If an outcome can happen in one way OR another (and the ways do not overlap),
-> then the total number of outcomes is the sum of the counts of each way.
-
-This is also called the Sum Rule of Counting.
-
-It complements the Step Rule:
-
-- Step Rule = AND → multiply
-
-- OR Rule = OR → add
-
-### Intuition
-
-Think of OR as choosing between options.
-
-If you can do Option A OR Option B,
-you add the number of ways each option can happen.
-
-### Simple Example
-
-You want to choose a drink:
-
-- 3 coffee options
-
-- 2 tea options
-
-You can choose coffee OR tea.
-
-> $3 + 2 = 5$
-
-### Important Condition
-
-The OR rule works only if the options do not overlap.
-
-If they overlap, you must subtract the overlap (like in set theory):
-
-> $∣ 𝐴 \cup 𝐵 ∣ = ∣ 𝐴 ∣ + ∣ 𝐵 ∣ − ∣ 𝐴 \cap 𝐵 ∣$
-
-### Die Example
-
-Event A = “roll a 1 or a 6”
-
-> $1 + 1 = 2$
-
-Two outcomes.
-
-### Example : Choosing a letter
-
-Choose a vowel OR a consonant from the English alphabet.
-
-- Vowels = 5
-
-- Consonants = 21
-
-> $5 + 21 = 26$
-
-### Example: Password rules
-
-A password must start with:
-
-- a digit (10 choices)
-
-OR
-
-- a letter (26 choices)
-
-Total choices for the first character:
-> $10 + 26 = 36$
-
-### 8 Bits Problem
-
-<img src="images/8-bits-problem.jpeg" alt="8-bits-problem" style="width: 600px;">
-
-<img src="images/a-and-b.jpeg" alt="a-and-b" style="width: 600px;">
+---
 
 ---
 
-## Counting: Combining AND + OR (the real power)
-
-Most real problems use both rules.
-
-Example:
-
-A license plate is:
-
-- Letter OR digit for the first character
-
-- Digit for the next 3 characters
-
-First character:
-> $26 + 10 = 36$
-
-Next three characters:
-> $10 × 10 × 10 = 10^3$
-
-Total plates:
-> $36 × 10^3$
-
-This is exactly how combinatorics builds sample spaces.
+---
 
 ---
 
-## Counting: Quick Summary
-
-| Rule               | Meaning                         | Operation |
-|--------------------|----------------------------------|-----------|
-| Step Rule (AND)    | Do this AND then that            | Multiply  |
-| OR Rule (Sum Rule) | Do this OR that                  | Add       |
+---
 
 ---
 
-## Counting: Conclusion
-
-<img src="images/counting-with-steps-or.jpeg" alt="counting-with-steps-or" style="width: 600px;">
+---
 
 ---
 
-## Counting: Step Rule Counting
-
-
-<img src="images/ordering-of-letter-chris.jpeg" alt="ordering-of-letter-chris.jpeg" style="width: 600px;">
-
 ---
 
-## Permutations
-
-<img src="images/permutations.jpeg" alt="permutations.jpeg" style="width: 600px;">
-
-<img src="images/unique-six-digit-passcode.jpeg" alt="unique-six-digit-passcode.jpeg" style="width: 600px;">
-
-<img src="images/six-digit-passcode.jpeg" alt="six-digit-passcode.jpeg" style="width: 600px;">
-
 ---
-
-## Why Overcounting Happens in Permutations
-
-When you compute permutations using:
-
-> $n!$
-
-you are assuming all items are distinct.
-
-But many real problems have repeated elements:
-
-- boba → b repeats
-
-- level → l and e repeat
-
-- banana → a repeats 3 times, n repeats 2 times
-
-If you treat repeated items as distinct, you end up counting the same arrangement multiple times.
-
-That’s overcounting.
-
-### The Core Idea
-
-When items repeat, swapping those repeated items does not create a new permutation.
-
-Example with “boba”:
-
-- The two b’s are identical
-
-- So “boba” and “boba” (swapping the b’s) are the same
-
-- But the factorial formula counts them as different
-
-This is the overcounting we must fix.
-
-### How We Fix Overcounting
-
-We divide by the factorial of the number of times each repeated item appears.
-
-General formula:
-If you have:
-
-- $n$ total items
-
-- $𝑘_1$ repeats of item 1
-
-- $𝑘_2$ repeats of item 2
-
-…
-
-Then:
-
-> $Permutations = \frac {𝑛!}{𝑘_1! * 𝑘_2!⋯}$
-
-### Example 1: “boba”
-
-Letters: b, o, b, a
-
-Repeated: b appears twice
-
-> $\frac {4 !} {2 !} = \frac {24} {2} = 12$
-
-Without dividing by $2!$, you would count each arrangement twice.
-
-### Example 2: “banana”
-
-Letters: b, a, n, a, n, a
-Repeated:
-
-- a appears 3 times
-
-- n appears 2 times
-
-> $\frac {6 !} {3 !   2 !} = \frac {720} {6 ⋅ 2} = 60$
-
-### Example 3: Mississippi
-
-Total letters: 11
-Repeated:
-
-- i appears 4 times
-
-- s appears 4 times
-
-- p appears 2 times
-
-> $\frac {11 !} {4 ! . 4 ! . 2 !} = \frac {39916800} {24 . 24 . 2} = 34650$
-
-
-### Quick Summary
-
-| Problem                     | Why Overcounting Happens                  | Fix                                      |
-|:-----------------------------:|:--------------------------------------------:|:-------------------------------------------:|
-| Permutations with repeats   | Factorial treats repeated items as unique | Divide by factorial of repeat counts      |
-| Example: boba               | Two b’s counted as different               | 4! / 2! = 12                              |
-| Example: banana             | a repeats 3 times, n repeats 2 times       | 6! / (3! 2!) = 60                         |
 
 ---
 
@@ -658,13 +395,13 @@ $\binom{5}{2} = \frac {5!} {2!. (5 - 2)!} = 10$
 
 ## When to use combinations vs permutations
 
-| Situation | Order matters? | Use |
-| :---: | :---: | :---: |
-| Passwords | Yes | Permutations |
-| Seating people | Yes | Permutations |
-| Choosing a committee | No | Combinations |
-| Picking lottery numbers | No | Combinations |
-| Selecting toppings | No | Combinations |
+|        Situation        | Order matters? |     Use      |
+| :---------------------: | :------------: | :----------: |
+|        Passwords        |      Yes       | Permutations |
+|     Seating people      |      Yes       | Permutations |
+|  Choosing a committee   |       No       | Combinations |
+| Picking lottery numbers |       No       | Combinations |
+|   Selecting toppings    |       No       | Combinations |
 
 ---
 
@@ -807,13 +544,13 @@ You rarely need this in basic probability, but it appears in advanced combinator
 
 ### How to know which case you’re in
 
-| Objects | Buckets | Restrictions | Method |
-|:---------:|:----------:|:--------------:|:--------:|
-| Distinct | Distinct | None | $k^n$ (step rule) |
-| Distinct | Distinct | Bucket sizes fixed | Combinations |
-| Distinct | Distinct | No bucket empty | Inclusion–exclusion |
-| Identical | Distinct | None | Stars and Bars |
-| Identical | Identical | None | Integer partitions |
+|  Objects  |  Buckets  |    Restrictions    |       Method        |
+| :-------: | :-------: | :----------------: | :-----------------: |
+| Distinct  | Distinct  |        None        |  $k^n$ (step rule)  |
+| Distinct  | Distinct  | Bucket sizes fixed |    Combinations     |
+| Distinct  | Distinct  |  No bucket empty   | Inclusion–exclusion |
+| Identical | Distinct  |        None        |   Stars and Bars    |
+| Identical | Identical |        None        | Integer partitions  |
 
 ### Quick examples to make it click
 
