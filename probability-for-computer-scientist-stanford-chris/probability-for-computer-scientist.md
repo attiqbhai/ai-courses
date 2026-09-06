@@ -7,58 +7,7 @@
 - [Course Material Online](#course-material-online)
 - [Lecture 1](#lecture-1)
 - [Lecture 2](#lecture-2)
-- [Combinations](#combinations)
-- [Combinations](#combinations-1)
-- [Combinations](#combinations-2)
-  - [Big Idea](#big-idea)
-  - [Why “order doesn’t matter”](#why-order-doesnt-matter)
-  - [The Formula](#the-formula)
-  - [Why the formula works (the intuition you’ve been building toward)](#why-the-formula-works-the-intuition-youve-been-building-toward)
-    - [Step 1 — Count all permutations](#step-1--count-all-permutations)
-    - [Step 2 — Fix overcounting](#step-2--fix-overcounting)
-  - [Examples (this is where it becomes clear)](#examples-this-is-where-it-becomes-clear)
-    - [Choose 3 students from 10](#choose-3-students-from-10)
-    - [Choose 2 toppings for a pizza from 5](#choose-2-toppings-for-a-pizza-from-5)
-- [When to use combinations vs permutations](#when-to-use-combinations-vs-permutations)
-- [Cards Problem](#cards-problem)
-- [Summary of Combinatorics](#summary-of-combinatorics)
-- [What “put objects into buckets” means](#what-put-objects-into-buckets-means)
-  - [Case 1 — Objects are DISTINCT, Buckets are DISTINCT](#case-1--objects-are-distinct-buckets-are-distinct)
-    - [Step Rule:](#step-rule)
-    - [When to use:](#when-to-use)
-  - [Case 2 — Objects are DISTINCT, Buckets are DISTINCT, but with RESTRICTIONS](#case-2--objects-are-distinct-buckets-are-distinct-but-with-restrictions)
-    - [Example: Put 5 distinct people into 2 distinct teams of sizes 2 and 3.](#example-put-5-distinct-people-into-2-distinct-teams-of-sizes-2-and-3)
-  - [Case 3 — Objects are IDENTICAL, Buckets are DISTINCT](#case-3--objects-are-identical-buckets-are-distinct)
-    - [Example: Put 10 identical balls into 3 distinct buckets.](#example-put-10-identical-balls-into-3-distinct-buckets)
-    - [When to use:](#when-to-use-1)
-  - [Case 4 — Objects are IDENTICAL, Buckets are IDENTICAL](#case-4--objects-are-identical-buckets-are-identical)
-    - [Example: Put 5 identical balls into identical buckets.](#example-put-5-identical-balls-into-identical-buckets)
-  - [How to know which case you’re in](#how-to-know-which-case-youre-in)
-  - [Quick examples to make it click](#quick-examples-to-make-it-click)
-- [Summary of Combinatorics](#summary-of-combinatorics-1)
-- [Distinct Strings and Distinct Buckets](#distinct-strings-and-distinct-buckets)
-- [Summary of Combinatorics](#summary-of-combinatorics-2)
-- [Address Over Counting General Rule](#address-over-counting-general-rule)
-- [The Divider Method](#the-divider-method)
-- [Summary of Combinatorics](#summary-of-combinatorics-3)
-- [Counting Review](#counting-review)
-  - [Step 1 — What are we counting?](#step-1--what-are-we-counting)
-  - [Step 2 — Why “N choose 2”?](#step-2--why-n-choose-2)
-  - [Step 3 — Expand the formula](#step-3--expand-the-formula)
-  - [Step 4 — Apply it to the slide](#step-4--apply-it-to-the-slide)
-  - [Why this makes sense](#why-this-makes-sense)
-- [Sample Space](#sample-space)
-- [ℤ — The Set of Integers](#ℤ--the-set-of-integers)
-- [ℝ — The Set of Real Numbers](#ℝ--the-set-of-real-numbers)
-- [Event Space](#event-space)
-- [Sample Space and Event Space](#sample-space-and-event-space)
-- [Probability](#probability)
-- [What is Probability](#what-is-probability)
-- [Axioms of Probability](#axioms-of-probability)
-- [Core Rules of Probability](#core-rules-of-probability)
-- [Equally Likely Income](#equally-likely-income)
-- [Not everything is Equally Likely](#not-everything-is-equally-likely)
-- [Sum of Two dice is 7](#sum-of-two-dice-is-7)
+- [Leacture 3](#leacture-3)
 - [Sum of Two dice is 2](#sum-of-two-dice-is-2)
 - [Other Ways to make Sample Space](#other-ways-to-make-sample-space)
 - [Sum of two dice is 7 - Other Way](#sum-of-two-dice-is-7---other-way)
@@ -69,7 +18,7 @@
     - [Choose 1 cow from 4 cows:](#choose-1-cow-from-4-cows)
     - [Choose 2 pigs from 3 pigs:](#choose-2-pigs-from-3-pigs)
     - [Multiply (AND rule):](#multiply-and-rule)
-  - [Probability](#probability-1)
+  - [Probability](#probability)
 - [Straight Poker Hand Problem](#straight-poker-hand-problem)
 - [Key Tip](#key-tip)
 - [Chip Defect Detection Problem](#chip-defect-detection-problem)
@@ -289,9 +238,15 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/summary-of-combinatorics.jpeg" alt="summary-of-combinatorics.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-combinations-with-cake-1.jpeg" alt="lecture-2-combinations-with-cake-1.jpeg" style="width: 800px;">
 
-## Combinations
+<img src="images/lecture-2-combinations-with-cake-2.jpeg" alt="lecture-2-combinations-with-cake-2.jpeg" style="width: 800px;">
+
+<img src="images/lecture-2-combinations-with-cake-3.jpeg" alt="lecture-2-combinations-with-cake-3.jpeg" style="width: 800px;">
+
+<img src="images/lecture-2-combinations-with-cake-4.jpeg" alt="lecture-2-combinations-with-cake-4.jpeg" style="width: 800px;">
+
+<img src="images/lecture-2-combinations-with-cake-5.jpeg" alt="lecture-2-combinations-with-cake-5.jpeg" style="width: 800px;">
 
 <img src="images/combinations-with-cake-1.jpeg" alt="combinations-with-cake-1.jpeg" style="width: 800px;">
 
@@ -303,10 +258,6 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/combinations-with-cake-5.jpeg" alt="combinations-with-cake-5.jpeg" style="width: 800px;">
 
----
-
-## Combinations
-
 <img src="images/combinations.jpeg" alt="combinations.jpeg" style="width: 800px;">
 
 <img src="images/combinations-2.jpeg" alt="combinations-2.jpeg" style="width: 800px;">
@@ -315,469 +266,59 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/combinations-4.jpeg" alt="combinations-4.jpeg" style="width: 800px;">
 
----
-
-## Combinations
-
-### Big Idea
-
-Combinations count how many ways you can choose items when order does NOT matter.
-
-- If order does matter → **permutations**
-
-- If order does NOT matter → **combinations**
-
-This is the single most important distinction.
-
-### Why “order doesn’t matter”
-
-Choosing $\{A, B\}$ is the same as choosing $\{B, A\}$.
-
-Combinations treat these as one outcome.
-
-Permutations treat them as two outcomes.
-
-### The Formula
-
-If you choose k items from n items, the number of combinations is:
-
-$\binom{n}{k} = \frac {n!} {K!. (n - k)!}$
-
-This is pronounced “n choose k”.
-
-### Why the formula works (the intuition you’ve been building toward)
-
-#### Step 1 — Count all permutations
-
-If order mattered, choosing k items from n would be:
-
-$\frac {n!} {(n - k)!}$
-
-This counts all ordered selections.
-
-#### Step 2 — Fix overcounting
-
-But combinations don’t care about order.
-
-Every group of k items is counted k! times (once for each ordering).
-
-So we divide by k!:
-
-$\frac {n!} {K!. (n - k)!}$
-
-This is exactly the same overcounting idea you learned with “boba”, “banana”, etc.
-
-### Examples (this is where it becomes clear)
-
-#### Choose 3 students from 10
-
-Order doesn’t matter.
-
-$\binom{10}{3} = \frac {10!} {3!. (10 - 3)!} = 120$
-
-#### Choose 2 toppings for a pizza from 5
-
-Order doesn’t matter.
-
-$\binom{5}{2} = \frac {5!} {2!. (5 - 2)!} = 10$
-
----
-
-## When to use combinations vs permutations
-
-|        Situation        | Order matters? |     Use      |
-| :---------------------: | :------------: | :----------: |
-|        Passwords        |      Yes       | Permutations |
-|     Seating people      |      Yes       | Permutations |
-|  Choosing a committee   |       No       | Combinations |
-| Picking lottery numbers |       No       | Combinations |
-|   Selecting toppings    |       No       | Combinations |
-
----
-
-## Cards Problem
+<img src="images/lecture-2-cards-problem-1.jpeg" alt="lecture-2-cards-problem-1.jpeg" style="width: 800px;">
 
 <img src="images/cards-problem.jpeg" alt="cards-problem.jpeg" style="width: 800px;">
 
---- 
-
-## Summary of Combinatorics
-
 <img src="images/summary-of-combinatorics-1.jpeg" alt="summary-of-combinatorics-1.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-summary-of-combinatorics-1.jpeg" alt="lecture-2-summary-of-combinatorics-1.jpeg" style="width: 800px;">
 
-## What “put objects into buckets” means
+<img src="images/lecture-2-put-objects-in-buckets-1.jpeg" alt="lecture-2-put-objects-in-buckets-1.jpeg" style="width: 800px;">
 
-You have:
+<img src="images/lecture-2-summary-of-combinatorics-2.jpeg" alt="lecture-2-summary-of-combinatorics-2.jpeg" style="width: 800px;">
 
-- objects (balls, digits, people, items)
+<img src="images/lecture-2-put-indistinct-objects-in-buckets-1.jpeg" alt="lecture-2-put-indistinct-objects-in-buckets-1.jpeg" style="width: 800px;">
 
-- buckets (bins, groups, categories)
+<img src="images/lecture-2-divider-method.jpeg" alt="lecture-2-divider-method.jpeg" style="width: 800px;">
 
-The question is:
-How many ways can you distribute the objects into the buckets?
+<img src="images/lecture-2-divider-method-1.jpeg" alt="lecture-2-divider-method-1.jpeg" style="width: 800px;">
 
-> Different rules → different formulas.
-
-There are three main cases.
-
-### Case 1 — Objects are DISTINCT, Buckets are DISTINCT
-
-This is the easiest case.
-
-Example:
-Put 4 distinct balls into 3 distinct buckets.
-
-Each ball chooses a bucket.
-
-#### Step Rule:
-
-Each ball has 3 choices → multiply.
-
-> $3^4$
-
-This is the same logic as counting passwords or coin flips.
-
-#### When to use:
-
-- People assigned to teams
-
-- Files assigned to folders
-
-- Digits assigned to positions
-
-- Anything where both objects and buckets are labeled
-
-### Case 2 — Objects are DISTINCT, Buckets are DISTINCT, but with RESTRICTIONS
-
-Example restrictions:
-
-- No bucket can be empty
-
-- Each bucket must have exactly k objects
-
-- Bucket sizes must follow a pattern
-
-This becomes a combinations + permutations problem.
-
-#### Example: Put 5 distinct people into 2 distinct teams of sizes 2 and 3.
-
-Step 1: Choose 2 people for Team A
-
-> $\binom{5}{2}$
-
-Step 2: Remaining 3 automatically go to Team B
-
-> $\binom{3}{3} = 1$
-
-Total:
-
-> $\binom{5}{2}$
-
-This is the classic “committee selection” logic.
-
-### Case 3 — Objects are IDENTICAL, Buckets are DISTINCT
-
-This is the famous stars and bars formula.
-
-#### Example: Put 10 identical balls into 3 distinct buckets.
-
-Let the bucket counts be:
-
-> $𝑥_1 + 𝑥_2 + 𝑥_3 = 10$
-
-Number of solutions:
-
-> $\binom{10 + 3 - 1}{3 - 1} = \binom{12}{2}$
-
-#### When to use:
-
-- Distributing money
-
-- Distributing identical candies
-
-- Counting integer solutions
-
-- Probability distributions over counts
-
-This is extremely important in probability.
-
-### Case 4 — Objects are IDENTICAL, Buckets are IDENTICAL
-
-This is the hardest case — partitions of integers.
-
-#### Example: Put 5 identical balls into identical buckets.
-
-You count unique distributions, not arrangements.
-
-Example distributions of 5:
-
-- 5
-
-- 4 + 1
-
-- 3 + 2
-
-- 3 + 1 + 1
-
-- 2 + 2 + 1
-
-- 2 + 1 + 1 + 1
-
-- 1 + 1 + 1 + 1 + 1
-
-This is called integer partitioning.
-
-You rarely need this in basic probability, but it appears in advanced combinatorics.
-
-
-### How to know which case you’re in
-
-|  Objects  |  Buckets  |    Restrictions    |       Method        |
-| :-------: | :-------: | :----------------: | :-----------------: |
-| Distinct  | Distinct  |        None        |  $k^n$ (step rule)  |
-| Distinct  | Distinct  | Bucket sizes fixed |    Combinations     |
-| Distinct  | Distinct  |  No bucket empty   | Inclusion–exclusion |
-| Identical | Distinct  |        None        |   Stars and Bars    |
-| Identical | Identical |        None        | Integer partitions  |
-
-### Quick examples to make it click
-
-Example 1:  
-Put 6 distinct digits into 3 distinct buckets.
-
-> $3^6$
-
-Example 2  
-Put 6 distinct digits into 3 buckets, each bucket must have 2 digits.
-
-> $\binom{6}{2}\binom{4}{2}\binom{2}{2}$
-
-Example 3  
-Put 10 identical candies into 4 distinct bags.
-
-> $\binom{10 + 4 - 1}{4 - 1} = \binom{13}{3}$
-
-Example 4  
-Put 5 identical candies into identical bags.
-
-Count partitions of 5.
+<img src="images/lecture-2-summary-of-combinatorics-3.jpeg" alt="lecture-2-summary-of-combinatorics-3.jpeg" style="width: 800px;">
 
 ---
 
-## Summary of Combinatorics
+## Leacture 3
 
-<img src="images/summary-of-combinatorics-2.jpeg" alt="summary-of-combinatorics-2.jpeg" style="width: 800px;">
+<img src="images/leacture-3-learn-probability-1.jpeg" alt="leacture-3-learn-probability-1.jpeg" style="width: 800px;">
 
----
+<img src="images/leacture-3-enigma-machine.jpeg" alt="leacture-3-enigma-machine.jpeg" style="width: 800px;">
 
-## Distinct Strings and Distinct Buckets
+<img src="images/leacture-3-review-1.jpeg" alt="leacture-3-review-1.jpeg" style="width: 800px;">
 
-<img src="images/distinct-strings-distinct-buckets.jpeg" alt="distinct-strings-distinct-buckets.jpeg" style="width: 800px;">
+<img src="images/leacture-3-review-2.jpeg" alt="leacture-3-review-2.jpeg" style="width: 800px;">
 
----
-
-## Summary of Combinatorics
-
-<img src="images/summary-of-combinatorics-3.jpeg" alt="summary-of-combinatorics-3.jpeg" style="width: 800px;">
-
----
-
-## Address Over Counting General Rule
-
-- Overcount by fixed number: **You subtract it off**
-
-- Sometime you overcount by multiplicative: **you divide it out**.
-
----
-
-## The Divider Method
-
-<img src="images/divider-method.jpeg" alt="divider-method.jpeg" style="width: 800px;">
-
-<img src="images/divider-method-1.jpeg" alt="divider-method-1.jpeg" style="width: 800px;">
-
---- 
-
-## Summary of Combinatorics
-
-<img src="images/summary-of-combinatorics-4.jpeg" alt="summary-of-combinatorics-4.jpeg" style="width: 800px;">
-
----
-
-## Counting Review
-
-<img src="images/dna-tree-question.jpeg" alt="dna-tree-question.jpeg" style="width: 800px;">
-
-### Step 1 — What are we counting?
-
-We want pairs of animals.
-
-A DNA distance is computed between two animals, so each calculation corresponds to one pair.
-
-So the question is:
-
-> How many pairs can be formed from N animals?
-
-This is exactly “N choose 2”.
-
-### Step 2 — Why “N choose 2”?
-
-Because:
-
-- Order does not matter (distance between A and B is the same as B and A)
-
-- We are choosing 2 animals out of N
-
-So the number of pairs is:
-
-> $\binom{N}{2}$
-
-### Step 3 — Expand the formula
-
-> $\binom{N}{2} = \frac {N(N - 1)}{2}$
-
-This is the number of DNA distance calculations needed.
-
-### Step 4 — Apply it to the slide
-
-Count the animals in the tree:
-
-Porifera  
-Ctenophora  
-Cnidaria  
-Acoela  
-Echinodermata  
-Chordata  
-Platyhelminthes  
-Rotifera  
-Ectoprocta  
-Brachiopoda  
-Mollusca  
-Annelida  
-Nematoda  
-Arthropoda  
-
-There are 14 animals shown.
-
-So the number of pairwise DNA distance calculations is:
-
-> $\binom{14}{2} = \frac {14 . 13}{2} = 91$
-
-### Why this makes sense
-
-If you list all pairs:
-
-- Porifera–Ctenophora
-
-- Porifera–Cnidaria
-
-- …
-
-- Arthropoda–Nematoda
-
-You will get 91 unique pairs.
-
-This is exactly what combinations count.
-
----
-
-## Sample Space
-
-<img src="images/sample-space.jpeg" alt="sample-space.jpeg" style="width: 800px;">
-
---- 
-
-## ℤ — The Set of Integers
-
-The symbol ℤ represents all integers:
-
-… −3, −2, −1, 0, 1, 2, 3 …
-
-It includes:
-
-- all positive whole numbers
-
-- all negative whole numbers
-
-- zero
-
-- No fractions, no decimals.
-
----
-
-## ℝ — The Set of Real Numbers
-
-The symbol ℝ represents all real numbers, meaning every number on the number line:
-
-- Integers (like 5, −2)
-
-- Fractions (like 3/4)
-
-- Decimals (like 2.71828)
-
-- Irrational numbers (like √2, π)
-
-Basically:
-
-> If you can place it on the number line, it’s a real number.
-
----
-
-## Event Space
+<img src="images/leacture-3-review-3.jpeg" alt="leacture-3-review-3.jpeg" style="width: 800px;">
 
 <img src="images/event-space.jpeg" alt="event-space.jpeg" style="width: 800px;">
 
----
-
-## Sample Space and Event Space
-
 <img src="images/sample-event-space.jpeg" alt="sample-event-space.jpeg" style="width: 800px;">
 
----
-
-## Probability
-
 <img src="images/probability.jpeg" alt="probability.jpeg" style="width: 800px;">
-
----
-
-## What is Probability
 
 <img src="images/what-is-probability.jpeg" alt="what-is-probability.jpeg" style="width: 800px;">
 
 <img src="images/what-is-probability-1.jpeg" alt="what-is-probability-1.jpeg" style="width: 800px;">
 
----
-
-## Axioms of Probability
-
 <img src="images/axioms-of-probability.jpeg" alt="axioms-of-probability.jpeg" style="width: 800px;">
 
----
-
-## Core Rules of Probability
-
 <img src="images/core-rules-of-probability.jpeg" alt="core-rules-of-probability.jpeg" style="width: 800px;">
-
----
-
-## Equally Likely Income
 
 <img src="images/equally-likely-outcome.jpeg" alt="equally-likely-income.jpeg" style="width: 800px;">
 
 <img src="images/equally-likely-outcome-1.jpeg" alt="equally-likely-income-1.jpeg" style="width: 800px;">
 
----
-
-## Not everything is Equally Likely
-
 <img src="images/not-equally-likely.jpeg" alt="not-equally-likely.jpeg" style="width: 800px;">
-
----
-
-## Sum of Two dice is 7
 
 <img src="images/sum-of-two-dice-7.jpeg" alt="sum-of-two-dice-7.jpeg" style="width: 800px;">
 
