@@ -6,9 +6,7 @@
 
 - [Course Material Online](#course-material-online)
 - [Lecture 1](#lecture-1)
-- [](#)
-- [General Approach to counting Permutations](#general-approach-to-counting-permutations)
-- [Summary of Combinatorics](#summary-of-combinatorics)
+- [Lecture 2](#lecture-2)
 - [Combinations](#combinations)
 - [Combinations](#combinations-1)
 - [Combinations](#combinations-2)
@@ -23,7 +21,7 @@
     - [Choose 2 toppings for a pizza from 5](#choose-2-toppings-for-a-pizza-from-5)
 - [When to use combinations vs permutations](#when-to-use-combinations-vs-permutations)
 - [Cards Problem](#cards-problem)
-- [Summary of Combinatorics](#summary-of-combinatorics-1)
+- [Summary of Combinatorics](#summary-of-combinatorics)
 - [What “put objects into buckets” means](#what-put-objects-into-buckets-means)
   - [Case 1 — Objects are DISTINCT, Buckets are DISTINCT](#case-1--objects-are-distinct-buckets-are-distinct)
     - [Step Rule:](#step-rule)
@@ -37,12 +35,12 @@
     - [Example: Put 5 identical balls into identical buckets.](#example-put-5-identical-balls-into-identical-buckets)
   - [How to know which case you’re in](#how-to-know-which-case-youre-in)
   - [Quick examples to make it click](#quick-examples-to-make-it-click)
-- [Summary of Combinatorics](#summary-of-combinatorics-2)
+- [Summary of Combinatorics](#summary-of-combinatorics-1)
 - [Distinct Strings and Distinct Buckets](#distinct-strings-and-distinct-buckets)
-- [Summary of Combinatorics](#summary-of-combinatorics-3)
+- [Summary of Combinatorics](#summary-of-combinatorics-2)
 - [Address Over Counting General Rule](#address-over-counting-general-rule)
 - [The Divider Method](#the-divider-method)
-- [Summary of Combinatorics](#summary-of-combinatorics-4)
+- [Summary of Combinatorics](#summary-of-combinatorics-3)
 - [Counting Review](#counting-review)
   - [Step 1 — What are we counting?](#step-1--what-are-we-counting)
   - [Step 2 — Why “N choose 2”?](#step-2--why-n-choose-2)
@@ -99,7 +97,7 @@
 - [Real Question](#real-question)
 - [Relationship b/w Probabilities](#relationship-bw-probabilities)
 - [Bayes Theorem](#bayes-theorem)
-- [](#-1)
+- [](#)
 - [Bayes Theorem Formula](#bayes-theorem-formula)
 - [Detecting Spam email](#detecting-spam-email)
 - [Bayes Theorem Terminology](#bayes-theorem-terminology)
@@ -226,104 +224,96 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/lecture-1-step-rule-of-counting-1.jpeg" alt="lecture-1-step-rule-of-counting-1.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-step-rule-of-counting-2.jpeg" alt="lecture-1-step-rule-of-counting-2.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-sum-rule-of-counting-1.jpeg" alt="lecture-1-sum-rule-of-counting-1.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-sum-rule-of-counting-2.jpeg" alt="lecture-1-sum-rule-of-counting-2.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-sum-rule-of-counting-3.jpeg" alt="lecture-1-sum-rule-of-counting-3.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-sum-rule-of-counting-4.jpeg" alt="lecture-1-sum-rule-of-counting-4.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-sum-rule-of-counting-5.jpeg" alt="lecture-1-sum-rule-of-counting-5.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-sum-rule-of-counting-6.jpeg" alt="lecture-1-sum-rule-of-counting-6.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-sum-rule-of-counting-7.jpeg" alt="lecture-1-sum-rule-of-counting-7.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-sum-rule-of-counting-8.jpeg" alt="lecture-1-sum-rule-of-counting-8.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
+<img src="images/lecture-1-ste-rule-vs-sum-rule.jpeg" alt="lecture-1-ste-rule-vs-sum-rule.jpeg" style="width: 800px;">
 
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
-
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
-
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
-
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
-
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
-
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
-
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
-
-<img src="images/.jpeg" alt=".jpeg" style="width: 800px;">
----
 
 ---
 
----
+## Lecture 2
 
----
+<img src="images/lecture-2-permutations-1.jpeg" alt="lecture-2-permutations-1.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-permutations-2.jpeg" alt="lecture-2-permutations-2.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-step-rule-of-counting.jpeg" alt="lecture-2-step-rule-of-counting.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-permutations-3.jpeg" alt="lecture-2-permutations-3.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-six-digit-passcode.jpeg" alt="lecture-2-six-digit-passcode.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-step-rule-of-counting-1.jpeg" alt="lecture-2-step-rule-of-counting-1.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-six-digit-passcode-1.jpeg" alt="lecture-2-six-digit-passcode-1.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-objects-indistinct.jpeg" alt="lecture-2-objects-indistinct.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-objects-indistinct-1.jpeg" alt="lecture-2-objects-indistinct-1.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-objects-indistinct-2.jpeg" alt="lecture-2-objects-indistinct-2.jpeg" style="width: 800px;">
 
-## General Approach to counting Permutations
+<img src="images/general-permutations-formula.jpeg" alt="general-permutations-formula.jpeg" style="width: 800px;">
 
-<img src="images/general-permutations-formula.jpeg" alt="general-permutations-formula.jpeg" style="width: 600px;">
+<img src="images/lecture-2-objects-indistinct-3.jpeg" alt="lecture-2-objects-indistinct-3.jpeg" style="width: 800px;">
 
-<img src="images/5-smughes-six-digit-passcode.jpeg" alt="5-smughes-six-digit-passcode.jpeg" style="width: 600px;">
+<img src="images/lecture-2-objects-indistinct-4.jpeg" alt="lecture-2-objects-indistinct-4.jpeg" style="width: 800px;">
 
----
+<img src="images/lecture-2-objects-indistinct-5.jpeg" alt="lecture-2-objects-indistinct-5.jpeg" style="width: 800px;">
 
-## Summary of Combinatorics
+<img src="images/lecture-2-objects-indistinct-6.jpeg" alt="lecture-2-objects-indistinct-6.jpeg" style="width: 800px;">
 
-<img src="images/summary-of-combinatorics.jpeg" alt="summary-of-combinatorics.jpeg" style="width: 600px;">
+<img src="images/lecture-2-5-smughes-six-digit-passcode-1.jpeg" alt="lecture-2-5-smughes-six-digit-passcode-1.jpeg" style="width: 800px;">
+
+<img src="images/lecture-2-5-smughes-six-digit-passcode-2.jpeg" alt="lecture-2-5-smughes-six-digit-passcode-2.jpeg" style="width: 800px;">
+
+<img src="images/lecture-2-5-smughes-six-digit-passcode-3.jpeg" alt="lecture-2-5-smughes-six-digit-passcode-3.jpeg" style="width: 800px;">
+
+<img src="images/5-smughes-six-digit-passcode.jpeg" alt="5-smughes-six-digit-passcode.jpeg" style="width: 800px;">
+
+<img src="images/summary-of-combinatorics.jpeg" alt="summary-of-combinatorics.jpeg" style="width: 800px;">
 
 ---
 
 ## Combinations
 
-<img src="images/combinations-with-cake-1.jpeg" alt="combinations-with-cake-1.jpeg" style="width: 600px;">
+<img src="images/combinations-with-cake-1.jpeg" alt="combinations-with-cake-1.jpeg" style="width: 800px;">
 
-<img src="images/combinations-with-cake-2.jpeg" alt="combinations-with-cake-2.jpeg" style="width: 600px;">
+<img src="images/combinations-with-cake-2.jpeg" alt="combinations-with-cake-2.jpeg" style="width: 800px;">
 
-<img src="images/combinations-with-cake-3.jpeg" alt="combinations-with-cake-3.jpeg" style="width: 600px;">
+<img src="images/combinations-with-cake-3.jpeg" alt="combinations-with-cake-3.jpeg" style="width: 800px;">
 
-<img src="images/combinations-with-cake-4.jpeg" alt="combinations-with-cake-4.jpeg" style="width: 600px;">
+<img src="images/combinations-with-cake-4.jpeg" alt="combinations-with-cake-4.jpeg" style="width: 800px;">
 
-<img src="images/combinations-with-cake-5.jpeg" alt="combinations-with-cake-5.jpeg" style="width: 600px;">
+<img src="images/combinations-with-cake-5.jpeg" alt="combinations-with-cake-5.jpeg" style="width: 800px;">
 
 ---
 
 ## Combinations
 
-<img src="images/combinations.jpeg" alt="combinations.jpeg" style="width: 600px;">
+<img src="images/combinations.jpeg" alt="combinations.jpeg" style="width: 800px;">
 
-<img src="images/combinations-2.jpeg" alt="combinations-2.jpeg" style="width: 600px;">
+<img src="images/combinations-2.jpeg" alt="combinations-2.jpeg" style="width: 800px;">
 
-<img src="images/combinations-3.jpeg" alt="combinations-3.jpeg" style="width: 600px;">
+<img src="images/combinations-3.jpeg" alt="combinations-3.jpeg" style="width: 800px;">
 
-<img src="images/combinations-4.jpeg" alt="combinations-4.jpeg" style="width: 600px;">
+<img src="images/combinations-4.jpeg" alt="combinations-4.jpeg" style="width: 800px;">
 
 ---
 
@@ -407,13 +397,13 @@ $\binom{5}{2} = \frac {5!} {2!. (5 - 2)!} = 10$
 
 ## Cards Problem
 
-<img src="images/cards-problem.jpeg" alt="cards-problem.jpeg" style="width: 600px;">
+<img src="images/cards-problem.jpeg" alt="cards-problem.jpeg" style="width: 800px;">
 
 --- 
 
 ## Summary of Combinatorics
 
-<img src="images/summary-of-combinatorics-1.jpeg" alt="summary-of-combinatorics-1.jpeg" style="width: 600px;">
+<img src="images/summary-of-combinatorics-1.jpeg" alt="summary-of-combinatorics-1.jpeg" style="width: 800px;">
 
 ---
 
@@ -578,19 +568,19 @@ Count partitions of 5.
 
 ## Summary of Combinatorics
 
-<img src="images/summary-of-combinatorics-2.jpeg" alt="summary-of-combinatorics-2.jpeg" style="width: 600px;">
+<img src="images/summary-of-combinatorics-2.jpeg" alt="summary-of-combinatorics-2.jpeg" style="width: 800px;">
 
 ---
 
 ## Distinct Strings and Distinct Buckets
 
-<img src="images/distinct-strings-distinct-buckets.jpeg" alt="distinct-strings-distinct-buckets.jpeg" style="width: 600px;">
+<img src="images/distinct-strings-distinct-buckets.jpeg" alt="distinct-strings-distinct-buckets.jpeg" style="width: 800px;">
 
 ---
 
 ## Summary of Combinatorics
 
-<img src="images/summary-of-combinatorics-3.jpeg" alt="summary-of-combinatorics-3.jpeg" style="width: 600px;">
+<img src="images/summary-of-combinatorics-3.jpeg" alt="summary-of-combinatorics-3.jpeg" style="width: 800px;">
 
 ---
 
@@ -604,9 +594,9 @@ Count partitions of 5.
 
 ## The Divider Method
 
-<img src="images/divider-method.jpeg" alt="divider-method.jpeg" style="width: 600px;">
+<img src="images/divider-method.jpeg" alt="divider-method.jpeg" style="width: 800px;">
 
-<img src="images/divider-method-1.jpeg" alt="divider-method-1.jpeg" style="width: 600px;">
+<img src="images/divider-method-1.jpeg" alt="divider-method-1.jpeg" style="width: 800px;">
 
 --- 
 
@@ -886,7 +876,7 @@ So:
 
 ## Key Tip
 
-<img src="images/equally-likely-probability.jpeg" alt="equally-likely-probability.jpeg" style="width: 600px;">
+<img src="images/equally-likely-probability.jpeg" alt="equally-likely-probability.jpeg" style="width: 800px;">
 
 ---
 
