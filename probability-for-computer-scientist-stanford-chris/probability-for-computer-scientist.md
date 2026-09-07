@@ -8,32 +8,7 @@
 - [Lecture 1](#lecture-1)
 - [Lecture 2](#lecture-2)
 - [Leacture 3](#leacture-3)
-- [Sum of Two dice is 2](#sum-of-two-dice-is-2)
-- [Other Ways to make Sample Space](#other-ways-to-make-sample-space)
-- [Sum of two dice is 7 - Other Way](#sum-of-two-dice-is-7---other-way)
-- [Cows Problem](#cows-problem)
-  - [Let’s solve this pigs-and-cows problem carefully.](#lets-solve-this-pigs-and-cows-problem-carefully)
-  - [Total ways to draw 3 animals from 7](#total-ways-to-draw-3-animals-from-7)
-  - [Favorable ways: 1 cow and 2 pigs](#favorable-ways-1-cow-and-2-pigs)
-    - [Choose 1 cow from 4 cows:](#choose-1-cow-from-4-cows)
-    - [Choose 2 pigs from 3 pigs:](#choose-2-pigs-from-3-pigs)
-    - [Multiply (AND rule):](#multiply-and-rule)
-  - [Probability](#probability)
-- [Straight Poker Hand Problem](#straight-poker-hand-problem)
-- [Key Tip](#key-tip)
-- [Chip Defect Detection Problem](#chip-defect-detection-problem)
-- [Taget Re-visited](#taget-re-visited)
-- [Serendipity](#serendipity)
-  - [Review Mutually Exclusive Events](#review-mutually-exclusive-events)
-- [E Complement](#e-complement)
-- [Serendipity](#serendipity-1)
-- [Rule to Make Problem Easy](#rule-to-make-problem-easy)
-- [Conditional Probability](#conditional-probability)
-- [Dice, our Misunderstood friends](#dice-our-misunderstood-friends)
-- [Conditional Probability](#conditional-probability-1)
-- [Conditional Probability - Visual intuition](#conditional-probability---visual-intuition)
-- [Conditional Probability - In general](#conditional-probability---in-general)
-- [Netflix and Learn](#netflix-and-learn)
+- [Lecture 4](#lecture-4)
 - [What is Machine Learning](#what-is-machine-learning)
 - [Probability Notation](#probability-notation)
 - [Chain Rule and Baby](#chain-rule-and-baby)
@@ -300,9 +275,17 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/leacture-3-review-3.jpeg" alt="leacture-3-review-3.jpeg" style="width: 800px;">
 
+<img src="images/leacture-3-review-4.jpeg" alt="leacture-3-review-4.jpeg" style="width: 800px;">
+
+<img src="images/leacture-3-review-5.jpeg" alt="leacture-3-review-5.jpeg" style="width: 800px;">
+
+<img src="images/leacture-3-sample-space.jpeg" alt="leacture-3-sample-space.jpeg" style="width: 800px;">
+
 <img src="images/event-space.jpeg" alt="event-space.jpeg" style="width: 800px;">
 
 <img src="images/sample-event-space.jpeg" alt="sample-event-space.jpeg" style="width: 800px;">
+
+<img src="images/lecture-3-probability-1.jpeg" alt="lecture-3-probability-1.jpeg" style="width: 800px;">
 
 <img src="images/probability.jpeg" alt="probability.jpeg" style="width: 800px;">
 
@@ -310,9 +293,11 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/what-is-probability-1.jpeg" alt="what-is-probability-1.jpeg" style="width: 800px;">
 
+<img src="images/lecture-3-probability-2.jpeg" alt="lecture-3-probability-2.jpeg" style="width: 800px;">
+
 <img src="images/axioms-of-probability.jpeg" alt="axioms-of-probability.jpeg" style="width: 800px;">
 
-<img src="images/core-rules-of-probability.jpeg" alt="core-rules-of-probability.jpeg" style="width: 800px;">
+<img src="images/core-rules-of-probability.jpeg" palt="core-rules-of-probability.jpeg" style="width: 800px;">
 
 <img src="images/equally-likely-outcome.jpeg" alt="equally-likely-income.jpeg" style="width: 800px;">
 
@@ -326,33 +311,17 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/sum-of-two-dice-7-1.jpeg" alt="sum-of-two-dice-7-1.jpeg" style="width: 800px;">
 
-> Note:- The close you get to infinity, the more close true answer you will have.
-
----
-
-## Sum of Two dice is 2
-
 <img src="images/sum-of-two-dice-2.jpeg" alt="sum-of-two-dice-2.jpeg" style="width: 800px;">
 
 <img src="images/sum-of-two-dice-2-1.jpeg" alt="sum-of-two-dice-2-1.jpeg" style="width: 800px;">
 
----
-
-## Other Ways to make Sample Space
-
 <img src="images/other-ways-to-make-sample-space.jpeg" alt="other-ways-to-make-sample-space.jpeg" style="width: 800px;">
 
----
-
-## Sum of two dice is 7 - Other Way
+<img src="images/lecture-3-options-for-sample-space.jpeg" alt="lecture-3-options-for-sample-space.jpeg" style="width: 800px;">
 
 <img src="images/sum-of-two-dice-7-other-way.jpeg" alt="sum-of-two-dice-7-other-way.jpeg" style="width: 800px;">
 
 <img src="images/sum-of-two-dice-7-other-way-1.jpeg" alt="sum-of-two-dice-7-other-way-1.jpeg" style="width: 800px;">
-
----
-
-## Cows Problem
 
 <img src="images/cows-problem.jpeg" alt="cows-problem.jpeg" style="width: 800px;">
 
@@ -362,86 +331,25 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/make-indistinct-distinct.jpeg" alt="make-indistinct-distinct.jpeg" style="width: 800px;">
 
-### Let’s solve this pigs-and-cows problem carefully.
-
-We have:
-
-- 4 cows
-
-- 3 pigs
-
-- 3 animals drawn (without replacement)
-
-- We want: P(1 cow and 2 pigs)
-
-### Total ways to draw 3 animals from 7
-
-We’re just choosing which 3 animals, order doesn’t matter:
-
-> $Total\ ways = \binom{7}{3} = \frac {7!}{3! * (7\ -\ 3)!} = \frac {7\ *\ 6\ *\ 5}{3\ *\ 2} = 35$
-
-### Favorable ways: 1 cow and 2 pigs
-
-#### Choose 1 cow from 4 cows:
-
-> $\binom{4}{1} = \frac {4!}{1!\ *\ (4 - 1)!} = \frac {4}{1} = 4$
-
-#### Choose 2 pigs from 3 pigs:
-
-> $\binom{3}{2} = \frac {3!}{2!\ *\ (3 - 2)!} = \frac {3}{1} = 3$
-
-#### Multiply (AND rule):
-
-
-> $Favorable\ ways\ =\ 4\ ×\ 3\ =\ 12$
-
-### Probability
-
-> $𝑃(1\ cow\ and\ 2\ pigs)\ =\frac {favorable}{total} =\frac {12}{35}$
-
-So: 
-
-> $𝑃(1 cow and 2 pigs) = \frac {12}{35}$
-
----
-
-## Straight Poker Hand Problem
-
 <img src="images/straight-poker-hand.jpeg" alt="straight-poker-hand.jpeg" style="width: 800px;">
 
 <img src="images/straight-poker-hand-1.jpeg" alt="straight-poker-hand-1.jpeg" style="width: 800px;">
 
 <img src="images/straight-poker-hand-2.jpeg" alt="straight-poker-hand-2.jpeg" style="width: 800px;">
 
----
-
-## Key Tip
-
 <img src="images/equally-likely-probability.jpeg" alt="equally-likely-probability.jpeg" style="width: 800px;">
-
----
-
-## Chip Defect Detection Problem
 
 <img src="images/chip-defect-detection.jpeg" alt="chip-defect-detection.jpeg" style="width: 800px;">
 
 <img src="images/chip-defect-detection-1.jpeg" alt="chip-defect-detection-1.jpeg" style="width: 800px;">
 
----
-
-## Taget Re-visited
-
 <img src="images/target-revisited.jpeg" alt="target-revisited.jpeg" style="width: 800px;">
 
 ---
 
-## Serendipity
+## Lecture 4
 
 <img src="images/serendipity.jpeg" alt="serendipity.jpeg" style="width: 800px;">
-
----
-
-### Review Mutually Exclusive Events
 
 <img src="images/review-axiom-3.jpeg" alt="review-axiom-3.jpeg" style="width: 800px;">
 
@@ -451,37 +359,17 @@ So:
 
 <img src="images/review-axiom-3-3.jpeg" alt="review-axiom-3-3.jpeg" style="width: 800px;">
 
----
-
-## E Complement
-
 <img src="images/probability-of-e-and-e-complement.jpeg" alt="probability-of-e-and-e-complement.jpeg" style="width: 800px;">
 
 <img src="images/probability-of-e-and-e-complement-1.jpeg" alt="probability-of-e-and-e-complement-1.jpeg" style="width: 800px;">
 
----
-
-## Serendipity
-
 <img src="images/serendipity.jpeg" alt="serendipity.jpeg" style="width: 800px;">
 
----
-
-## Rule to Make Problem Easy
-
 <img src="images/rule-to make it easy.jpeg" alt="rule-to make it easy.jpeg" style="width: 800px;">
-
----
-
-## Conditional Probability
 
 <img src="images/conditional-probability-1.jpeg" alt="conditional-probability-1.jpeg" style="width: 800px;">
 
 <img src="images/conditional-probability.jpeg" alt="conditional-probability.jpeg" style="width: 800px;">
-
----
-
-## Dice, our Misunderstood friends
 
 <img src="images/dice-misunderstood-friends.jpeg" alt="dice-misunderstood-friends.jpeg" style="width: 800px;">
 
@@ -489,27 +377,11 @@ So:
 
 <img src="images/dice-misunderstood-friends-2.jpeg" alt="dice-misunderstood-friends-2.jpeg" style="width: 800px;">
 
----
-
-## Conditional Probability
-
 <img src="images/conditional-probability-2.jpeg" alt="conditional-probability-2.jpeg" style="width: 800px;">
-
----
-
-## Conditional Probability - Visual intuition
 
 <img src="images/conditional-probability-visual-intuition.jpeg" alt="conditional-probability-visual-intuition.jpeg" style="width: 800px;">
 
----
-
-## Conditional Probability - In general
-
 <img src="images/conditional-probability-in-general.jpeg" alt="conditional-probability-in-general.jpeg" style="width: 800px;">
-
----
-
-## Netflix and Learn
 
 <img src="images/life-is-beautiful.jpeg" alt="life-is-beautiful.jpeg" style="width: 800px;">
 
