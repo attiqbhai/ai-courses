@@ -9,60 +9,7 @@
 - [Lecture 2](#lecture-2)
 - [Leacture 3](#leacture-3)
 - [Lecture 4](#lecture-4)
-- [What is Machine Learning](#what-is-machine-learning)
-- [Probability Notation](#probability-notation)
-- [Chain Rule and Baby](#chain-rule-and-baby)
-- [Probability Chain Rule](#probability-chain-rule)
-- [Law of Total Probability](#law-of-total-probability)
-- [Baby and Law of Total Probability](#baby-and-law-of-total-probability)
-- [Law of Total Probability Relation](#law-of-total-probability-relation)
-- [Law of Total Probability Formula](#law-of-total-probability-formula)
-- [Evolution of Bacteria](#evolution-of-bacteria)
-- [Real Question](#real-question)
-- [Relationship b/w Probabilities](#relationship-bw-probabilities)
-- [Bayes Theorem](#bayes-theorem)
-- [](#)
-- [Bayes Theorem Formula](#bayes-theorem-formula)
-- [Detecting Spam email](#detecting-spam-email)
-- [Bayes Theorem Terminology](#bayes-theorem-terminology)
-- [SARS Virus Test](#sars-virus-test)
-- [Multiple Choice Theory](#multiple-choice-theory)
-- [Review](#review)
-- [Telling in Cards](#telling-in-cards)
-- [DNA Data](#dna-data)
-- [Lecture-5: Learning Goals of today](#lecture-5-learning-goals-of-today)
-- [OR With Mutually Exclusive Events](#or-with-mutually-exclusive-events)
-- [What about When not Mutually Exclusive](#what-about-when-not-mutually-exclusive)
-- [OR Without Mutually Exclusive Events](#or-without-mutually-exclusive-events)
-- [More than two sets](#more-than-two-sets)
-- [Inclusion / Exclusion with three events](#inclusion--exclusion-with-three-events)
-- [OR \& AND Probability Summary](#or--and-probability-summary)
-- [Probability of AND](#probability-of-and)
-- [AND Probability -  Independent](#and-probability----independent)
-- [AND Probability -  Independent - Key](#and-probability----independent---key)
-- [AND Probability -  Independent - Reciprocal](#and-probability----independent---reciprocal)
-- [AND Probability -  Independent - Dice](#and-probability----independent---dice)
-- [AND Probability -  Independent - Looks like](#and-probability----independent---looks-like)
-- [What does Mutual Exclusiveness Looks Like](#what-does-mutual-exclusiveness-looks-like)
-- [This is what Independence Looks Like](#this-is-what-independence-looks-like)
-- [This is what dependence Looks Like](#this-is-what-dependence-looks-like)
-- [AND Probability -  Independent - Intuition](#and-probability----independent---intuition)
-- [AND Probability -  Independent - Generalization](#and-probability----independent---generalization)
-- [AND Probability -  Independent - Generalization - Example](#and-probability----independent---generalization---example)
-- [Properties of Pairs of Events](#properties-of-pairs-of-events)
-- [Properties of Pairs of Events - Example](#properties-of-pairs-of-events---example)
-- [Properties of Pairs of Events - Example](#properties-of-pairs-of-events---example-1)
-- [Conditonal Independence](#conditonal-independence)
-- [Random Variables](#random-variables)
-- [Probability Mass function](#probability-mass-function)
-- [Expectations](#expectations)
-  - [What expected value means](#what-expected-value-means)
 - [Lecture - 7](#lecture---7)
-  - [Probability of exactly K Heads in N experiments is](#probability-of-exactly-k-heads-in-n-experiments-is)
-  - [Find Probability that H is less than 10](#find-probability-that-h-is-less-than-10)
-- [Some people who lie with statistics, they use Expectations to back their lies.](#some-people-who-lie-with-statistics-they-use-expectations-to-back-their-lies)
-- [Lecture-8](#lecture-8)
-- [Lecture 9](#lecture-9)
 
 ---
 
@@ -349,7 +296,9 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 ## Lecture 4
 
-<img src="images/serendipity.jpeg" alt="serendipity.jpeg" style="width: 800px;">
+<img src="images/lecture-4-review-1.jpeg" alt="lecture-4-review-1.jpeg" style="width: 800px;">
+
+<img src="images/lecture-4-review-2.jpeg" alt="lecture-4-review-2.jpeg" style="width: 800px;">
 
 <img src="images/review-axiom-3.jpeg" alt="review-axiom-3.jpeg" style="width: 800px;">
 
@@ -363,13 +312,19 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/probability-of-e-and-e-complement-1.jpeg" alt="probability-of-e-and-e-complement-1.jpeg" style="width: 800px;">
 
+<img src="images/lecture-4-goals.jpeg" alt="lecture-4-goals.jpeg" style="width: 800px;">
+
 <img src="images/serendipity.jpeg" alt="serendipity.jpeg" style="width: 800px;">
 
 <img src="images/rule-to make it easy.jpeg" alt="rule-to make it easy.jpeg" style="width: 800px;">
 
-<img src="images/conditional-probability-1.jpeg" alt="conditional-probability-1.jpeg" style="width: 800px;">
+<img src="images/lecture-4-review-3.jpeg" alt="lecture-4-review-3.jpeg" style="width: 800px;">
 
 <img src="images/conditional-probability.jpeg" alt="conditional-probability.jpeg" style="width: 800px;">
+
+<img src="images/conditional-probability-1.jpeg" alt="conditional-probability-1.jpeg" style="width: 800px;">
+
+<img src="images/lecture-4-roll-two-dice-1.jpeg" alt="lecture-4-roll-two-dice-1.jpeg" style="width: 800px;">
 
 <img src="images/dice-misunderstood-friends.jpeg" alt="dice-misunderstood-friends.jpeg" style="width: 800px;">
 
@@ -379,9 +334,15 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/conditional-probability-2.jpeg" alt="conditional-probability-2.jpeg" style="width: 800px;">
 
+<img src="images/lecture-4-conditional-probability-1.jpeg" alt="lecture-4-conditional-probability-1.jpeg" style="width: 800px;">
+
+<img src="images/lecture-4-conditional-probability-2.jpeg" alt="lecture-4-conditional-probability-2.jpeg" style="width: 800px;">
+
 <img src="images/conditional-probability-visual-intuition.jpeg" alt="conditional-probability-visual-intuition.jpeg" style="width: 800px;">
 
 <img src="images/conditional-probability-in-general.jpeg" alt="conditional-probability-in-general.jpeg" style="width: 800px;">
+
+<img src="images/lecture-4-life-is-beautiful-1.jpeg" alt="lecture-4-life-is-beautiful-1.jpeg" style="width: 800px;">
 
 <img src="images/life-is-beautiful.jpeg" alt="life-is-beautiful.jpeg" style="width: 800px;">
 
@@ -389,51 +350,19 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/life-is-beautiful-conditional-probability-1.jpeg" alt="life-is-beautiful-conditional-probability-1.jpeg" style="width: 800px;">
 
----
-
-## What is Machine Learning
-
 <img src="images/what-is-machine-learning.jpeg" alt="what-is-machine-learning.jpeg" style="width: 800px;">
-
----
-
-## Probability Notation
 
 <img src="images/probability-notation.jpeg" alt="probability-notation.jpeg" style="width: 800px;">
 
----
-
-## Chain Rule and Baby
-
 <img src="images/chain-rule-and-baby.jpeg" alt="chain-rule-and-baby.jpeg" style="width: 800px;">
-
----
-
-## Probability Chain Rule
 
 <img src="images/probability-chain-rule.jpeg" alt="probability-chain-rule.jpeg" style="width: 800px;">
 
----
-
-## Law of Total Probability
-
 <img src="images/law-of-total-probability.jpeg" alt="law-of-total-probability.jpeg" style="width: 800px;">
-
----
-
-## Baby and Law of Total Probability
 
 <img src="images/baby-and-total-porbability.jpeg" alt="baby-and-total-porbability.jpeg" style="width: 800px;">
 
----
-
-## Law of Total Probability Relation
-
 <img src="images/law-of-total-probability-relation.jpeg" alt="law-of-total-probability-relation.jpeg" style="width: 800px;">
-
----
-
-## Law of Total Probability Formula
 
 <img src="images/law-of-total-probability-formula.jpeg" alt="law-of-total-probability-formula.jpeg" style="width: 800px;">
 
@@ -443,37 +372,18 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/law-of-total-probability-formula-3.jpeg" alt="law-of-total-probability-formula-3.jpeg" style="width: 800px;">
 
----
-
-## Evolution of Bacteria
-
 <img src="images/evolution-of-bacteria.jpeg" alt="evolution-of-bacteria.jpeg" style="width: 800px;">
 
 <img src="images/evolution-of-bacteria-1.jpeg" alt="evolution-of-bacteria-1.jpeg" style="width: 800px;">
 
----
-
-## Real Question 
-
 <img src="images/evolution-of-bacteria-surviving-mutation.jpeg" alt="evolution-of-bacteria-surviving-mutation.jpeg" style="width: 800px;">
 
----
-
-## Relationship b/w Probabilities 
-
 <img src="images/relationship-between-probabilities.jpeg" alt="relationship-between-probabilities.jpeg" style="width: 800px;">
-
----
-
-## Bayes Theorem
 
 <img src="images/bayes-theorem.jpeg" alt="bayes-theorem.jpeg" 
 style="width: 800px;">
 
 <img src="images/bayes-theorem-1.jpeg" alt="bayes-theorem-1.jpeg" style="width: 800px;">
----
-
-## Bayes Theorem Formula
 
 <img src="images/bayes-theorem-formula.jpeg" alt="bayes-theorem-formula.jpeg" style="width: 800px;">
 
@@ -483,23 +393,11 @@ style="width: 800px;">
 
 <img src="images/bayes-theorem-formula-3.jpeg" alt="bayes-theorem-formula-3.jpeg" style="width: 800px;">
 
----
-
-## Detecting Spam email
-
 <img src="images/detecting-spam-email.jpeg" alt="detecting-spam-email.jpeg" style="width: 800px;">
 
 <img src="images/detecting-spam-email-1.jpeg" alt="detecting-spam-email-1.jpeg" style="width: 800px;">
 
----
-
-## Bayes Theorem Terminology
-
 <img src="images/bayes-theorem-terminology.jpeg" alt="bayes-theorem-terminology.jpeg" style="width: 800px;">
-
----
-
-## SARS Virus Test
 
 <img src="images/sars-virus-test.jpeg" alt="sars-virus-test.jpeg" style="width: 800px;">
 
@@ -514,14 +412,7 @@ jpeg" style="width: 800px;">
 
 <img src="images/sars-virus-test-5.jpeg" alt="sars-virus-test-5.jpeg" style="width: 800px;">
 
----
-
-## Multiple Choice Theory
-
 <img src="images/multiple-choice-theory.jpeg" alt="multiple-choice-theory.jpeg" style="width: 800px;">
-
----
-## Review
 
 <img src="images/lecture-5-review-1.jpeg" alt="lecture-5-review-1.jpeg" style="width: 800px;">
 
@@ -533,55 +424,23 @@ jpeg" style="width: 800px;">
 
 <img src="images/lecture-5-review-5.jpeg" alt="lecture-5-review-5.jpeg" style="width: 800px;">
 
----
-
-## Telling in Cards
-
 <img src="images/telling-in-cards.jpeg" alt="telling-in-cards.jpeg" style="width: 800px;">
 
 <img src="images/telling-in-cards-1.jpeg" alt="telling-in-cards-1.jpeg" style="width: 800px;">
-
----
-
-## DNA Data
 
 <img src="images/dna-data.jpeg" alt="dna-data.jpeg" style="width: 800px;">
 
 <img src="images/discovered-hypotheis.jpeg" alt="discovered-hypotheis.jpeg" style="width: 800px;">
 
----
-
-## Lecture-5: Learning Goals of today
-
 <img src="images/lecture-5-learning-goals of today.jpeg" alt="lecture-5-learning-goals of today.jpeg" style="width: 800px;">
-
----
-
-## OR With Mutually Exclusive Events
 
 <img src="images/or-with-mutually-exclusive-events.jpeg" alt="or-with-mutually-exclusive-events.jpeg" style="width: 800px;">
 
----
-
-## What about When not Mutually Exclusive
-
 <img src="images/what-about-when-not-mutually-exclusive.jpeg" alt="what-about-when-not-mutually-exclusive.jpeg" style="width: 800px;">
-
----
-
-## OR Without Mutually Exclusive Events
 
 <img src="images/or-with-not-mutually-exclusive-events.jpeg" alt="or-with-not-mutually-exclusive-events.jpeg" style="width: 800px;">
 
----
-
-## More than two sets
-
 <img src="images/more-than-two-sets.jpeg" alt="more-than-two-sets.jpeg" style="width: 800px;">
-
----
-
-## Inclusion / Exclusion with three events
 
 <img src="images/inclusion-exclusion-with-three-events.jpeg" alt="inclusion-exclusion-with-three-events.jpeg" style="width: 800px;">
 
@@ -597,125 +456,41 @@ jpeg" style="width: 800px;">
 
 <img src="images/inclusion-exclusion-with-three-events-6.jpeg" alt="inclusion-exclusion-with-three-events-6.jpeg" style="width: 800px;">
 
----
-
-## OR & AND Probability Summary
-
 <img src="images/or-n-and-probability-summary.jpeg" alt="or-n-and-probability-summary.jpeg" style="width: 800px;">
 
----
-
-## Probability of AND
-
 <img src="images/probability-of-and.jpeg" alt="probability-of-and.jpeg" style="width: 800px;">
-
----
-
-## AND Probability -  Independent
 
 <img src="images/and-independent-probability.jpeg" alt="and-independent-probability.jpeg" style="width: 800px;">
 
 <img src="images/and-independent-probability-1.jpeg" alt="and-independent-probability-1.jpeg" style="width: 800px;">
 
----
-
-## AND Probability -  Independent - Key
-
 <img src="images/and-independent-probability-key.jpeg" alt="and-independent-probability-key.jpeg" style="width: 800px;">
-
----
-
-## AND Probability -  Independent - Reciprocal
 
 <img src="images/and-independent-probability-reciprocal.jpeg" alt="and-independent-probability-reciprocal.jpeg" style="width: 800px;">
 
----
-
-## AND Probability -  Independent - Dice
-
 <img src="images/and-independent-probability-dice.jpeg" alt="and-independent-probability-dice.jpeg" style="width: 800px;">
-
----
-
-## AND Probability -  Independent - Looks like
 
 <img src="images/and-independent-probability-lookslike.jpeg" alt="and-independent-probability-lookslike.jpeg" style="width: 800px;">
 
----
-
-## What does Mutual Exclusiveness Looks Like
-
 <img src="images/mutual-exclusiveness-lookslike.jpeg" alt="mutual-exclusiveness-lookslike.jpeg" style="width: 800px;">
-
----
-
-## This is what Independence Looks Like
 
 <img src="images/what-Independence-Looks-Like.jpeg" alt="what-Independence-Looks-Like.jpeg" style="width: 800px;">
 
----
-
-## This is what dependence Looks Like
-
 <img src="images/what-dependence-Looks-Like.jpeg" alt="what-dependence-Looks-Like.jpeg" style="width: 800px;">
-
----
-
-## AND Probability -  Independent - Intuition
 
 <img src="images/and-independent-probability-intuition-1.jpeg" alt="and-independent-probability-intuition-1.jpeg" style="width: 800px;">
 
----
-
-## AND Probability -  Independent - Generalization
-
 <img src="images/and-independent-probability-generalization.jpeg" alt="and-independent-probability-generalization.jpeg" style="width: 800px;">
-
----
-
-## AND Probability -  Independent - Generalization - Example
 
 <img src="images/and-independent-probability-generalization-example.jpeg" alt="and-independent-probability-generalization-example.jpeg" style="width: 800px;">
 
----
-
-## Properties of Pairs of Events
-
 <img src="images/properties-of-pairs-of-events.jpeg" alt="properties-of-pairs-of-events.jpeg" style="width: 800px;">
-
----
-
-## Properties of Pairs of Events - Example
 
 <img src="images/properties-of-pairs-of-events-example.jpeg" alt="properties-of-pairs-of-events-example.jpeg" style="width: 800px;">
 
----
-
-## Properties of Pairs of Events - Example
-
 <img src="images/properties-of-pairs-of-events-example-1.jpeg" alt="properties-of-pairs-of-events-example-1.jpeg" style="width: 800px;">
 
----
-
-## Conditonal Independence
-
 <img src="images/and-probability-conditional-independence.jpeg" alt="and-probability-conditional-independence.jpeg" style="width: 800px;">
-
-Two events A and B are conditionally independent given C if:
-
-> Once you know C happened, learning A tells you nothing new about B.
-
-Formally:
-
-> $𝑃 ( 𝐴 ∣ 𝐵 , 𝐶 ) = 𝑃 ( 𝐴 ∣ 𝐶 )$
-
-and equivalently:
-
-> $𝑃 ( 𝐵 ∣ 𝐴 , 𝐶 ) = 𝑃 ( 𝐵 ∣ 𝐶 )$
-
-This means:
-
-> **C explains everything that connects A and B.**
 
 <img src="images/conditional-independence-formula.jpeg" alt="conditional-independence-formula.jpeg" style="width: 800px;">
 
@@ -747,10 +522,6 @@ This means:
 
 <img src="images/conditional-independence-changes.jpeg" alt="conditional-independence-changes.jpeg" style="width: 800px;">
 
----
-
-## Random Variables
-
 <img src="images/random-variables.jpeg" alt="random-variables.jpeg" style="width: 800px;">
 
 <img src="images/learning-random-variables.jpeg" alt="learning-random-variables.jpeg" style="width: 800px;">
@@ -766,10 +537,6 @@ This means:
 <img src="images/properties-of-random-variables.jpeg" alt="properties-of-random-variables.jpeg" style="width: 800px;">
 
 <img src="images/probability-mass-function.jpeg" alt="probability-mass-function.jpeg" style="width: 800px;">
-
----
-
-## Probability Mass function
 
 <img src="images/probability-mass-function-definition.jpeg" alt="probability-mass-function-definition.jpeg" style="width: 800px;">
 
@@ -796,17 +563,6 @@ This means:
 <img src="images/probability-mass-function-definition-11.jpeg" alt="probability-mass-function-definition-11.jpeg" style="width: 800px;">
 
 <img src="images/probability-mass-function-definition-12.jpeg" alt="probability-mass-function-definition-12.jpeg" style="width: 800px;">
-
----
-
-## Expectations
-
-Expected value is the probability‑weighted average of all possible outcomes of a random variable. It tells you the long‑run average you would see if you repeated the same random experiment many times.
-
-### What expected value means
-
-If you repeat a random process (like rolling a die or flipping a coin) thousands of times, the average result will approach the expected value. It’s the “center of gravity” of a probability distribution. 
-
 
 <img src="images/expectations.jpeg" alt="expectations.jpeg" style="width: 800px;">
 
@@ -862,9 +618,6 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 
 <img src="images/many-random-variables-follow-this.jpeg" alt="many-random-variables-follow-this" style="width: 800px;">
 
-
-### Probability of exactly K Heads in N experiments is
-
 <img src="images/Probability of exactly K Heads.jpeg" alt="Probability of exactly K Heads" style="width: 800px;">
 
 <img src="images/Probability of exactly K Heads Formula.jpeg" alt="Probability of exactly K Heads Formula" style="width: 800px;">
@@ -882,8 +635,6 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/coins-with-bionomials.jpeg" alt="coins-with-bionomials" style="width: 800px;">
 
 <img src="images/how-many-ads-clicked.jpeg" alt="how-many-ads-clicked" style="width: 800px;">
-
-### Find Probability that H is less than 10
 
 <img src="images/find-probability-that-h-lt-10.jpeg" alt="find-probability-that-h-lt-10" style="width: 800px;">
 
@@ -937,8 +688,6 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 
 <img src="images/expectation-is-single-number.jpeg" alt="expectation-is-single-number" style="width: 800px;">
 
-## Some people who lie with statistics, they use Expectations to back their lies.
-
 <img src="images/expectation-is-leaving-behind-alot.jpeg" alt="expectation-is-leaving-behind-alot" style="width: 800px;">
 
 <img src="images/invent-another-summary-number.jpeg" alt="invent-another-summary-number" style="width: 800px;">
@@ -968,10 +717,6 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/computing-variance-1.jpeg" alt="computing-variance-1.jpeg" style="width: 800px;">
 
 <img src="images/standard-deviation.jpeg" alt="standard-deviation.jpeg" style="width: 800px;">
-
----
-
-## Lecture-8
 
 <img src="images/lecture-8-review-1.jpeg" alt="lecture-8-review-1" style="width: 800px;">
 
@@ -1062,10 +807,6 @@ If you repeat a random process (like rolling a die or flipping a coin) thousands
 <img src="images/probability-for-extreme-weather-7.jpeg" alt="probability-for-extreme-weather-7" style="width: 800px;">
 
 <img src="images/probability-for-extreme-weather-8.jpeg" alt="probability-for-extreme-weather-8" style="width: 800px;">
-
----
-
-## Lecture 9
 
 <img src="images/lecture-9-review-1.jpeg" alt="lecture-9-review-1" style="width: 800px;">
 
