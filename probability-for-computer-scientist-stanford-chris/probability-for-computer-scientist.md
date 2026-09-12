@@ -170,14 +170,6 @@ https://chrispiech.github.io/probabilityForComputerScientists/en/
 
 <img src="images/lecture-2-combinations-with-cake-5.jpeg" alt="lecture-2-combinations-with-cake-5.jpeg" style="width: 800px;">
 
-<img src="images/combinations-with-cake-1.jpeg" alt="combinations-with-cake-1.jpeg" style="width: 800px;">
-
-<img src="images/combinations-with-cake-2.jpeg" alt="combinations-with-cake-2.jpeg" style="width: 800px;">
-
-<img src="images/combinations-with-cake-3.jpeg" alt="combinations-with-cake-3.jpeg" style="width: 800px;">
-
-<img src="images/combinations-with-cake-4.jpeg" alt="combinations-with-cake-4.jpeg" style="width: 800px;">
-
 <img src="images/combinations-with-cake-5.jpeg" alt="combinations-with-cake-5.jpeg" style="width: 800px;">
 
 <img src="images/combinations.jpeg" alt="combinations.jpeg" style="width: 800px;">
